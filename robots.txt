@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /storage/
+Disallow: /config.php
+Disallow: /data.php
+Sitemap: https://xinyuehongtech.com/sitemap.xml

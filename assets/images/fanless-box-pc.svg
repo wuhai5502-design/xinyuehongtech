@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 680 640" width="680" height="640"><defs>
+<linearGradient id="ipcShell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset=".5" stop-color="#dbe7f3"/><stop offset="1" stop-color="#a9bcd4"/></linearGradient>
+<linearGradient id="ipcFin" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f1f6fb"/><stop offset="1" stop-color="#b8c9dc"/></linearGradient>
+<linearGradient id="ipcDark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2c4258"/><stop offset=".55" stop-color="#14202f"/><stop offset="1" stop-color="#070d16"/></linearGradient>
+<linearGradient id="ipcAccent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a5a4e"/><stop offset=".55" stop-color="#15937e"/><stop offset="1" stop-color="#7fd8c6"/></linearGradient>
+<radialGradient id="ipcHalo"><stop stop-color="#cdeae3" stop-opacity=".8"/><stop offset="1" stop-color="#eef7f5" stop-opacity="0"/></radialGradient>
+<pattern id="fins" width="24" height="62" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="13" height="62" rx="3" fill="url(#ipcFin)" stroke="#9db2c6" stroke-width="1.2"/></pattern>
+<pattern id="vents" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="4.4" fill="#7f95ab" opacity=".55"/></pattern>
+<filter id="ipcShadow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<circle cx="340" cy="300" r="250" fill="url(#ipcHalo)" opacity=".62"/>
+<circle cx="340" cy="292" r="222" stroke="#bcd8d0" stroke-dasharray="4 10" stroke-opacity=".36" fill="none"/>
+<ellipse cx="340" cy="474" rx="212" ry="17" fill="#9fb8b0" opacity=".22" filter="url(#ipcShadow)"/>
+<rect x="66" y="196" width="40" height="226" rx="8" fill="url(#ipcFin)" stroke="#94abbf" stroke-width="2"/>
+<rect x="574" y="196" width="40" height="226" rx="8" fill="url(#ipcFin)" stroke="#94abbf" stroke-width="2"/>
+<circle cx="86" cy="224" r="6.5" fill="#7f95ab"/><circle cx="86" cy="394" r="6.5" fill="#7f95ab"/>
+<circle cx="594" cy="224" r="6.5" fill="#7f95ab"/><circle cx="594" cy="394" r="6.5" fill="#7f95ab"/>
+<rect x="118" y="164" width="444" height="62" fill="url(#fins)"/>
+<rect x="106" y="206" width="468" height="208" rx="16" fill="url(#ipcShell)" stroke="#8fa6bd" stroke-width="2"/>
+<rect x="126" y="226" width="296" height="168" rx="10" fill="url(#ipcDark)"/>
+<g fill="#3d5670">
+<rect x="146" y="248" width="44" height="30" rx="4"/><rect x="200" y="248" width="44" height="30" rx="4"/>
+<rect x="146" y="304" width="30" height="14" rx="3"/><rect x="186" y="304" width="30" height="14" rx="3"/>
+<rect x="146" y="344" width="36" height="32" rx="4"/><rect x="196" y="344" width="36" height="32" rx="4"/>
+<circle cx="264" cy="311" r="15"/>
+</g>
+<g fill="#8fb3cc">
+<rect x="154" y="256" width="28" height="14" rx="2"/><rect x="208" y="256" width="28" height="14" rx="2"/>
+<rect x="152" y="309" width="22" height="4" rx="2"/><rect x="192" y="309" width="22" height="4" rx="2"/>
+<rect x="153" y="352" width="22" height="18" rx="2"/><rect x="203" y="352" width="22" height="18" rx="2"/>
+<circle cx="264" cy="311" r="7" fill="none" stroke="#8fb3cc" stroke-width="3"/>
+</g>
+<path d="M288 348h34l10 8v18l-10 8h-34z" fill="#3d5670"/>
+<circle cx="336" cy="357" r="7" fill="url(#ipcAccent)"/><circle cx="356" cy="357" r="7" fill="#e9b949"/><circle cx="376" cy="357" r="7" fill="#4d6480"/>
+<text x="300" y="272" fill="#9fded0" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.5">PWR</text>
+<text x="336" y="272" fill="#9fded0" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.5">HDD</text>
+<rect x="444" y="252" width="108" height="104" fill="url(#vents)" opacity=".9"/>
+<text x="440" y="392" fill="#5b7189" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="2">FANLESS IPC</text>
+<text x="440" y="412" fill="#8497ab" font-family="Arial,sans-serif" font-size="13" letter-spacing="1.2">Wide voltage input</text>
+</svg>
