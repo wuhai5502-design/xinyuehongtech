@@ -2,14 +2,14 @@
 <linearGradient id="gwShell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset=".5" stop-color="#dbe7f3"/><stop offset="1" stop-color="#a9bcd4"/></linearGradient>
 <linearGradient id="gwTop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2f7fc"/><stop offset="1" stop-color="#b7c9dc"/></linearGradient>
 <linearGradient id="gwDark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2c4258"/><stop offset=".55" stop-color="#14202f"/><stop offset="1" stop-color="#070d16"/></linearGradient>
-<linearGradient id="gwAccent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a5a4e"/><stop offset=".55" stop-color="#15937e"/><stop offset="1" stop-color="#7fd8c6"/></linearGradient>
-<radialGradient id="gwHalo"><stop stop-color="#cdeae3" stop-opacity=".8"/><stop offset="1" stop-color="#eef7f5" stop-opacity="0"/></radialGradient>
+<linearGradient id="gwAccent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#012a8c"/><stop offset=".55" stop-color="#2b5be0"/><stop offset="1" stop-color="#7fb4f8"/></linearGradient>
+<radialGradient id="gwHalo"><stop stop-color="#cddbfa" stop-opacity=".8"/><stop offset="1" stop-color="#eef7f5" stop-opacity="0"/></radialGradient>
 <pattern id="gwVents" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="9" cy="9" r="4" fill="#7f95ab" opacity=".5"/></pattern>
 <filter id="gwShadow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
 </defs>
 <circle cx="340" cy="300" r="250" fill="url(#gwHalo)" opacity=".6"/>
-<circle cx="340" cy="292" r="222" stroke="#bcd8d0" stroke-dasharray="4 10" stroke-opacity=".34" fill="none"/>
-<ellipse cx="340" cy="452" rx="196" ry="16" fill="#9fb8b0" opacity=".22" filter="url(#gwShadow)"/>
+<circle cx="340" cy="292" r="222" stroke="#bccbe8" stroke-dasharray="4 10" stroke-opacity=".34" fill="none"/>
+<ellipse cx="340" cy="452" rx="196" ry="16" fill="#a2afc9" opacity=".22" filter="url(#gwShadow)"/>
 <g stroke="#6f8699" stroke-width="9" stroke-linecap="round" fill="none">
 <path d="M186 236L150 128"/><path d="M494 236L530 128"/>
 </g>
@@ -31,13 +31,13 @@
 <rect x="185" y="299" width="26" height="16" rx="2"/><rect x="235" y="299" width="26" height="16" rx="2"/><rect x="285" y="299" width="26" height="16" rx="2"/>
 <rect x="185" y="355" width="26" height="16" rx="2"/><rect x="235" y="355" width="26" height="16" rx="2"/><rect x="285" y="355" width="26" height="16" rx="2"/>
 </g>
-<g fill="#7fd8c6"><circle cx="198" cy="331" r="4"/><circle cx="248" cy="331" r="4"/><circle cx="298" cy="331" r="4"/><circle cx="198" cy="387" r="4"/><circle cx="248" cy="387" r="4"/><circle cx="298" cy="387" r="4"/></g>
+<g fill="#7fb4f8"><circle cx="198" cy="331" r="4"/><circle cx="248" cy="331" r="4"/><circle cx="298" cy="331" r="4"/><circle cx="198" cy="387" r="4"/><circle cx="248" cy="387" r="4"/><circle cx="298" cy="387" r="4"/></g>
 <rect x="344" y="292" width="72" height="86" rx="6" fill="#22333f" stroke="#0e1a25" stroke-width="2"/>
 <rect x="356" y="306" width="48" height="10" rx="2" fill="#8fb3cc" opacity=".8"/>
 <rect x="356" y="326" width="34" height="8" rx="2" fill="#5b7189"/>
 <rect x="356" y="344" width="48" height="20" rx="3" fill="url(#gwAccent)" opacity=".85"/>
 <circle cx="458" cy="316" r="16" fill="#3d5670"/><circle cx="458" cy="316" r="7" fill="none" stroke="#8fb3cc" stroke-width="3"/>
-<text x="440" y="366" fill="#9fded0" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.4">VPN</text>
+<text x="440" y="366" fill="#a0c4f7" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.4">VPN</text>
 <rect x="162" y="410" width="356" height="16" rx="8" fill="url(#gwVents)" opacity=".8"/>
 <text x="196" y="462" fill="#5b7189" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2.2">EDGE GATEWAY</text>
 </svg>

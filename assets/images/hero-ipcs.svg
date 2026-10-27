@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 680 640" width="680" height="640"><defs>
 <linearGradient id="hsShell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset=".5" stop-color="#dbe7f3"/><stop offset="1" stop-color="#a9bcd4"/></linearGradient>
 <linearGradient id="hsDark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2c4258"/><stop offset=".55" stop-color="#14202f"/><stop offset="1" stop-color="#070d16"/></linearGradient>
-<linearGradient id="hsAccent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a5a4e"/><stop offset=".55" stop-color="#15937e"/><stop offset="1" stop-color="#7fd8c6"/></linearGradient>
-<radialGradient id="hsHalo"><stop stop-color="#cdeae3" stop-opacity=".8"/><stop offset="1" stop-color="#eef7f5" stop-opacity="0"/></radialGradient>
+<linearGradient id="hsAccent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#012a8c"/><stop offset=".55" stop-color="#2b5be0"/><stop offset="1" stop-color="#7fb4f8"/></linearGradient>
+<radialGradient id="hsHalo"><stop stop-color="#cddbfa" stop-opacity=".8"/><stop offset="1" stop-color="#eef7f5" stop-opacity="0"/></radialGradient>
 <filter id="hsShadow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
 </defs>
 <circle cx="340" cy="300" r="250" fill="url(#hsHalo)" opacity=".6"/>
-<circle cx="340" cy="292" r="222" stroke="#bcd8d0" stroke-dasharray="4 10" stroke-opacity=".34" fill="none"/>
-<ellipse cx="340" cy="470" rx="204" ry="16" fill="#9fb8b0" opacity=".2" filter="url(#hsShadow)"/>
+<circle cx="340" cy="292" r="222" stroke="#bccbe8" stroke-dasharray="4 10" stroke-opacity=".34" fill="none"/>
+<ellipse cx="340" cy="470" rx="204" ry="16" fill="#a2afc9" opacity=".2" filter="url(#hsShadow)"/>
 <rect x="86" y="196" width="236" height="150" rx="14" fill="url(#hsShell)" stroke="#8fa6bd" stroke-width="2"/>
 <rect x="86" y="196" width="236" height="22" rx="14" fill="#c3d3e2" opacity=".9"/>
 <rect x="104" y="238" width="120" height="90" rx="8" fill="url(#hsDark)"/>
 <g fill="#8fb3cc"><rect x="116" y="252" width="34" height="14" rx="2"/><rect x="160" y="252" width="34" height="14" rx="2"/><rect x="116" y="288" width="34" height="20" rx="2"/><rect x="160" y="288" width="34" height="20" rx="2"/></g>
-<g fill="#7fd8c6"><circle cx="133" cy="272" r="4"/><circle cx="177" cy="272" r="4"/><circle cx="133" cy="316" r="4"/><circle cx="177" cy="316" r="4"/></g>
+<g fill="#7fb4f8"><circle cx="133" cy="272" r="4"/><circle cx="177" cy="272" r="4"/><circle cx="133" cy="316" r="4"/><circle cx="177" cy="316" r="4"/></g>
 <circle cx="286" cy="266" r="14" fill="#3d5670"/><circle cx="286" cy="266" r="6" fill="none" stroke="#8fb3cc" stroke-width="3"/>
 <text x="104" y="372" fill="#5b7189" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.8">BOX PC</text>
 <rect x="358" y="150" width="236" height="196" rx="14" fill="url(#hsShell)" stroke="#8fa6bd" stroke-width="2"/>
 <rect x="374" y="166" width="204" height="132" rx="6" fill="#101c28"/>
 <rect x="382" y="174" width="188" height="116" fill="url(#hsAccent)"/>
-<g fill="#eafaf6" opacity=".9"><rect x="398" y="192" width="90" height="8" rx="4"/><rect x="398" y="210" width="60" height="6" rx="3" opacity=".7"/>
+<g fill="#eaf1ff" opacity=".9"><rect x="398" y="192" width="90" height="8" rx="4"/><rect x="398" y="210" width="60" height="6" rx="3" opacity=".7"/>
 <rect x="398" y="236" width="156" height="22" rx="3" opacity=".22"/><rect x="398" y="266" width="156" height="22" rx="3" opacity=".16"/></g>
-<g fill="#0d5f52" opacity=".8"><rect x="398" y="292" width="26" height="30" rx="3"/><rect x="432" y="280" width="26" height="42" rx="3"/><rect x="466" y="288" width="26" height="34" rx="3"/></g>
+<g fill="#012a80" opacity=".8"><rect x="398" y="292" width="26" height="30" rx="3"/><rect x="432" y="280" width="26" height="42" rx="3"/><rect x="466" y="288" width="26" height="34" rx="3"/></g>
 <rect x="374" y="312" width="204" height="22" rx="6" fill="#e7eef6" stroke="#9db2c7" stroke-width="1.5"/>
 <g fill="#8fa6bd"><circle cx="404" cy="323" r="6"/><circle cx="426" cy="323" r="6"/><circle cx="448" cy="323" r="6"/></g>
-<g fill="#15937e"><circle cx="552" cy="323" r="6"/></g>
+<g fill="#2b5be0"><circle cx="552" cy="323" r="6"/></g>
 <text x="470" y="328" fill="#5b7189" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">PANEL PC</text>
 <rect x="140" y="404" width="400" height="46" rx="10" fill="url(#hsShell)" stroke="#8fa6bd" stroke-width="2"/>
 <g fill="#3d5670"><rect x="164" y="418" width="34" height="20" rx="3"/><rect x="206" y="418" width="34" height="20" rx="3"/><rect x="248" y="418" width="34" height="20" rx="3"/><rect x="290" y="418" width="50" height="20" rx="3"/></g>
 <g fill="#8fb3cc"><rect x="170" y="424" width="22" height="8" rx="2"/><rect x="212" y="424" width="22" height="8" rx="2"/><rect x="254" y="424" width="22" height="8" rx="2"/></g>
-<g fill="#7fd8c6"><circle cx="181" cy="443" r="3.4"/><circle cx="223" cy="443" r="3.4"/><circle cx="265" cy="443" r="3.4"/><circle cx="315" cy="443" r="3.4"/></g>
+<g fill="#7fb4f8"><circle cx="181" cy="443" r="3.4"/><circle cx="223" cy="443" r="3.4"/><circle cx="265" cy="443" r="3.4"/><circle cx="315" cy="443" r="3.4"/></g>
 <text x="380" y="434" fill="#5b7189" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.8">GATEWAY</text>
 </svg>

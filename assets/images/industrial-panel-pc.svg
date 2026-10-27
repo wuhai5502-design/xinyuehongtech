@@ -1,37 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 680 640" width="680" height="640"><defs>
 <linearGradient id="ppShell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset=".5" stop-color="#dbe7f3"/><stop offset="1" stop-color="#a9bcd4"/></linearGradient>
 <linearGradient id="ppSide" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#93a9bf"/><stop offset="1" stop-color="#617891"/></linearGradient>
-<linearGradient id="ppScreen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a5a4e"/><stop offset=".5" stop-color="#12866f"/><stop offset="1" stop-color="#2bb39a"/></linearGradient>
+<linearGradient id="ppScreen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#012a8c"/><stop offset=".5" stop-color="#1b4fce"/><stop offset="1" stop-color="#2b6ae0"/></linearGradient>
 <linearGradient id="ppGloss" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" stop-opacity=".28"/><stop offset=".45" stop-color="#ffffff" stop-opacity=".03"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-<radialGradient id="ppHalo"><stop stop-color="#cdeae3" stop-opacity=".8"/><stop offset="1" stop-color="#eef7f5" stop-opacity="0"/></radialGradient>
+<radialGradient id="ppHalo"><stop stop-color="#cddbfa" stop-opacity=".8"/><stop offset="1" stop-color="#eef7f5" stop-opacity="0"/></radialGradient>
 <filter id="ppShadow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
 </defs>
 <circle cx="340" cy="300" r="250" fill="url(#ppHalo)" opacity=".62"/>
-<circle cx="340" cy="292" r="222" stroke="#bcd8d0" stroke-dasharray="4 10" stroke-opacity=".36" fill="none"/>
-<ellipse cx="340" cy="512" rx="188" ry="16" fill="#9fb8b0" opacity=".22" filter="url(#ppShadow)"/>
+<circle cx="340" cy="292" r="222" stroke="#bccbe8" stroke-dasharray="4 10" stroke-opacity=".36" fill="none"/>
+<ellipse cx="340" cy="512" rx="188" ry="16" fill="#a2afc9" opacity=".22" filter="url(#ppShadow)"/>
 <rect x="316" y="392" width="48" height="104" rx="8" fill="url(#ppSide)"/>
 <rect x="286" y="486" width="108" height="16" rx="8" fill="#7d94aa"/>
 <path d="M556 132l44 30v352l-44 30z" fill="url(#ppSide)"/>
 <rect x="104" y="122" width="452" height="392" rx="20" fill="url(#ppShell)" stroke="#8fa6bd" stroke-width="2"/>
 <rect x="124" y="142" width="412" height="300" rx="8" fill="#101c28"/>
 <rect x="134" y="152" width="392" height="280" fill="url(#ppScreen)"/>
-<g fill="#9fded0" opacity=".9">
+<g fill="#a0c4f7" opacity=".9">
 <rect x="158" y="180" width="150" height="9" rx="4.5"/>
 <rect x="158" y="204" width="96" height="7" rx="3.5" opacity=".7"/>
 </g>
 <rect x="158" y="238" width="344" height="26" rx="4" fill="#ffffff" opacity=".14"/>
 <rect x="158" y="272" width="344" height="26" rx="4" fill="#ffffff" opacity=".1"/>
 <rect x="158" y="306" width="344" height="26" rx="4" fill="#ffffff" opacity=".14"/>
-<g fill="#eafaf6">
+<g fill="#eaf1ff">
 <rect x="168" y="247" width="120" height="8" rx="4"/><rect x="168" y="281" width="86" height="8" rx="4" opacity=".75"/><rect x="168" y="315" width="104" height="8" rx="4" opacity=".85"/>
 <circle cx="454" cy="251" r="6"/><circle cx="454" cy="285" r="6" opacity=".75"/><circle cx="454" cy="319" r="6" opacity=".85"/>
 </g>
-<g fill="#0d5f52" opacity=".85">
+<g fill="#012a80" opacity=".85">
 <rect x="158" y="358" width="34" height="52" rx="3"/><rect x="204" y="342" width="34" height="68" rx="3"/><rect x="250" y="366" width="34" height="44" rx="3"/><rect x="296" y="330" width="34" height="80" rx="3"/>
 </g>
 <path d="M134 152h392v280H134z" fill="url(#ppGloss)" opacity=".35"/>
 <rect x="124" y="456" width="412" height="40" rx="8" fill="#e7eef6" stroke="#9db2c7" stroke-width="1.5"/>
 <g fill="#8fa6bd"><circle cx="176" cy="476" r="9"/><circle cx="208" cy="476" r="9"/><circle cx="240" cy="476" r="9"/><rect x="262" y="468" width="36" height="16" rx="4"/></g>
-<g fill="#15937e"><circle cx="446" cy="476" r="7"/></g>
+<g fill="#2b5be0"><circle cx="446" cy="476" r="7"/></g>
 <text x="366" y="482" fill="#5b7189" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2">PANEL PC</text>
 </svg>
