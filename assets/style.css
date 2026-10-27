@@ -192,9 +192,10 @@
 .banner-text{font-size:17px;line-height:1.7;color:#d8ece7;margin:0 0 26px;max-width:560px}
 .banner-actions{display:flex;gap:12px;flex-wrap:wrap}
 .banner-actions .btn{border-radius:8px}
-.banner-art{display:flex;justify-content:flex-end}
+.banner-art{display:flex;justify-content:flex-end;align-items:center}
+.hero-full .banner-art .banner-photo{width:auto;height:auto;max-width:100%;max-height:352px;padding:12px;border-radius:16px;background:#fff;box-shadow:0 20px 46px rgba(4,26,22,.28);object-fit:contain}
 .hero-full .banner-slide img{width:auto;height:auto;max-width:100%;max-height:380px;object-fit:contain;padding:0}
-@media(max-width:900px){.hero-full,.hero-full .hero-grid{min-height:auto}.hero-full .banner-inner{grid-template-columns:1fr;gap:16px;padding:38px 0 66px}.banner-title{font-size:28px}.banner-text{font-size:15px;margin-bottom:20px}.banner-art{justify-content:center}.hero-full .banner-slide img{max-height:200px}.hero-full .banner-dots{bottom:16px}}
+@media(max-width:900px){.hero-full,.hero-full .hero-grid{min-height:auto}.hero-full .banner-inner{grid-template-columns:1fr;gap:16px;padding:38px 0 66px}.banner-title{font-size:28px}.banner-text{font-size:15px;margin-bottom:20px}.banner-art{justify-content:center}.hero-full .banner-slide img{max-height:200px}.hero-full .banner-art .banner-photo{max-height:210px;padding:8px;border-radius:12px}.hero-full .banner-dots{bottom:16px}}
 /* Product card titles use h3 inside a section headed by h2 */
 .product-card .product-heading h3{font-size:21px;line-height:1.25;letter-spacing:-.035em;margin:0}
 .popular-model-grid .product-heading h3{font-size:16px;line-height:1.3}
