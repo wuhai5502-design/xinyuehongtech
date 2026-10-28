@@ -286,3 +286,10 @@ h1,h2,h3{font-weight:750}
 .eyebrow.light{color:#a0c4f7}
 .banner-text{color:#dbe5ff}
 @media(max-width:650px){.section{padding:60px 0}}
+/* Technical specification table (product detail pages) */
+.spec-table{width:100%;border-collapse:collapse;margin:6px 0 24px;font-size:15px;background:#fff}
+.spec-table caption{caption-side:top;text-align:left;font-size:13px;color:var(--muted);padding:0 0 10px}
+.spec-table th,.spec-table td{border:1px solid var(--line);padding:13px 15px;vertical-align:top;text-align:left}
+.spec-table th{width:32%;font-weight:700;color:var(--ink);background:var(--wash)}
+.spec-table td{color:#46536e;line-height:1.65}
+@media(max-width:650px){.spec-table{font-size:14px}.spec-table th{width:40%;padding:10px 12px}.spec-table td{padding:10px 12px}}
