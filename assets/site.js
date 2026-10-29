@@ -4,24 +4,51 @@
     var s = c.querySelectorAll(".banner-slide");
     var d = c.querySelectorAll(".banner-dot");
     var i = 0;
-    var t = null;
-    var n = parseInt(c.getAttribute("data-interval"), 10) || 6000;
-    function go(k) {
+    var timer = null;
+    var delay = parseInt(c.getAttribute("data-interval"), 10);
+    if (!delay || delay < 1000) delay = 3000;
+
+    function show(k) {
       if (!s.length) return;
-      s[i].classList.remove("is-active");
-      if (d[i]) d[i].classList.remove("is-active");
-      i = (k + s.length) % s.length;
-      s[i].classList.add("is-active");
-      if (d[i]) d[i].classList.add("is-active");
+      var next = ((k % s.length) + s.length) % s.length;
+      for (var x = 0; x < s.length; x++) {
+        if (x === next) s[x].classList.add("is-active");
+        else s[x].classList.remove("is-active");
+      }
+      for (var y = 0; y < d.length; y++) {
+        if (y === next) d[y].classList.add("is-active");
+        else d[y].classList.remove("is-active");
+      }
+      i = next;
     }
-    function stop() { if (t) { clearInterval(t); t = null; } }
-    function play() { stop(); t = setInterval(function () { go(i + 1); }, n); }
-    [].forEach.call(d, function (el, k) {
-      el.addEventListener("click", function () { go(k); play(); });
-    });
+
+    function stop() {
+      if (timer) { clearTimeout(timer); timer = null; }
+    }
+
+    function schedule() {
+      stop();
+      timer = setTimeout(function () {
+        show(i + 1);
+        schedule();
+      }, delay);
+    }
+
+    for (var k = 0; k < d.length; k++) {
+      (function (idx) {
+        d[idx].addEventListener("click", function () { show(idx); schedule(); });
+      })(k);
+    }
+
     c.addEventListener("mouseenter", stop);
-    c.addEventListener("mouseleave", play);
-    if (s.length > 1) play();
+    c.addEventListener("mouseleave", schedule);
+    document.addEventListener("visibilitychange", function () {
+      if (document.hidden) stop();
+      else schedule();
+    });
+
+    show(0);
+    if (s.length > 1) schedule();
   }
   document.querySelectorAll("[data-year]").forEach(function (el) {
     el.textContent = String(new Date().getFullYear());
