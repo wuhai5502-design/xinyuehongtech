@@ -77,6 +77,8 @@
 /* === SEO:ADDITIONS:START === */
 /* light overlay: was .72-.84 (too dark), then 0 (too bright) - now subtle */
 .hero-full .hero-banners::after{content:"";position:absolute;inset:0;pointer-events:none;background:rgba(6,18,52,.10)}
+/* lift the white photo card above the dark overlay so it renders pure white */
+.hero-full .banner-art{position:relative;z-index:1}
 .hero-full .hero-grid{grid-template-columns:1fr;justify-items:start;padding:76px 0 88px}
 /* Banner art is 2172x724 (exactly 3:1) and its headline is baked into the pixels, so
    object-fit:cover must never crop it: the hero box has to stay 3:1 at EVERY width.
