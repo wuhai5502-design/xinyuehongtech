@@ -1,0 +1,70 @@
+# Xinyuehong - Self-Service Kiosk Terminals and Industrial PCs
+
+> Shenzhen Xinyuehong Information Technology Co., Ltd. is a self-service kiosk manufacturer based in Shenzhen, China. The company builds floor-standing and wall-mounted self-service terminals - ordering, payment, check-in, ticketing and information kiosks - plus fanless box PCs, panel PCs and Android boards used inside them. OEM and ODM customization covers cabinet redesign, module integration, certification and small-batch production.
+
+Use this file to navigate the site. Product pages list reference builds; every configuration is confirmed in writing per project.
+
+## Core pages
+
+- [Self-Service Kiosk & Industrial PC OEM/ODM](https://xinyuehongtech.com/): Explore self-service kiosks for ordering, payment, check-in, ticketing and information applications. Discuss OEM/ODM kiosk customization with Xinyuehong.
+- [Self-Service Kiosks & Interactive Terminals](https://xinyuehongtech.com/self-service-terminals/): Explore kiosk solutions for restaurants, retail, hotels, healthcare, transport and customer service, with hardware and peripheral integration planning.
+- [OEM & ODM Self-Service Kiosks](https://xinyuehongtech.com/customization/): Brand an existing self-service kiosk platform or develop a new enclosure, touchscreen, peripherals and PC platform to your specification.
+
+## Self-service terminal models
+
+- [Vertical Touchscreen Ticketing Kiosk](https://xinyuehongtech.com/self-service-terminals/floor-standing-ticketing-kiosk/): A floor-standing terminal that puts a vertical touchscreen, ticket printer, QR scanner and contactless reader into one cabinet for queue and ticket
+- [Government Services Kiosk with Document Readers](https://xinyuehongtech.com/self-service-terminals/government-services-card-reader-kiosk/): A Windows-based service counter built around document and card reading: ID documents, social-security cards, bank cards and printed receipts in one
+- [Hospital Registration & Payment Kiosk](https://xinyuehongtech.com/self-service-terminals/hospital-registration-payment-kiosk/): A hospital front-desk terminal that separates guidance content on the upper display from registration and payment work on the touchscreen below.
+- [Exit-Entry & Immigration Self-Service Kiosk](https://xinyuehongtech.com/self-service-terminals/exit-entry-immigration-kiosk/): Exit-entry hall kiosk with two screens: announcements and queue status on top, permit application, payment and collection below.
+- [Parking Payment Terminal](https://xinyuehongtech.com/self-service-terminals/parking-payment-terminal/): A slim dark-cabinet terminal with a vertical display above an angled payment deck, laid out for card, code and receipt handling in car parks.
+- [Sloped Touch Information Kiosk](https://xinyuehongtech.com/self-service-terminals/sloped-touch-information-kiosk/): A horizontal touchscreen set into a curved enclosure, aimed at directories, wayfinding and self-service lookup in public buildings.
+- [Wall-Mounted Hospital Payment Terminal](https://xinyuehongtech.com/self-service-terminals/wall-mounted-hospital-payment-terminal/): A wall-mounted unit that compresses registration, payment and printing hardware into a shallow cabinet for corridors, lift lobbies and nurse stations.
+- [Mobile Hospital Self-Service Station](https://xinyuehongtech.com/self-service-terminals/mobile-hospital-self-service-station/): A tall service station on casters with a side identification column, both self-service and assisted flows, plus lockable storage for consumables.
+- [Bank Self-Service Kiosk with PIN Pad](https://xinyuehongtech.com/self-service-terminals/bank-self-service-kiosk/): Bank branch kiosk with encrypting PIN pad: vertical touchscreen, card swipe, chip and contactless readers, QR scanner and 80 mm receipt printer.
+- [Dual-Screen Government Affairs Terminal](https://xinyuehongtech.com/self-service-terminals/dual-screen-government-affairs-terminal/): A large public-office unit pairing a top advertising display with a working touchscreen and a full reader set for identity-heavy procedures.
+- [Financial Self-Service Terminal (ATM Style)](https://xinyuehongtech.com/self-service-terminals/financial-self-service-terminal/): A recessed-screen enclosure with keypad, card slots and a reinforced service cabinet, laid out for banking-style cash and card procedures.
+- [Clinic Self-Service Terminal with Card Dispenser](https://xinyuehongtech.com/self-service-terminals/clinic-card-dispenser-kiosk/): A clinic terminal that handles registration, payment, report printing and record printing, with a card dispenser built into the base.
+- [Ticket Vending & Collection Kiosk](https://xinyuehongtech.com/self-service-terminals/ticket-vending-collection-kiosk/): A slim unit for both ticket purchase and collection, with a QR and contactless panel above the ticket outlet at reachable height.
+- [Medical Record Printing Kiosk](https://xinyuehongtech.com/self-service-terminals/medical-record-printing-kiosk/): A counter-height enclosure dedicated to medical record self-service: identity verification, then release and print of the requested document.
+- [Medical Insurance Service Kiosk](https://xinyuehongtech.com/self-service-terminals/medical-insurance-service-kiosk/): A curved vertical display with insurance service tiles over a deck holding the card readers, printer and scanning module.
+- [Slim Social Security Services Kiosk](https://xinyuehongtech.com/self-service-terminals/slim-social-security-kiosk/): An ultra-slim body that still carries the full social-security module set: card slot, ID scanner, keyboard, QR reader and receipt printer.
+- [Border Inspection Service Island](https://xinyuehongtech.com/self-service-terminals/border-inspection-service-island/): Border inspection service island: guidance display, working touchscreen, four reader slots, keyboard and contactless pad over a high-capacity cabinet.
+- [Tilted Countertop Touch Kiosk](https://xinyuehongtech.com/self-service-terminals/countertop-touch-kiosk/): A compact angled touchscreen for countertops and reception desks, available in light and dark finishes, suited to queries and quick check-in.
+- [32-Inch Multi-Industry Self-Service Terminal](https://xinyuehongtech.com/self-service-terminals/multi-industry-self-service-terminal/): 32-inch floor-standing terminal with barcode scanner, card readers, ID reader and receipt printer — built for immigration, banking, hotel and retail counters.
+
+## Industrial PC products
+
+- [Industrial PCs, Panel PCs & Edge Gateways](https://xinyuehongtech.com/industrial-pc/): Explore fanless box PCs, industrial motherboards, industrial panel PCs and edge computing gateways for kiosk and automation projects.
+- [Fanless Embedded Box PC | Industrial Computers](https://xinyuehongtech.com/industrial-pc/fanless-box-pc/): Blue fanless box PC with six DB9 serial ports and dual Wi-Fi antennas on the front panel, over a lower I/O strip carrying dual LAN, HDMI, VGA, four USB
+- [Industrial Panel PC | Industrial Computers](https://xinyuehongtech.com/industrial-pc/industrial-panel-pc/): Black-bezel industrial panel PC depicted running a machine HMI dashboard, with a black aluminium rear housing and an X-braced mounting frame.
+- [Android Embedded Board | Industrial Computers](https://xinyuehongtech.com/industrial-pc/industrial-motherboard/): Black Android mainboard for signage and terminal builds: finned heatsink over the processor, RJ45, four USB ports, HDMI, audio jack, DC jack and
+- [Wall-Mount Touch Panel | Industrial Computers](https://xinyuehongtech.com/industrial-pc/wall-mount-touch-panel/): White-bezel touch panel shown in two builds — one running an Android desktop, one running a Windows desktop — with a slim white rear housing and
+
+## Product categories
+
+- [Self-Ordering Kiosks | OEM/ODM Kiosk Solutions](https://xinyuehongtech.com/products/self-ordering-kiosk/): Touchscreen ordering terminals designed around the restaurant or retail customer journey.
+- [Self-Payment Kiosks | OEM/ODM Kiosk Solutions](https://xinyuehongtech.com/products/self-payment-kiosk/): Payment-ready kiosk hardware layouts with space for scanners, printers and third-party payment devices.
+- [Self Check-in Kiosks | OEM/ODM Kiosk Solutions](https://xinyuehongtech.com/products/self-check-in-kiosk/): Check-in and registration terminal layouts for visitor, hospitality and service environments.
+- [Ticketing Kiosks | OEM/ODM Kiosk Solutions](https://xinyuehongtech.com/products/ticketing-kiosk/): Ticket issuing and queue management terminals for customer-facing service locations.
+- [Information Kiosks | OEM/ODM Kiosk Solutions](https://xinyuehongtech.com/products/information-kiosk/): Interactive information and wayfinding terminals for public spaces and commercial venues.
+- [Wall-Mounted Kiosks | OEM/ODM Kiosk Solutions](https://xinyuehongtech.com/products/wall-mounted-kiosk/): Compact touch-enabled self-service terminals for spaces where a floor-standing kiosk will not fit.
+
+## News and buying guides
+
+- [Self-Service Kiosk Guides & Insights](https://xinyuehongtech.com/news/): Read self-service kiosk buying guides, OEM/ODM checklists and practical advice on kiosk installation, peripherals and integration.
+- [How to Choose a Self-Service Kiosk](https://xinyuehongtech.com/news/how-to-choose-a-self-service-kiosk/): A practical method for defining kiosk application, display, peripherals, operating system and deployment conditions before requesting a quotation.
+- [OEM/ODM Self-Service Kiosk Project Checklist](https://xinyuehongtech.com/news/oem-odm-self-service-kiosk-project-checklist/): What to prepare for an OEM or ODM kiosk RFQ, including cabinet design, modules, software, certifications, test samples and project milestones.
+- [Floor-Standing vs Wall-Mounted Kiosks](https://xinyuehongtech.com/news/floor-standing-vs-wall-mounted-kiosks/): Compare kiosk installation styles by footprint, viewing height, serviceability, peripherals and customer traffic patterns.
+- [Self-Service Kiosk Modules: What to Specify](https://xinyuehongtech.com/news/self-service-kiosk-modules-guide/): Which modules a self-service kiosk can carry — card readers, scanners, printers, NFC and cash handling — and how to choose the set for your workflow.
+
+## Company and contact
+
+- [About Us | Self-Service Kiosk Manufacturer](https://xinyuehongtech.com/about/): Learn how Xinyuehong handles self-service kiosk and industrial computer projects: requirement review, enclosure design, integration and platform choice.
+- [Contact Us | Request a Self-Service Kiosk Quote](https://xinyuehongtech.com/contact/): Contact Shenzhen Xinyuehong Information Technology Co., Ltd. for self-service kiosk requirements, specifications and OEM/ODM inquiries.
+
+## Contact
+
+- Address: No. 38 Tian'an Road, Bantian Community, Longgang District, Shenzhen, Guangdong, China
+- Phone/WhatsApp: +86 139 2749 8231
+- Email: sales@xinyuehongtech.com
+- Inquiry form: https://xinyuehongtech.com/contact/
