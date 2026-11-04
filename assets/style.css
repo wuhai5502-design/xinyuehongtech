@@ -310,3 +310,7 @@ h1,h2,h3{font-weight:750}
 .factory-grid img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover}
 .factory-grid figcaption{font-size:12px;color:#5b6b85;padding:9px 12px;line-height:1.45}
 @media(max-width:900px){.factory-grid{grid-template-columns:repeat(2,1fr)}}
+/* enlarge photos in the four home category cards (scoped, model pages unchanged) */
+.kiosk-model-grid .product-image{height:300px}
+.kiosk-model-grid .product-image img{padding:12px}
+@media(max-width:650px){.kiosk-model-grid .product-image{height:230px}}
