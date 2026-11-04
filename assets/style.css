@@ -294,10 +294,10 @@ h1,h2,h3{font-weight:750}
 .spec-table td{color:#46536e;line-height:1.65}
 @media(max-width:650px){.spec-table{font-size:14px}.spec-table th{width:40%;padding:10px 12px}.spec-table td{padding:10px 12px}}
 /* WhatsApp float button (pill, pulsing) */
-.wa-float{position:fixed;right:24px;bottom:24px;z-index:9999;display:inline-flex;align-items:center;gap:10px;background:#25d366;padding:11px 24px 11px 11px;border-radius:999px;color:#fff;text-decoration:none;font-weight:700;font-size:16px;line-height:1;box-shadow:0 10px 30px rgba(37,211,102,.45);animation:wa-pulse 1.8s ease-out infinite}
+.wa-float{position:fixed;right:24px;bottom:24px;z-index:9999;display:inline-flex;align-items:center;gap:11px;background:#25d366;padding:11px 26px 11px 11px;border-radius:999px;color:#fff;text-decoration:none;font-weight:700;font-size:16px;line-height:1;box-shadow:0 10px 30px rgba(37,211,102,.45);animation:wa-pulse 1.8s ease-out infinite}
 .wa-float:hover{background:#1fb959;color:#fff}
-.wa-ico{width:34px;height:34px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
-.wa-ico svg{width:21px;height:21px;fill:#25d366;display:block}
+.wa-ico{width:40px;height:40px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.wa-ico svg{width:26px;height:26px;fill:#25d366;display:block}
 .wa-txt{white-space:nowrap}
 @keyframes wa-pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.55)}70%{box-shadow:0 0 0 18px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
-@media(max-width:650px){.wa-float{right:14px;bottom:14px;padding:9px 18px 9px 9px;font-size:14px}.wa-ico{width:30px;height:30px}.wa-ico svg{width:18px;height:18px}}
+@media(max-width:650px){.wa-float{right:14px;bottom:14px;padding:9px 20px 9px 9px;font-size:14px}.wa-ico{width:34px;height:34px}.wa-ico svg{width:22px;height:22px}}
