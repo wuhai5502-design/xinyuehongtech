@@ -293,3 +293,10 @@ h1,h2,h3{font-weight:750}
 .spec-table th{width:32%;font-weight:700;color:var(--ink);background:var(--wash)}
 .spec-table td{color:#46536e;line-height:1.65}
 @media(max-width:650px){.spec-table{font-size:14px}.spec-table th{width:40%;padding:10px 12px}.spec-table td{padding:10px 12px}}
+
+/* WhatsApp float button (pulsing) */
+.wa-float{position:fixed;right:24px;bottom:88px;z-index:9999;width:54px;height:54px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.28);animation:wa-pulse 1.8s ease-out infinite}
+.wa-float svg{width:30px;height:30px;fill:#fff;display:block}
+.wa-float:hover{background:#1fb959}
+@keyframes wa-pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.6)}70%{box-shadow:0 0 0 16px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+@media(max-width:650px){.wa-float{right:14px;bottom:78px;width:48px;height:48px}.wa-float svg{width:26px;height:26px}}
