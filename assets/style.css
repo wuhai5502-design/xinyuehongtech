@@ -314,3 +314,6 @@ h1,h2,h3{font-weight:750}
 .kiosk-model-grid .product-image{height:360px}
 .kiosk-model-grid .product-image img{padding:10px}
 @media(max-width:650px){.kiosk-model-grid .product-image{height:260px}}
+/* factory video (YouTube Short, vertical) */
+.factory-video{display:flex;justify-content:center;margin:0 0 26px}
+.factory-video iframe{width:320px;max-width:100%;aspect-ratio:9/16;border:0;border-radius:14px}
