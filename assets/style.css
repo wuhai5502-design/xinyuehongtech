@@ -316,7 +316,7 @@ h1,h2,h3{font-weight:750}
 @media(max-width:650px){.kiosk-model-grid .product-image{height:260px}}
 /* factory video (YouTube Short, vertical) */
 .factory-video{display:flex;justify-content:center;margin:0 0 26px}
-.factory-video iframe{width:320px;max-width:100%;aspect-ratio:9/16;border:0;border-radius:14px}
+.factory-video iframe{width:160px;max-width:100%;aspect-ratio:9/16;border:0;border-radius:14px}
 /* footer YouTube channel link */
 .footer-yt{display:inline-flex;align-items:center;gap:9px;margin-top:14px;color:#c7d2e4;text-decoration:none;font-size:14px;font-weight:600}
 .footer-yt svg{width:28px;height:28px;fill:#ff0000;display:block}
