@@ -18,7 +18,9 @@
 /* Home banner carousel */
 .banner-carousel{position:relative}
 .banner-track{position:absolute;inset:0}
-.banner-slide{position:absolute;inset:0;opacity:0;transition:opacity .9s ease;pointer-events:none}
+.banner-slide{position:absolute;inset:0;opacity:0;pointer-events:none}
+/* cross-fade only after the first paint (JS adds .is-animating), so the first slide never fades in from gray */
+.banner-carousel.is-animating .banner-slide{transition:opacity .9s ease}
 .banner-slide.is-active{opacity:1;pointer-events:auto}
 .banner-slide img{width:100%;height:100%;object-fit:cover;padding:0}
 .banner-dots{position:absolute;left:0;right:0;bottom:14px;display:flex;justify-content:center;gap:9px;z-index:2}
@@ -75,9 +77,8 @@
 .article-row--placeholder{pointer-events:none}
 @media(max-width:650px){.article-row{padding:24px 14px;margin:0 -14px;flex-wrap:wrap;align-items:flex-start}.article-row .article-thumb{width:100%;height:180px;margin-bottom:16px}}
 /* === SEO:ADDITIONS:START === */
-/* light overlay: was .72-.84 (too dark), then 0 (too bright) - now subtle */
-.hero-full .hero-banners::after{content:"";position:absolute;inset:0;pointer-events:none;background:rgba(6,18,52,.10)}
-/* lift the white photo card above the dark overlay so it renders pure white */
+/* no dark overlay: the hero is solid blue with white cards, the wash only grayed the product photos.
+   (was .72-.84 for the old full-bleed banner, then .10, now removed) */
 .hero-full .banner-art{position:relative;z-index:1}
 .hero-full .hero-grid{grid-template-columns:1fr;justify-items:start;padding:76px 0 88px}
 /* Banner art is 2172x724 (exactly 3:1) and its headline is baked into the pixels, so

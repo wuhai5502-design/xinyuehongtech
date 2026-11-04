@@ -48,6 +48,9 @@
     });
 
     show(0);
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () { c.classList.add("is-animating"); });
+    });
     if (s.length > 1) schedule();
   }
   document.querySelectorAll("[data-year]").forEach(function (el) {
