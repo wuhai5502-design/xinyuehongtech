@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#0233b0"/><path d="m13 15 13 35h7L20 15zm31 0L31 50h-7l13-35z" fill="#fff"/><path d="M25 32h17" stroke="#a0c4f7" stroke-width="6" stroke-linecap="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Xinyuehong">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#043ec4"/><stop offset="1" stop-color="#022a8c"/></linearGradient></defs>
+<rect width="512" height="512" rx="112" fill="url(#g)"/>
+<g fill="#fff">
+<rect x="92" y="196" width="92" height="200" rx="46"/>
+<rect x="210" y="100" width="92" height="296" rx="46"/>
+<rect x="328" y="148" width="92" height="248" rx="46"/>
+</g>
+</svg>
