@@ -321,3 +321,8 @@ h1,h2,h3{font-weight:750}
 .footer-yt{display:inline-flex;align-items:center;gap:9px;margin-top:14px;color:#c7d2e4;text-decoration:none;font-size:14px;font-weight:600}
 .footer-yt svg{width:28px;height:28px;fill:#ff0000;display:block}
 .footer-yt:hover{color:#fff}
+
+/* header brand mark: kiosk-terminal pictogram (same as favicon) */
+.brand-mark{width:42px;height:42px;background:transparent url("icon.svg?v=20261105b") center/contain no-repeat;border-radius:10px;display:block}
+.brand-mark i{display:none}
+@media(max-width:650px){.brand-mark{width:36px;height:36px}}
