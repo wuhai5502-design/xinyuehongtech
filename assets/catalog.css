@@ -61,3 +61,6 @@
 @media(max-width:760px){.flow{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:480px){.flow{grid-template-columns:1fr;gap:26px}}
 @media(max-width:650px){.ipc-model-grid{grid-template-columns:1fr}}
+
+/* real factory photos in related-unit thumbs: fill the frame instead of contain */
+.related-grid--photos img{object-fit:cover;padding:0;background:#eef2f7}
