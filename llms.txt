@@ -10,6 +10,14 @@ Use this file to navigate the site. Product pages list reference builds; every c
 - [Self-Service Kiosks & Interactive Terminals](https://xinyuehongtech.com/self-service-terminals/): Explore kiosk solutions for restaurants, retail, hotels, healthcare, transport and customer service, with hardware and peripheral integration planning.
 - [OEM & ODM Self-Service Kiosks](https://xinyuehongtech.com/customization/): Brand an existing self-service kiosk platform or develop a new enclosure, touchscreen, peripherals and PC platform to your specification.
 
+
+## Industry guides
+
+- [Self-Service Kiosks by Industry](https://xinyuehongtech.com/industries/): How terminal specification changes between hospitals, bank branches and government service halls.
+- [Hospital & Clinic Kiosks](https://xinyuehongtech.com/industries/hospital/): Registration, self-payment, queue tickets and medical record printing, with the models that fit each step.
+- [Bank & Branch Kiosks](https://xinyuehongtech.com/industries/banking/): Account enquiry, statement printing, card issue and cash handling, with encrypting PIN pads and privacy surrounds.
+- [Government & Municipal Kiosks](https://xinyuehongtech.com/industries/government/): Document-led service in citizen halls, social-security counters and immigration posts.
+
 ## Self-service terminal models
 
 - [Vertical Touchscreen Ticketing Kiosk](https://xinyuehongtech.com/self-service-terminals/floor-standing-ticketing-kiosk/): A floor-standing terminal that puts a vertical touchscreen, ticket printer, QR scanner and contactless reader into one cabinet for queue and ticket
