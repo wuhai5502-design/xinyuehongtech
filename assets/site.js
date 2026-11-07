@@ -57,3 +57,29 @@
     el.textContent = String(new Date().getFullYear());
   });
 })();
+
+/* conversion tracking: calls, emails, WhatsApp, inquiry form */
+(function () {
+  function track(name, params) {
+    try {
+      if (typeof window.gtag === "function") {
+        window.gtag("event", name, Object.assign({ transport_type: "beacon" }, params || {}));
+      }
+    } catch (e) {}
+  }
+  document.addEventListener("click", function (e) {
+    var el = e.target;
+    while (el && el !== document.body && el.tagName !== "A") el = el.parentElement;
+    if (!el || el.tagName !== "A") return;
+    var href = el.getAttribute("href") || "";
+    if (/^tel:/i.test(href)) track("click_to_call", { link_url: href });
+    else if (/^mailto:/i.test(href)) track("email_click", { link_url: href });
+    else if (/(?:wa\.me|api\.whatsapp\.com)/i.test(href)) track("whatsapp_click", { link_url: href });
+  }, true);
+  var form = document.getElementById("inquiryForm");
+  if (form) {
+    form.addEventListener("submit", function () {
+      track("generate_lead", { form_id: "inquiryForm" });
+    });
+  }
+})();
