@@ -327,3 +327,13 @@ h1,h2,h3{font-weight:750}
 .brand-mark i{display:none}
 @media(max-width:650px){.brand-mark{width:36px;height:36px}}
 picture{display:contents}
+
+/* product photography: white tiles, image fills the card */
+.product-image{background:#fff}
+.product-image img{padding:10px}
+.popular-model-grid .product-image img,.kiosk-model-grid .product-image img{padding:10px}
+.related-grid img{background:#fff;padding:8px}
+.related-grid--photos img{background:#fff}
+.detail-image{background:#fff}
+.detail-image img{padding:0}
+.tile-img--cover{background:#fff}
