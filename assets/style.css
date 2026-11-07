@@ -326,3 +326,4 @@ h1,h2,h3{font-weight:750}
 .brand-mark{width:42px;height:42px;background:transparent url("icon.svg?v=20261105b") center/contain no-repeat;border-radius:10px;display:block}
 .brand-mark i{display:none}
 @media(max-width:650px){.brand-mark{width:36px;height:36px}}
+picture{display:contents}
