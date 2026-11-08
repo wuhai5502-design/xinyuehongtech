@@ -20,6 +20,8 @@ Use this file to navigate the site. Product pages list reference builds; every c
 
 - [How Much Does a Self-Service Kiosk Cost?](https://xinyuehongtech.com/news/self-service-kiosk-cost/): 2026 reference price ranges by kiosk type, cost structure, hidden costs and a line-by-line quotation comparison list.
 
+- [Self-Service Kiosks for Saudi Arabia](https://xinyuehongtech.com/saudi-arabia/): SABER conformity, Arabic interface and receipt printing, 230 V/60 Hz builds and sea freight to Jeddah or Dammam.
+
 ## Self-service terminal models
 
 - [Vertical Touchscreen Ticketing Kiosk](https://xinyuehongtech.com/self-service-terminals/floor-standing-ticketing-kiosk/): A floor-standing terminal that puts a vertical touchscreen, ticket printer, QR scanner and contactless reader into one cabinet for queue and ticket
