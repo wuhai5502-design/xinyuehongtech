@@ -18,6 +18,8 @@ Use this file to navigate the site. Product pages list reference builds; every c
 - [Bank & Branch Kiosks](https://xinyuehongtech.com/industries/banking/): Account enquiry, statement printing, card issue and cash handling, with encrypting PIN pads and privacy surrounds.
 - [Government & Municipal Kiosks](https://xinyuehongtech.com/industries/government/): Document-led service in citizen halls, social-security counters and immigration posts.
 
+- [How Much Does a Self-Service Kiosk Cost?](https://xinyuehongtech.com/news/self-service-kiosk-cost/): 2026 reference price ranges by kiosk type, cost structure, hidden costs and a line-by-line quotation comparison list.
+
 ## Self-service terminal models
 
 - [Vertical Touchscreen Ticketing Kiosk](https://xinyuehongtech.com/self-service-terminals/floor-standing-ticketing-kiosk/): A floor-standing terminal that puts a vertical touchscreen, ticket printer, QR scanner and contactless reader into one cabinet for queue and ticket
