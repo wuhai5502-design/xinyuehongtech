@@ -32,6 +32,10 @@ Use this file to navigate the site. Product pages list reference builds; every c
 
 - [Hotel Check-in Kiosk Hardware](https://xinyuehongtech.com/news/hotel-kiosk-peripherals-enclosure/): The four peripherals that decide a hotel build, the lock-vendor and encoder problem, and the sheet-metal path from CAD to powder coating.
 
+- [Airport Self Check-in Kiosks](https://xinyuehongtech.com/industries/airport-aviation/): Passport capture, boarding pass and bag tag printing for departures halls.
+- [Entertainment & Ticketing Kiosks](https://xinyuehongtech.com/industries/entertainment-ticketing/): Ticket vending and collection for cinemas, attractions and stadiums.
+- [Parking & Transport Kiosks](https://xinyuehongtech.com/industries/parking-transport/): Kerbside payment terminals with angled decks and weather-resistant enclosures.
+
 ## Self-service terminal models
 
 - [Vertical Touchscreen Ticketing Kiosk](https://xinyuehongtech.com/self-service-terminals/floor-standing-ticketing-kiosk/): A floor-standing terminal that puts a vertical touchscreen, ticket printer, QR scanner and contactless reader into one cabinet for queue and ticket
