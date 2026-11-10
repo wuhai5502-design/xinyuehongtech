@@ -340,3 +340,10 @@ picture{display:contents}
 
 /* six industry cards: three across on desktop */
 @media(min-width:900px){.industry-grid{grid-template-columns:repeat(3,1fr)}}
+
+/* News list: show the whole product image instead of cropping it */
+.article-row .article-thumb{width:132px;height:132px;background:#fff;border:1px solid #eef0f6}
+.article-thumb img{object-fit:contain;padding:6px}
+.article-thumb--photo{background:#fff}
+.article-thumb--photo img{object-fit:contain}
+@media(max-width:650px){.article-row .article-thumb{width:100%;height:210px;margin-bottom:16px}}
