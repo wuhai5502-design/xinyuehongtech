@@ -22,6 +22,10 @@ Use this file to navigate the site. Product pages list reference builds; every c
 
 - [Self-Service Kiosks for Saudi Arabia](https://xinyuehongtech.com/saudi-arabia/): SABER conformity, Arabic interface and receipt printing, 230 V/60 Hz builds and sea freight to Jeddah or Dammam.
 
+- [QSR & Fast-Casual Restaurant Kiosks](https://xinyuehongtech.com/industries/qsr-restaurants/): Self-ordering terminals with EMV terminal brackets, 80 mm printers and grease-resistant front faces.
+- [Hotel Self Check-in Kiosks](https://xinyuehongtech.com/industries/hotels/): Passport MRZ reading, key card dispensing, payment and printing for lobbies.
+- [Retail Self-Checkout Kiosks](https://xinyuehongtech.com/industries/retail/): Scan decks, EMV mounting, receipt printing and camera provisions for retail lanes.
+
 ## Self-service terminal models
 
 - [Vertical Touchscreen Ticketing Kiosk](https://xinyuehongtech.com/self-service-terminals/floor-standing-ticketing-kiosk/): A floor-standing terminal that puts a vertical touchscreen, ticket printer, QR scanner and contactless reader into one cabinet for queue and ticket

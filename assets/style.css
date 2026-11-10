@@ -337,3 +337,6 @@ picture{display:contents}
 .detail-image{background:#fff}
 .detail-image img{padding:0}
 .tile-img--cover{background:#fff}
+
+/* six industry cards: three across on desktop */
+@media(min-width:900px){.industry-grid{grid-template-columns:repeat(3,1fr)}}
