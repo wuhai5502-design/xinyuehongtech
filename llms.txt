@@ -28,6 +28,8 @@ Use this file to navigate the site. Product pages list reference builds; every c
 
 - [Kiosk ADA Height, IP65 and IK Ratings Explained](https://xinyuehongtech.com/news/kiosk-ada-ip-ik-ratings/): Reach ranges, ingress protection, impact class and brightness targets, with the numbers to specify before drawing the cabinet.
 
+- [Integrating a Payment Terminal into a Kiosk](https://xinyuehongtech.com/news/kiosk-payment-integration-os/): Where the terminal's certification ends and the kiosk's job begins, three connection methods, and choosing Windows, Android or Linux from the SDK list.
+
 ## Self-service terminal models
 
 - [Vertical Touchscreen Ticketing Kiosk](https://xinyuehongtech.com/self-service-terminals/floor-standing-ticketing-kiosk/): A floor-standing terminal that puts a vertical touchscreen, ticket printer, QR scanner and contactless reader into one cabinet for queue and ticket
