@@ -26,6 +26,8 @@ Use this file to navigate the site. Product pages list reference builds; every c
 - [Hotel Self Check-in Kiosks](https://xinyuehongtech.com/industries/hotels/): Passport MRZ reading, key card dispensing, payment and printing for lobbies.
 - [Retail Self-Checkout Kiosks](https://xinyuehongtech.com/industries/retail/): Scan decks, EMV mounting, receipt printing and camera provisions for retail lanes.
 
+- [Kiosk ADA Height, IP65 and IK Ratings Explained](https://xinyuehongtech.com/news/kiosk-ada-ip-ik-ratings/): Reach ranges, ingress protection, impact class and brightness targets, with the numbers to specify before drawing the cabinet.
+
 ## Self-service terminal models
 
 - [Vertical Touchscreen Ticketing Kiosk](https://xinyuehongtech.com/self-service-terminals/floor-standing-ticketing-kiosk/): A floor-standing terminal that puts a vertical touchscreen, ticket printer, QR scanner and contactless reader into one cabinet for queue and ticket
