@@ -30,6 +30,8 @@ Use this file to navigate the site. Product pages list reference builds; every c
 
 - [Integrating a Payment Terminal into a Kiosk](https://xinyuehongtech.com/news/kiosk-payment-integration-os/): Where the terminal's certification ends and the kiosk's job begins, three connection methods, and choosing Windows, Android or Linux from the SDK list.
 
+- [Hotel Check-in Kiosk Hardware](https://xinyuehongtech.com/news/hotel-kiosk-peripherals-enclosure/): The four peripherals that decide a hotel build, the lock-vendor and encoder problem, and the sheet-metal path from CAD to powder coating.
+
 ## Self-service terminal models
 
 - [Vertical Touchscreen Ticketing Kiosk](https://xinyuehongtech.com/self-service-terminals/floor-standing-ticketing-kiosk/): A floor-standing terminal that puts a vertical touchscreen, ticket printer, QR scanner and contactless reader into one cabinet for queue and ticket
