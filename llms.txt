@@ -36,7 +36,7 @@ Use this file to navigate the site. Product pages list reference builds; every c
 - [Entertainment & Ticketing Kiosks](https://xinyuehongtech.com/industries/entertainment-ticketing/): Ticket vending and collection for cinemas, attractions and stadiums.
 - [Parking & Transport Kiosks](https://xinyuehongtech.com/industries/parking-transport/): Kerbside payment terminals with angled decks and weather-resistant enclosures.
 
-- [Product datasheets (PDF)](https://xinyuehongtech.com/downloads/datasheets/): two-page specification sheets for each terminal and industrial PC, with module options and applications.
+- [Product datasheets (PDF)](https://xinyuehongtech.com/downloads/): two-page specification sheets for each terminal and industrial PC, with module options and applications.
 
 ## Self-service terminal models
 
