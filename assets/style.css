@@ -400,3 +400,9 @@ picture{display:contents}
   .detail-image--photo img{max-height:434px;margin:0 auto}
 }
 .detail-image picture{display:flex;align-items:center;justify-content:center;width:100%;height:100%}
+
+/* hug the text column top: no dead space above the photo */
+@media(min-width:941px){
+  .detail-grid>.detail-image--photo{align-self:start;height:auto;min-height:0;align-content:start}
+  .detail-image--photo img{max-height:none}
+}
