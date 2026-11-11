@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
 Sitemap: https://xinyuehongtech.com/sitemap.xml
+
+# AI / LLM index files
+# https://xinyuehongtech.com/llms.txt
+# https://xinyuehongtech.com/llms-full.txt
