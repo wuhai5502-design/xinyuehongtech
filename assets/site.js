@@ -83,3 +83,16 @@
     });
   }
 })();
+
+/* datasheet downloads */
+(function () {
+  document.addEventListener("click", function (e) {
+    var a = e.target;
+    while (a && a !== document.body && a.tagName !== "A") a = a.parentElement;
+    if (!a || a.tagName !== "A") return;
+    var href = a.getAttribute("href") || "";
+    if (/\.pdf(\?|$)/i.test(href) && typeof window.gtag === "function") {
+      window.gtag("event", "datasheet_download", { file: href, transport_type: "beacon" });
+    }
+  }, true);
+})();
