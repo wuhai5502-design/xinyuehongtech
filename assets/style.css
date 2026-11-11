@@ -347,3 +347,37 @@ picture{display:contents}
 .article-thumb--photo{background:#fff}
 .article-thumb--photo img{object-fit:contain}
 @media(max-width:650px){.article-row .article-thumb{width:100%;height:210px;margin-bottom:16px}}
+
+/* MOBILE FIXES 2026-11 */
+.table-caption{font-size:13px;line-height:1.55;color:#69738c;margin:18px 0 6px}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+.table-scroll>table{margin:0}
+@media(max-width:650px){
+  /* wide spec / comparison tables scroll instead of squashing into unreadable columns */
+  .table-scroll{margin:18px 0;border:1px solid var(--line);border-radius:8px;background:#fff}
+  .table-scroll>table{min-width:560px;width:560px}
+  .table-scroll>table th,.table-scroll>table td{white-space:normal}
+
+  /* WhatsApp: icon-only bubble so it stops covering body text */
+  .wa-float{right:14px;bottom:14px;padding:0;width:54px;height:54px;border-radius:50%;
+            justify-content:center;gap:0;box-shadow:0 6px 18px #09143633}
+  .wa-float .wa-txt{display:none}
+  .wa-float .wa-ico{width:54px;height:54px;background:transparent}
+  .wa-float .wa-ico svg{width:30px;height:30px;fill:#fff}
+
+  /* taller tap targets for chips and the mobile menu */
+  .category-links a{min-height:42px;display:inline-flex;align-items:center;padding:10px 16px}
+  .mobile-menu nav a{padding:13px 14px;min-height:44px;display:flex;align-items:center}
+
+  /* product hero image: smaller first-paint payload on phones */
+  .detail-image img{max-height:300px}
+  .article-figure img{max-height:320px;object-fit:contain}
+}
+
+@media(max-width:650px){
+  /* iOS zooms the page when a focused input is under 16px */
+  .form input:not([type=checkbox]):not([type=file]),
+  .form textarea,.form select{font-size:16px}
+  /* keep the table scroll obviously scrollable */
+  .table-scroll{box-shadow:inset -12px 0 12px -12px #0a173866}
+}

@@ -14,7 +14,7 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630"><meta property="og:image:alt" content="How to Choose a Self-Service Kiosk — reference kiosk unit"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="EMV Terminal Integration and Kiosk OS Choice | Xinyuehong"><meta name="twitter:description" content="How an EMV terminal mounts on a kiosk, which connection method and SDK to use, and how to choose Windows, Android or Linux for the kiosk app."><meta name="twitter:image" content="https://xinyuehongtech.com/assets/images/og/showcase-01.jpg">
 <link rel="icon" href="../../assets/favicon.ico?v=20261110a" sizes="32x32"><link rel="icon" type="image/svg+xml" href="../../assets/icon.svg?v=20261110a"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png?v=20261110a"><link rel="manifest" href="/assets/site.webmanifest?v=20261110a"><meta name="theme-color" content="#0233b0">
-<link rel="stylesheet" href="../../assets/style.css?v=20261110a"><link rel="stylesheet" href="../../assets/catalog.css?v=20261110a">
+<link rel="stylesheet" href="../../assets/style.css?v=20261111a"><link rel="stylesheet" href="../../assets/catalog.css?v=20261110a">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Shenzhen Xinyuehong Information Technology Co., Ltd.","url":"https://xinyuehongtech.com/","address":{"@type":"PostalAddress","streetAddress":"No. 38 Tian'an Road, Bantian Community","addressLocality":"Longgang District, Shenzhen","addressRegion":"Guangdong","addressCountry":"CN"},"telephone":"+8613927498231","contactPoint":[{"@type":"ContactPoint","telephone":"+8613927498231","contactType":"sales","email":"sales@xinyuehongtech.com","availableLanguage":["en","zh"]}],"description":"Self-service kiosk terminals and custom OEM/ODM kiosk hardware solutions for check-in, self-ordering, payment, ticketing and information applications.","logo":"https://xinyuehongtech.com/assets/icon-512.png","image":"https://xinyuehongtech.com/assets/images/og-cover.jpg","knowsAbout":["self-service kiosks","self-ordering kiosks","self-check-in terminals","OEM ODM kiosk customization"]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Xinyuehong","url":"https://xinyuehongtech.com/"}</script><!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QVGKHTQCZX"></script>
 <script>
@@ -45,13 +45,13 @@ gtag('config', 'G-QVGKHTQCZX');
 <p>That division is why a kiosk quote normally excludes the payment device. Where a project does integrate a reader into the cabinet face, the certification scope changes and the schedule usually does too.</p>
 
 <h2>Three ways to connect the terminal</h2>
-<table class="spec-table"><caption>Connection methods used in kiosk projects. The right choice follows from your provider's SDK, not from the cable you prefer.</caption>
+<p class="table-caption">Connection methods used in kiosk projects. The right choice follows from your provider's SDK, not from the cable you prefer.</p><div class="table-scroll"><table class="spec-table">
 <thead><tr><th scope="col">Method</th><th scope="col">Typical device</th><th scope="col">What the kiosk application does</th><th scope="col">Trade-off</th></tr></thead>
 <tbody>
 <tr><th scope="row">Serial (RS-232) with a vendor protocol</th><td>Countertop terminal from Ingenico, Verifone or PAX</td><td>Sends the amount and receives the result over a documented protocol; the terminal drives its own UI</td><td>Very stable, well understood, but the protocol and cable are device-specific</td></tr>
 <tr><th scope="row">USB or serial with a provider SDK</th><td>Terminal supplied by a PSP with a local SDK</td><td>Calls the SDK from the kiosk app; the SDK handles the transaction and the terminal screen</td><td>Cleaner integration, but the SDK ties you to one provider and often one OS</td></tr>
 <tr><th scope="row">Ethernet or cloud (semi-integrated)</th><td>Terminal with its own network link</td><td>Only displays the amount and polls the result; the terminal talks to the PSP directly</td><td>Least coupling and easiest to swap providers, at the cost of a second network drop</td></tr>
-</tbody></table>
+</tbody></table></div>
 <p>Serial is still the most common in unattended kiosks because it survives reboots and needs no driver stack. The provider SDK route is faster to build and harder to leave. The semi-integrated route is the easiest to certify, because the kiosk never handles card data at all.</p>
 
 <h2>The bracket is a drawing, not an accessory</h2>
@@ -68,13 +68,13 @@ gtag('config', 'G-QVGKHTQCZX');
 <p>Payment is not the only card interaction. Loyalty cards, staff badges, national ID and access cards are read by the kiosk, not by the payment terminal, and mixing the two confuses customers. The common arrangement is a reader bay on the kiosk for identification, and a separate certified terminal for payment, positioned so the customer does not present the same card twice to two different slots.</p>
 
 <h2>Choosing the operating system</h2>
-<table class="spec-table"><caption>Platform comparison for kiosk applications. Support status refers to the application stack, not to the hardware.</caption>
+<p class="table-caption">Platform comparison for kiosk applications. Support status refers to the application stack, not to the hardware.</p><div class="table-scroll"><table class="spec-table">
 <thead><tr><th scope="col">Platform</th><th scope="col">Best fit</th><th scope="col">Strengths</th><th scope="col">Constraints</th></tr></thead>
 <tbody>
 <tr><th scope="row">Windows (IoT Enterprise LTSC)</th><td>Applications with a full driver stack, OPOS/JavaPOS peripherals, provider SDKs that ship as Windows libraries</td><td>Widest driver and SDK support; familiar to integrators</td><td>Licence cost, larger update surface, needs a locked-down shell</td></tr>
 <tr><th scope="row">Android (AOSP)</th><td>Content, ordering and check-in apps with a small peripheral set</td><td>Cheap hardware, fast boot, simple kiosk mode</td><td>Fewer payment SDKs; serial device support depends on the board vendor</td></tr>
 <tr><th scope="row">Linux</th><td>Locked-down deployments where the application owns the whole boot chain</td><td>Smallest attack surface, no licence cost, full control</td><td>Drivers must be sourced per device; support is on you</td></tr>
-</tbody></table>
+</tbody></table></div>
 <p>The decision is usually made by one question: does your payment provider ship an SDK for that platform? A platform that cannot talk to the terminal is not a candidate, however good its price. The second question is who maintains the image in the field — remote update tooling differs sharply between the three.</p>
 
 <h2>What to settle before the drawing</h2>
