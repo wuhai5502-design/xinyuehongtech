@@ -403,6 +403,7 @@ picture{display:contents}
 
 /* hug the text column top: no dead space above the photo */
 @media(min-width:941px){
-  .detail-grid>.detail-image--photo{align-self:start;height:auto;min-height:0;align-content:start}
+  /* vertically centre the photo against the text block instead of hugging the top */
+  .detail-grid>.detail-image--photo{align-self:center;height:auto;min-height:0;align-content:center}
   .detail-image--photo img{max-height:none}
 }
