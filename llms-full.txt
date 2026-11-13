@@ -4096,3 +4096,58 @@ Send your requirements, preferred dimensions, peripherals and estimated order vo
 ## Reference units in this category
 Terminals from our build range that serve this category. Each page lists the modules visible on the unit and the operating systems supported.
 Compare with
+
+---
+
+# The CRA Reporting Clock Started in September. Kiosk Builds Are Still Catching Up
+
+URL: https://xinyuehongtech.com/news/eu-cra-kiosk-reporting/
+
+# The CRA Reporting Clock Started in September. Kiosk Builds Are Still Catching Up
+By
+## What counts as a product with digital elements
+The cabinet is not the product. The unit that goes into a hospital lobby or a bank branch is a computer running Windows, Android or Linux, an application, and a set of peripheral modules, sold as one thing. If it has any data connection, and almost every terminal does, it falls inside the definition in the Cyber Resilience Act.
+Article 3(13) puts the obligation on whoever markets the product under its own name or trademark. That is usually the company whose logo is on the front panel, not the sheet-metal shop that cut the enclosure and not the board vendor. An importer or distributor that rebrands a terminal, or modifies it substantially, takes on manufacturer duties as well. For a Chinese-built kiosk sold into the EU, the practical question is which company is legally on the hook, and it should be answered in the contract rather than worked out after an incident.
+## The clock: 24 hours, 72 hours, 14 days
+Reporting opened on 11 September 2026 and runs through the ENISA single reporting platform, which forwards a single notification to the CSIRT of the member state coordinating the case. The deadlines are short enough that the process has to exist before it is needed.
+Article 14 reporting stages
+Stage
+Deadline
+What it contains
+Early warning
+24 hours after becoming aware
+That the vulnerability is actively exploited, the affected product, and whether malicious actors are suspected.
+Notification
+72 hours
+Product and version, nature of the exploit, corrective or mitigating measures already available to users.
+Final report
+14 days after a fix exists
+Severity and impact, any known actor, and the details of the update or workaround.
+Severe incident
+24 h / 72 h / 1 month
+Same early warning and notification pattern, with the final report one month after the notification.
+The trigger is the moment you have reasonable certainty, not the moment you have a fix. That is the part manufacturers underestimate. A support engineer reading a customer report on a Monday morning can start a 24-hour clock, and the first notification does not need a root cause, only a statement that exploitation is happening.
+Jurisdiction follows the member state where cybersecurity decisions about the product are mainly taken. A manufacturer with no EU establishment gets routed by reference to its authorised representative, importer or distributor, which is one more reason to know who that is before a firmware team in Shenzhen has to file anything in Europe.
+## Where kiosk builds actually fall over
+## What the September date does not require
+It does not require CE marking. The essential requirements, the technical documentation and the conformity assessment apply from 11 December 2027. It does not require reporting every vulnerability, only actively exploited ones. And it does not require you to report a flaw that exists in a component but cannot be exploited in your configuration.
+What it does require is knowing your own build. In practice that means four things: a component inventory per product version, a fixed update path for units in the field, a named security contact reachable outside office hours, and a written support period that sales is not allowed to improvise.
+## Six questions to put in the next RFQ
+Buyers in Europe have started asking these. Suppliers who cannot answer lose the shortlist.
+- Which operating system image and version ships, and who is responsible for patching it after delivery?
+- Can you provide a component list with versions for each shipment, not just for the reference build?
+- What support period do you declare in writing, and what happens when it ends?
+- Which third-party modules have a public vulnerability disclosure channel, and where is it?
+- Who is the security contact, and what is the escalation path when a report arrives at 2 a.m.?
+- When a fix is released, how do the units already installed receive it?
+None of these are difficult questions. The difficulty is that they cut across departments: sales promises a support period, engineering owns the image, procurement owns the module vendors, and legal signs the contract. A kiosk project that has not assigned those four responsibilities will answer the first question confidently and the fifth one badly.
+## The unglamorous part
+A kiosk fleet is an IT estate of a few hundred devices, each with a screen, a computer, a printer and a reader, distributed across branches and lobbies. The CRA asks manufacturers to run it like one. That is not a certification exercise you can buy at the end of a project. It is a documentation habit that starts with the first prototype and continues for as long as the last unit is in the field.
+For anyone specifying terminals in Europe this year, the practical filter is simple: ask the six questions, and see which supplier answers all of them without forwarding your email to someone else.
+## Common questions
+Does the CRA apply to kiosks that were installed before September 2026?
+Do we have to report every vulnerability we find?
+When does CE marking under the CRA become mandatory?
+## Hardware this guide refers to
+Working on a related kiosk project? Send the requirements and we will reply with the questions that still need answers.
+## Where to go next
