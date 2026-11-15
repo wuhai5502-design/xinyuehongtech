@@ -416,3 +416,6 @@ picture{display:contents}
 @media(min-width:941px){
   .detail-grid--start>.detail-image--photo{align-self:start;align-content:start;position:sticky;top:96px}
 }
+
+/* five kiosk categories plus the display line (needs to beat catalog.css) */
+@media(min-width:1101px){.product-grid.kiosk-model-grid{grid-template-columns:repeat(5,1fr)}}
