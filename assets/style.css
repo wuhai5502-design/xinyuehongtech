@@ -407,3 +407,7 @@ picture{display:contents}
   .detail-grid>.detail-image--photo{align-self:center;height:auto;min-height:0;align-content:center}
   .detail-image--photo img{max-height:none}
 }
+
+/* wide tables keep their column widths instead of collapsing into one-character columns */
+.table-scroll>table{min-width:640px}
+.table-scroll th{white-space:nowrap}

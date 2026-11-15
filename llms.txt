@@ -91,6 +91,8 @@
 
 - [EU Cyber Resilience Act: Reporting Duties for Kiosk Builds](https://xinyuehongtech.com/news/eu-cra-kiosk-reporting/): Article 14 deadlines (24 h, 72 h, 14 days), what counts as a product with digital elements, and the six questions buyers now ask suppliers.
 
+- [Naked-Eye 3D Transparent Cabinets, 10.1 to 100 Inches](https://xinyuehongtech.com/news/naked-eye-3d-transparent-cabinet/): Transparent panel vs Pepper's ghost vs autostereoscopic, the transparency/brightness trade-off, and where the format earns its cost.
+
 ## Market and resource pages
 
 - [Self-Service Kiosks for Saudi Arabia](https://xinyuehongtech.com/saudi-arabia/): Kiosk supply for Saudi projects: SABER conformity, Arabic interface and receipt printing, 230 V/60 Hz builds, and sea freight to Jeddah or Dammam.
