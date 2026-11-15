@@ -4220,3 +4220,54 @@ Can one cabinet show both 2D video and the 3D effect?
 ## Related reading
 Working on a display cabinet or a retail installation? Send the size, the object and the lighting conditions, and we will tell you which panel route fits.
 ## Where to go next
+
+---
+
+# 3D Holographic Display Cabinets, 10.1-100 Inch
+
+URL: https://xinyuehongtech.com/hologram-display/
+
+# 3D Naked-Eye Holographic Display Cabinets
+Transparent display cabinets with a naked-eye 3D layer, from a 10.1-inch countertop pod to a 100-inch atrium installation. Cylindrical or rectangular, with the player, the lighting and the content pipeline specified as one unit rather than a panel dropped into a box.
+The cabinet is the part that decides whether the effect works. A transparent panel in a bright lobby loses contrast to the wall behind it, so the enclosure, the backing, the lighting and the standing position all have to be designed together. That is the part we build.
+## Reference specifications
+Confirmed per project; panel generation decides most of these numbers
+Display size
+10.1" to 100" diagonal; common reference sizes 21.5, 32, 43, 55, 65, 86 and 100 inches
+Panel route
+Transparent LCD (small sizes), transparent OLED (43"-86"), transparent LED film or projection (100")
+Form factor
+Cylindrical 360° pod, rectangular cabinet, or recessed wall unit
+Transparency
+About 40% on transparent OLED, about 10% on transparent LCD, film dependent above 86"
+Brightness
+400 to 800 nits peak, panel dependent; usable contrast depends on room lighting
+3D effect
+Switchable parallax barrier, lenticular film, or reflected pyramid depending on the build
+Control
+Android or Windows media player, CMS-ready, local or streamed content
+Interaction (optional)
+Touch frame, gesture sensor, lift-and-learn RFID, voice wake word
+Cabinet
+Powder-coated steel base, aluminium frame, tempered glass, LED ring and base lighting
+Mounting
+Floor plinth, countertop, suspended, or recessed
+Power
+100-240 V AC, region-specific plug, external supply in the base
+## Three build types
+## Where it is used
+- Retail counters and window displays: jewellery, watches, cosmetics, limited editions
+- Museums and visitor centres: artefacts behind glass with context layered over them
+- Hotel and office lobbies: a virtual concierge or brand character in a pod
+- Exhibition stands: the 65 to 100-inch formats draw a crowd for the length of a show
+- Automotive and industrial showrooms: cutaway components rotating in place
+- Banks and premium retail: lift-and-learn interaction on high-value items
+## What to send us
+Four things shorten the quotation: the object or character to be shown, the size you want, the light level where it will stand, and who owns the content. With those we can name the panel route, the cabinet depth and the realistic lead time. Without them any supplier can only quote a range.
+## Common questions
+Is the display actually transparent, or is it a projection?
+Why does the image look weaker in a bright room?
+Can we supply our own 3D content?
+What sizes are available?
+## Related reading
+Tell us the object, the size and the lighting, and we will reply with the panel route and the open questions.

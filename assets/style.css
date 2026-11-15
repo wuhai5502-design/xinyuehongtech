@@ -411,3 +411,8 @@ picture{display:contents}
 /* wide tables keep their column widths instead of collapsing into one-character columns */
 .table-scroll>table{min-width:640px}
 .table-scroll th{white-space:nowrap}
+
+/* long product pages: keep the photo at the top of the column and sticky while reading */
+@media(min-width:941px){
+  .detail-grid--start>.detail-image--photo{align-self:start;align-content:start;position:sticky;top:96px}
+}
