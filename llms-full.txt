@@ -4887,3 +4887,232 @@ NEXT STEP
 ## Send the module and the platform
 
 Discuss an integration ↗ OEM/ODM scope ↗
+
+---
+
+# Integrating a Fingerprint Reader into a Self-Service Kiosk
+
+URL: https://xinyuehongtech.com/news/fingerprint-reader-kiosk-integration/
+
+Quick answer: A fingerprint reader in a kiosk is a mechanical problem before it is a software problem. The sensor needs a reachable, stable, cleanable surface at the right angle, and its SDK has to run on the platform you picked. Settle the sensor’s certification, its template format and its SDK platform list before the enclosure is drawn, because all three change the deck.
+
+## Placement decides more than the sensor
+
+A public terminal is used by people of different heights, by left and right hands, and by people in a hurry. The reader belongs inside the 15 to 48 inch reach range, angled so the finger rests flat without the user bending a wrist. On a floor-standing unit that usually means the sensor sits slightly below elbow height on a sloped deck; on a wall unit it means the faceplate tilts up by 10 to 15 degrees.
+
+Two details are routinely missed. The first is the guide: a shallow ridge or a printed outline tells the user where the finger goes, and it does more for first-time success than a better sensor. The second is the second hand — a user holding a bag will present a thumb, so the aperture has to work at both orientations.
+
+## The aperture, the glass and the cleaning routine
+
+The sensor window is the part of the kiosk that gets touched by every user, so it collects skin oil faster than the screen. Ask for a flush glass cover over the sensor, a bezel with no recess where debris collects, and a cleaning routine the venue will actually follow. Alcohol-based wipes are normal in hospitals; check that the window coating survives them.
+
+If the kiosk sits outdoors or in a wet area, the aperture needs its own sealing. A sensor behind an open cut-out will pass water into the cabinet along the cable.
+
+## Power, ESD and the internal harness
+
+Most modules run from 5 V or 12 V USB and draw a few hundred milliamps; a few industrial sensors need a separate supply. Two questions decide the harness: does the vendor require a shielded cable at a maximum length, and does the sensor need a chassis ground separate from the signal ground? Static discharge through the sensor window is the most common cause of intermittent read failures in the field, and a grounded metal bezel around the aperture is the cheapest fix.
+
+## Which SDK runs on which platform
+
+This is where projects lose weeks. A sensor with a Windows-only SDK cannot go into an Android build, and a Linux driver that exists but is not maintained will not survive a kernel update. Send the vendor SDK version, the operating system you intend to run and the CPU architecture before the platform is chosen.
+
+Template format matters just as much. If the back-end programme expects ISO/IEC 19794-2 minutiae, a vendor that only exports its own proprietary template will force a conversion layer, and that layer is your problem, not the vendor’s.
+
+## Failure modes and the fallback
+
+Fingerprint reads fail on dry skin, wet hands, worn prints and gloves. A terminal with no fallback turns a two-second retry into a staff incident, so the application needs a second attempt, a clear message, and a route to a staffed counter or another credential.
+
+The five decisions to settle before the enclosure is drawn.
+
+ |  | Decision | What to confirm | What changes downstream
+
+ | Placement | Height, tilt angle, left and right hand access | Deck geometry and the faceplate drawing
+
+ | Aperture | Flush glass, sealed bezel, cleaning chemicals | Front panel design and ingress protection
+
+ | Power and ESD | Supply voltage, current, shielded cable, chassis ground | Internal harness, PSU headroom, grounding
+
+ | SDK and template | Supported OS and architecture, ISO/IEC 19794-2 output | Computing platform and the integration cost
+
+ | Fallback | Retry rules, alternative credential, staff route | Application flow and staffing model
+
+## What to send with the enquiry
+
+The sensor model and its installation drawing, the SDK version and the operating system, the template format the back-end expects, and a photograph of where the reader will sit. With those four items the aperture and the platform can be fixed in one pass, and the integration risk moves from the build stage to the review stage.
+
+## Questions integrators ask
+
+Can the kiosk use the fingerprint sensor we already deploy?
+Usually yes. Send the model and the SDK reference; the constraints are the operating system, the physical depth behind the faceplate and the supply. A sensor that works on your current Windows estate may have no Android SDK at all, which decides the platform rather than the reader.
+
+Where should the reader sit relative to the screen?
+Normally below the screen on a sloped deck, within 15 to 48 inches above finished floor, with the finger surface tilted toward the user. Keeping it below the screen also keeps the display glass free of fingerprints.
+
+Does a certified sensor certify the kiosk?
+No. FBI Appendix F or a vendor certificate applies to the sensor and its matching algorithm. The assembled terminal needs its own electrical and EMC compliance, and the biometric data handling is a separate privacy question.
+
+What causes most field failures?
+Static discharge through the window, debris in the bezel and an unshielded cable running beside a power loom. All three are mechanical fixes at the drawing stage and expensive retrofits later.
+
+How long does an integration take?
+The mechanical work is part of the standard build cycle. The variable is the software: a documented SDK with a working sample can be running in days, while a proprietary template format or an unsupported platform can add weeks.
+
+## Related reading
+
+- Fingerprint, iris and payment modules for kiosks ↗
+
+- Which approval belongs to which part of the machine ↗
+
+- Government services kiosk with document and card readers ↗
+
+- ADA reach ranges, IP and IK ratings ↗
+
+---
+
+# Iris Capture on a Self-Service Kiosk
+
+URL: https://xinyuehongtech.com/news/iris-capture-kiosk-distance-lighting-privacy/
+
+Quick answer: Iris recognition needs a defined capture zone, not just a camera. An embedded module normally expects the user at 30 to 60 cm, a long-range camera expects 1 m or more, and both need controlled light and a stable head position. If the kiosk stands in a glazed lobby, the lighting problem is solved before the hardware is chosen, not after.
+
+## Working distance sets the whole faceplate
+
+An iris module has a distance window in which the eye is in focus and the illumination reaches the iris. Below it the image is blurred; above it the eye is too small in the frame. That window decides how far the user stands from the cabinet, which decides the floor space in front of it, the height of the camera and the angle of the faceplate.
+
+A 30 to 40 cm module suits a terminal where the user leans in, like a border gate or a benefits enrolment desk. A 1 m camera suits walk-through identification, where the person keeps moving. Mixing the two intentions produces a kiosk that is comfortable for neither.
+
+## Light is the failure mode
+
+Iris matching degrades faster than fingerprint under poor light. Direct sunlight through a glazed façade, a spotlight above the unit, and the reflection of the screen on a pair of glasses are the three common causes of retry loops. Ask for the module’s tolerance to ambient light, then measure the lux where the camera will point at the time of day the queue forms.
+
+Near-infrared illumination helps and is standard on most modules, but it brings its own questions: does the module require a dark shroud, and does the IR visibly glow in a dark room?
+
+## Head position and the guidance UI
+
+Iris capture wants the eye centred and still for a moment. The kiosk cannot force a chin rest on a public terminal, so the guidance has to do the work: a live preview, a distance indicator and a clear “move closer” message. On a floor-standing unit, the camera belongs near eye height for a standing adult, which conflicts with wheelchair reach; that conflict is settled on the drawing, not in software.
+
+## Biometric data is a legal question before a technical one
+
+Iris templates are biometric data. In the EU they fall under the special categories in GDPR Article 9 and need a lawful basis and a retention rule; some jurisdictions, including several US states, require written consent before enrolment. Two technical choices follow: store a template rather than an image, and delete the template when the enrolment ends.
+
+This is also where a kiosk supplier’s scope ends. The vendor certifies the reader, the operator owns the data and the legal basis, and the integration has to make that division visible to the user.
+
+## When iris is the wrong choice
+
+Iris is a poor fit for children, for outdoor units with uncontrolled light, and for high-throughput queues where a two-second hold is too long. It is a strong fit where the population is enrolled in advance, the environment is controlled, and the identity check has to be difficult to spoof.
+
+Capture distance and what it changes in the cabinet.
+
+ |  | Working distance | Typical use | What changes in the build
+
+ | 30–40 cm | Enrolment, border gate, benefits desk | Shallow faceplate, camera near eye height, guidance UI
+
+ | 50–60 cm | Access control, employee terminals | Larger stand-off, floor marking, hood against overhead light
+
+ | 1 m and beyond | Walk-through identification | Long-range camera, separate mounting, no touch surface
+
+## What to send with the enquiry
+
+The module and its stated distance range, the light level where the unit will stand, the population being enrolled and the retention rule for the templates. With those four answers the faceplate geometry and the guidance flow can be designed together.
+
+## Questions integrators ask
+
+Can an iris module be added to an existing kiosk cabinet?
+Sometimes. The limit is usually the faceplate: the camera needs a clear line at the right height and angle, and the panel behind it needs room for the module. A cabinet designed for a card reader rarely has that depth.
+
+Does iris work through glasses and contact lenses?
+Usually, if the user removes tinted or strongly reflective glasses. Sunglasses, wet lenses and heavy glare are the common failures. The guidance UI should ask the user to remove sunglasses rather than let the reader retry silently.
+
+Is an iris image stored on the kiosk?
+It should not be. The standard pattern is to capture, extract a template and send that; the image is discarded. Storing images on a public terminal creates a data-protection problem with no operational benefit.
+
+Can one kiosk support fingerprint and iris?
+Yes, and it is common in enrolment projects. Each modality needs its own aperture and its own guidance, so the faceplate grows and the flow has to decide which credential the user presents first.
+
+What certification applies to an iris reader?
+The vendor certifies the reader, and the template format normally follows ISO/IEC 19794-6. The assembled terminal still needs its own electrical and EMC compliance, and the data handling is governed by the operator’s privacy basis.
+
+## Related reading
+
+- Fingerprint, iris and payment modules for kiosks ↗
+
+- Compliance scope, and who holds which document ↗
+
+- Exit-entry and immigration self-service kiosk ↗
+
+- Height, reach and ingress ratings ↗
+
+---
+
+# Unattended Card Payment on a Kiosk
+
+URL: https://xinyuehongtech.com/news/unattended-card-payment-kiosk/
+
+Quick answer: An unattended kiosk needs a payment terminal the acquirer has approved for unattended use, mounted so the keypad is reachable and the cable cannot be pulled, plus a fallback path for the moment the network drops. The kiosk provides the aperture, bracket, power and cable route; the PCI PTS approval and the merchant approval stay with the terminal and the acquirer.
+
+## Unattended is a different approval, not a different bracket
+
+A terminal approved for countertop use is not automatically approved for a lane with no member of staff present. Unattended operation changes the risk profile: there is no clerk to check the card, no one to void a transaction, and the device sits in public view for hours. The acquirer has to confirm that the specific model is supported in unattended mode, and that confirmation belongs in writing before the cabinet is drawn.
+
+## The mounting decides the transaction
+
+The terminal is mounted on the cabinet, not built into it, because the device keeps its own approval and its own replacement cycle. That means a cut-out sized to the exact model, a metal bracket that takes the force of a customer leaning on the keypad, and a cable route that cannot be unplugged from outside.
+
+Three mounting details are worth drawing explicitly: the keypad angle, so the PIN shield is not defeated by a tall user looking down; the privacy hood, where the queue stands within a metre; and the service access, because a terminal that needs a screwdriver and a removed side panel to swap will slow every repair.
+
+## Power, network and what happens when it drops
+
+Run the terminal from the kiosk supply through the bracket, with a short cable that cannot be pulled out from the customer side. Surge protection matters more than it does at a counter, because an outdoor or kerbside unit shares its feed with lighting and gates.
+
+For the network, decide the failure behaviour before the hardware is ordered. Most projects fail closed: the screen says payment is unavailable and offers the nearest staffed point. Store-and-forward is a decision for the payment provider and the acquirer, and it is not something a cabinet can add later.
+
+## Receipts, refunds and reconciliation
+
+An 80 mm printer with an auto-cutter covers the ordinary receipt. Where the receipt is a tax document, the paper grade and the retention rule change, and a duplicate copy needs a policy rather than a second button. Refunds stay in the payment platform; the kiosk shows the policy and routes the customer to staff.
+
+Reconciliation is the part that tends to be discovered late: someone has to close the batch, and on an unattended unit that someone is remote. Ask who owns settlement, how the terminal reports, and what the daily close procedure looks like before the unit ships.
+
+Where attended and unattended payment differ.
+
+ |  | Item | Attended counter | Unattended kiosk
+
+ | Device approval | Standard countertop terminal | Model explicitly approved for unattended use
+
+ | Failure handling | Clerk retries or takes another method | Screen message plus a defined alternative route
+
+ | Mounting | Cable on a stand | Bracket, cut-out, cable locked inside the cabinet
+
+ | Reconciliation | Manual close at the counter | Remote close with a written daily procedure
+
+ | Receipts | Handed over | Printed at the unit, with a duplicate policy
+
+## What to send with the enquiry
+
+The terminal model and the acquirer’s unattended confirmation, the payment methods to accept, the network available at the site, and who closes the batch each day. Those four answers decide the bracket, the printer position and the fallback message.
+
+## Questions integrators ask
+
+Can we use a standard countertop terminal in a kiosk?
+Only if the acquirer confirms it for unattended use. Putting a countertop terminal inside a cabinet does not change what it is approved for, and an unsupported deployment puts the merchant agreement at risk rather than the hardware.
+
+Who certifies the payment part of the kiosk?
+The terminal vendor holds the PCI PTS approval and the acquirer approves the merchant integration. The kiosk is the host: mounting, power, aperture and cable route. No cabinet maker can certify a payment flow it does not operate.
+
+What if the customer’s card is declined?
+The terminal reports it; the kiosk shows a neutral message and offers the alternative path. Do not let the application guess why a transaction failed, because the terminal is the only party that knows.
+
+Can the kiosk take cash as well?
+Yes, with an acceptor or recycler, but cash adds depth, a vault, a jam-clearing door and a collection routine. It is a service decision before it is a hardware one, and it changes the reconciliation procedure.
+
+How much space does the terminal need inside the cabinet?
+Enough for the device body, its connector, a service loop and the bracket fixing. The installation drawing from the terminal vendor is the only reliable source for that number, which is why it is requested before the sheet metal is cut.
+
+## Related reading
+
+- Fingerprint, iris and payment modules for kiosks ↗
+
+- The PCI PTS boundary, explained ↗
+
+- Mounting an EMV terminal and choosing the OS ↗
+
+- Parking payment terminal with an angled deck ↗

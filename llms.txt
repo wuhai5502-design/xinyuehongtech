@@ -81,6 +81,9 @@
 
 ## Guides and articles
 
+- [Integrating a Fingerprint Reader into a Self-Service Kiosk](https://xinyuehongtech.com/news/fingerprint-reader-kiosk-integration/): Quick answer: where the sensor belongs, how the aperture and grounding decide reliability, which SDK platform to check first, and the fallback when a read fails.
+- [Iris Capture on a Self-Service Kiosk](https://xinyuehongtech.com/news/iris-capture-kiosk-distance-lighting-privacy/): Quick answer: working distance, lighting failures, head position and the privacy rule for iris templates on a public terminal.
+- [Unattended Card Payment on a Kiosk](https://xinyuehongtech.com/news/unattended-card-payment-kiosk/): Quick answer: why a countertop terminal is not approved for an unattended lane, how it mounts, what happens when the network drops, and who closes the batch.
 - [How to Choose a Self-Service Kiosk Manufacturer in China](https://xinyuehongtech.com/news/choose-self-service-kiosk-manufacturer-china/): Quick answer: Three supplier types (sheet-metal factory, integrator, trading company), what a 1-unit MOQ covers versus tooling, the seven project stages behind a 15-day lead time, and where a manufacturer's responsibility ends on card payment.
 - [Floor-Standing vs Wall-Mounted Kiosks](https://xinyuehongtech.com/news/floor-standing-vs-wall-mounted-kiosks/): Quick answer: Compare kiosk installation styles by footprint, viewing height, serviceability, peripherals and customer traffic patterns.
 - [Hotel Check-in Kiosk Hardware: Peripherals and Enclosure](https://xinyuehongtech.com/news/hotel-kiosk-peripherals-enclosure/): Quick answer: Four peripherals decide a hotel check-in build — passport or ID reader, key card dispenser with a lock-vendor encoder, camera and receipt printer — plus a mounted payment terminal.
