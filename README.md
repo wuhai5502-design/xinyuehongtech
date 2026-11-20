@@ -4,6 +4,13 @@ Source of **[xinyuehongtech.com](https://xinyuehongtech.com/)** — the website 
 
 **Live site: https://xinyuehongtech.com/**
 
+[Self-service kiosks](https://xinyuehongtech.com/self-service-terminals/) ·
+[Industrial PCs](https://xinyuehongtech.com/industrial-pc/) ·
+[OEM/ODM](https://xinyuehongtech.com/customization/) ·
+[Compliance](https://xinyuehongtech.com/certifications/) ·
+[Datasheets](https://xinyuehongtech.com/downloads/) ·
+[Guides](https://xinyuehongtech.com/news/)
+
 ## What we build
 
 | Range | Examples |
@@ -14,6 +21,12 @@ Source of **[xinyuehongtech.com](https://xinyuehongtech.com/)** — the website 
 
 Minimum order quantity is one unit for standard builds. Standard lead time is 15 days from deposit and approved drawing inside our standard module set.
 
+## Compliance and documentation
+
+Terminals are engineered for CE, FCC and RoHS, support ADA-compliant mounting heights and can be fitted with IK08 tempered cover glass. Card payments run on a separately certified terminal mounted on the cabinet, so the PCI PTS approval stays with the acquirer's device rather than with the kiosk. Certification scope is confirmed per model and per destination; the [compliance page](https://xinyuehongtech.com/certifications/) explains which document belongs to which party.
+
+Two-page PDF datasheets for every model, with specifications, module options and typical applications: https://xinyuehongtech.com/downloads/
+
 ## About this repository
 
 This repo is the **static production site**: hand-written HTML, one stylesheet, about 100 lines of vanilla JavaScript. There is no build step, no framework and no server-side code — the files are served directly by GitHub Pages behind Cloudflare.
@@ -23,11 +36,12 @@ index.html                     home page
 self-service-terminals/        19 model pages + category listing
 industrial-pc/                 4 platform pages + category listing
 products/                      6 application categories
-industries/                    hospital / banking / government guides
+industries/                    9 industry guides (hospital, banking, government, retail…)
+certifications/                CE, FCC, RoHS and PCI PTS scope
 saudi-arabia/                  market page (SABER, Arabic UI, freight)
 news/                          buying guides and technical articles
 assets/                        css, js, images (WebP with JPEG fallback)
-sitemap.xml  robots.txt  llms.txt
+sitemap.xml  robots.txt  llms.txt  llms-full.txt
 ```
 
 Every page carries its own title, meta description, canonical URL, Open Graph tags and JSON-LD (`Organization`, `WebSite`, `BreadcrumbList`, and `Product` / `FAQPage` / `Article` where relevant).
