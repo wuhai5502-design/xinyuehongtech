@@ -1,0 +1,106 @@
+name: IndexNow ping
+
+# Submits changed pages to IndexNow (Bing, Yandex, Seznam and partners) after
+# GitHub Pages has actually published them. Google does not use IndexNow.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    env:
+      HOST: xinyuehongtech.com
+      # Key file: <KEY>.txt at the site root, contents must equal KEY.
+      KEY: 132dc170929073fd59ae8bddff25099e
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Collect changed URLs
+        id: collect
+        run: |
+          set -euo pipefail
+          : > urls.txt
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            # Manual run: resubmit every page in the live sitemap.
+            curl -sS "https://$HOST/sitemap.xml" \
+              | grep -o '<loc>[^<]*</loc>' \
+              | sed -e 's|</\?loc>||g' \
+              | grep -v '\.pdf$' >> urls.txt || true
+          else
+            BASE="${{ github.event.before }}"
+            if [ -z "$BASE" ] || ! git cat-file -e "$BASE^{commit}" 2>/dev/null; then
+              BASE="HEAD~1"
+            fi
+            git diff --name-only "$BASE" "${{ github.sha }}" > changed.txt || true
+            while read -r f; do
+              [ -n "$f" ] || continue
+              case "$f" in
+                */index.html) [ -f "$f" ] && echo "https://$HOST/${f%/index.html}/" >> urls.txt ;;
+                index.html)   echo "https://$HOST/" >> urls.txt ;;
+                *.pdf)        [ -f "$f" ] && echo "https://$HOST/$f" >> urls.txt ;;
+              esac
+            done < changed.txt
+          fi
+
+          sort -u urls.txt -o urls.txt
+          COUNT=$(grep -c . urls.txt || true)
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "URLs to submit ($COUNT):"
+          cat urls.txt
+
+      - name: Wait for GitHub Pages to publish
+        if: steps.collect.outputs.count != '0'
+        run: |
+          set -euo pipefail
+          FIRST=$(head -n 1 urls.txt)
+          COMMIT_TS=$(git show -s --format=%ct "${{ github.sha }}")
+          echo "first url: $FIRST"
+          echo "commit time: $COMMIT_TS"
+          for i in $(seq 1 12); do
+            LM=$(curl -sS -o /dev/null -D - "$FIRST" 2>/dev/null \
+                 | tr -d '\r' \
+                 | awk 'tolower($1)=="last-modified:" { $1=""; sub(/^ /,""); print; exit }')
+            if [ -n "$LM" ]; then
+              TS=$(date -d "$LM" +%s 2>/dev/null || echo 0)
+              echo "attempt $i: last-modified=$LM (epoch $TS)"
+              if [ "$TS" -ge "$COMMIT_TS" ]; then
+                echo "deployment confirmed"
+                exit 0
+              fi
+            else
+              echo "attempt $i: no last-modified header yet"
+            fi
+            sleep 20
+          done
+          echo "::warning::Pages deployment not confirmed within 4 minutes; submitting anyway"
+
+      - name: Submit to IndexNow
+        if: steps.collect.outputs.count != '0'
+        run: |
+          set -euo pipefail
+          jq -n --arg host "$HOST" --arg key "$KEY" --arg kl "https://$HOST/$KEY.txt" \
+                --rawfile urls urls.txt \
+                '{host:$host, key:$key, keyLocation:$kl,
+                  urlList: ($urls | split("\n") | map(select(length > 0)))}' > payload.json
+          echo "submitting $(jq '.urlList | length' payload.json) URLs"
+          CODE=$(curl -sS -o /dev/null -w '%{http_code}' -X POST \
+                 -H 'Content-Type: application/json; charset=utf-8' \
+                 --data-binary @payload.json https://api.indexnow.org/indexnow)
+          echo "IndexNow HTTP $CODE"
+          case "$CODE" in
+            200|202) echo "submitted" ;;
+            *) echo "::error::IndexNow rejected the submission (HTTP $CODE)"; exit 1 ;;
+          esac
