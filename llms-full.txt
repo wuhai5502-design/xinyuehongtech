@@ -4271,3 +4271,311 @@ Can we supply our own 3D content?
 What sizes are available?
 ## Related reading
 Tell us the object, the size and the lighting, and we will reply with the panel route and the open questions.
+
+---
+
+# How to Choose a Self-Service Kiosk Manufacturer in China
+
+URL: https://xinyuehongtech.com/news/choose-self-service-kiosk-manufacturer-china/
+
+Quick answer: Quick answer: A self-service kiosk manufacturer builds the enclosure, mounts the printer, scanners and card readers, loads the operating-system image and tests the assembled terminal. In China the three supplier types are sheet-metal factory, integrator and trading company, and two questions tell them apart. A 1-unit MOQ covers labour and programming, not tooling. A 15-day lead time starts after deposit and drawing approval. And payment certification belongs to the terminal vendor and the acquirer, never to the kiosk cabinet.
+
+A self-service kiosk is a mechanical product wrapped around someone else’s software. That single fact defines the job, and it defines the boundary of what a manufacturer can be held to. The scope is the part a software team cannot fix from a laptop: the cabinet that has to survive a public lobby, the module stack that has to be reachable and serviceable, the computing platform that must still boot after a 12-hour thermal soak, and the cable routing that has to pass an electrician’s inspection.
+
+## What a self-service kiosk manufacturer is responsible for
+
+In practical terms, a full-scope kiosk manufacturer owns five things.
+
+- Enclosure engineering. Sheet-metal design, material choice, powder-coat finish, service access and cable management.
+
+- Module integration. Mounting and wiring the printer, scanner, camera, card readers, PIN pad and payment-terminal bracket as one assembly.
+
+- Platform selection. Matching x86 or Arm boards to the operating system, the I/O count and the environment.
+
+- Build and test. Assembly, burn-in, final inspection and packing.
+
+- Documentation. Drawings, module list, test record and packing list.
+
+Anything outside that list is either your job or a separate supply contract. A kiosk factory will not certify your payment flow, will not write your ordering app and, correctly, will not promise that an uncertified reader works with an acquirer.
+
+## Factory, integrator, trader: the three supplier types
+
+The supplier type decides what you can change and who carries the risk when a drawing moves. It is usually visible in the second answer, not the first.
+
+Three supplier types in the Chinese kiosk market, and how each one is verified.
+
+ | Supplier type | What it owns | What it can change | How to verify
+
+Sheet-metal kiosk factory | Laser cutting, CNC bending, welding, coating line, assembly and a test bench | Cabinet geometry, cut-outs, module layout, finish, branding | Video of the cut and bend stage, or a dated photo of your drawing on the shop floor
+
+Integrator / assembler | Assembly and testing; buys cabinets from a fabricator | Module mix, PC platform, software image, small bracket changes | Who fabricates the enclosure, and whether they can introduce you to that workshop
+
+Trading company | Nothing physical | Supplier selection, documents, consolidation, freight | The factory’s business licence name, matched against the audit report
+
+None of these is automatically wrong. A trading company can be the right answer when you need twenty different SKUs consolidated, and an integrator can be excellent at niche module stacks. What is wrong is buying factory pricing and factory accountability from a company that does not have a factory. The audit checklist further down settles the question in a single call.
+
+## Eight questions that separate a factory from a reseller
+
+Ask them in this order. The first two answers usually decide how to read the rest.
+
+Question set for a first supplier call, with the answers that distinguish a builder from a reseller.
+
+ | # | Question | Weak answer | Strong answer
+
+1 | Who cuts and bends the cabinet? | “Our partner factory.” | A named workshop, a machine list, and a willingness to show the cut sheet for your drawing
+
+2 | Which modules are mounted and tested before shipping? | “All of them.” | A written module list with part numbers, plus which items the factory mounts and which you supply
+
+3 | Who loads the OS image and installs the drivers? | “The software is yours.” | A named engineer, the image build process, and how driver versions are frozen for repeat orders
+
+4 | Can I see the test record for my unit? | “We test everything.” | A burn-in log with a serial number, a start and end time, and the modules exercised
+
+5 | Which certifications apply to this exact model? | “CE and FCC.” | The certificate number, the issuing laboratory, the model designation on the certificate and the market it covers
+
+6 | What is standard and what is project-specific in this quote? | One lump price | A line-by-line split: standard parts, modified parts, new tooling
+
+7 | What happens when the PC platform reaches end of life? | Silence | A stated supply period, a last-time-buy arrangement, and a replacement platform already qualified
+
+8 | Who handles the payment terminal approval? | “We can integrate any payment.” | An explicit statement that certification stays with the terminal vendor and your acquirer, plus the mounting and cabling scope
+
+Question 5 is the one buyers most often get wrong. “CE and FCC” is a claim, not evidence. The certificate has to name the model you are buying, because a kiosk with a different screen, a different PC and a different printer is a different product from a compliance point of view.
+
+## What a 1-unit MOQ actually means
+
+A minimum order of one unit is common among Shenzhen kiosk builders, and it is misunderstood in both directions. It does not mean the factory will invent a new cabinet for the price of a standard one, and it does not mean the quote is a loss leader.
+
+MOQ 1 is a statement about labour and programming, not about tooling. A sheet-metal shop can cut one set of panels, bend them on the same CNC press brake it uses for a batch of fifty, and send a single unit through the same assembly and burn-in route. What it cannot do for free is build a new enclosure from a blank page, make new forming tools, or match a custom powder-coat colour in a batch smaller than the coating line’s minimum load.
+
+So the useful MOQ question is not “what is your minimum”, but: which parts of my configuration are standard, which are modified, and which require new tooling, and what is the smallest order for each?
+
+The answer usually comes back in three tiers: standard module set with MOQ 1, a modified cabinet from an existing design at a small batch, and a new enclosure where tooling and setup are recovered over a stated volume. Any factory that quotes without that split will surprise you later, usually at the invoice.
+
+## What a 15-day lead time covers
+
+Published lead times are usually accurate and usually narrower than buyers assume. The 15-day figure that appears on many Chinese kiosk sites refers to production inside the standard module set, counted from deposit plus an approved drawing or sample. It is a production number, not a project number.
+
+The seven project stages, what starts each clock and what stops it.
+
+ | Stage | Clock starts when | Clock stops when | What stretches it
+
+Requirement review | You send the brief | Open technical questions are answered | Unclear software stack, unspecified peripherals
+
+Feasibility and budget | Requirements are fixed | OEM or ODM route is chosen and quoted line by line | Deciding between standard and custom late
+
+Enclosure design | Route is agreed | Drawing is approved in writing | Logo artwork, colour matching, cut-out changes
+
+Prototype | Drawing is signed | Sample is built and powered | New tooling, non-standard modules
+
+Validation | Sample arrives | Your software runs on the unit and the change list is closed | Drivers, SDK versions, integration testing on your side
+
+Pilot run | Change list is closed | Process documents and inspection criteria are fixed | Certification testing
+
+Production and shipping | Deposit received | Units pass inspection and are packed | Component lead times, booking space, documentation
+
+Two rules follow. First, the production clock cannot start before the drawing is approved, so every day spent on artwork and sign-off is a day added to the end, not absorbed in the middle. Second, validation is the stage buyers underestimate, because it is the only stage that depends on someone other than the factory: your application, your SDK, your payment provider.
+
+Ask any supplier to put dates against these seven stages in writing. A factory that will only commit to a single number for the whole project has not understood the project.
+
+## Certification, payment, and the boundary nobody explains
+
+Three separate approval systems sit around a kiosk, and confusing them is the most expensive mistake in this category.
+
+## Product compliance: CE, FCC, RoHS and market schemes
+
+These apply to the assembled product and to what is inside it. A kiosk built for the EU needs CE marking supported by the right directive testing; a unit shipped to Saudi Arabia needs SABER conformity documents; a US deployment needs FCC compliance for the radio and computing parts. Certification scope is per model and per destination, and it belongs in the quotation rather than in a footer logo.
+
+## Accessibility and physical ratings
+
+ADA reach ranges, roughly 15 to 48 inches above finished floor for the operable parts, plus IP ratings for dust and water and IK classes for the cover glass, are specification items rather than marketing lines. They change the drawing: mounting height changes the cabinet, IP65 changes the sealing and the ventilation path, IK08 changes the glass.
+
+## Payment approval: PCI PTS and scheme certification
+
+This is the one manufacturers cannot own. A card reader or PIN pad is certified as a device, and the acquirer approves the merchant’s integration. The kiosk’s job is mechanical and electrical: a cut-out that fits the terminal, a mounting bracket, a power and cable route, and enough space for a customer to reach the keypad comfortably. Where a project needs an integrated reader, that decision belongs to the payment provider and the kiosk drawing follows it.
+
+A useful test in any supplier conversation: ask them to describe where their responsibility ends on a card transaction. The good answer draws a line at the terminal connector. The bad answer draws it nowhere.
+
+## Factory audit checklist
+
+If you cannot visit Shenzhen, audit by document and by video call. Ask for each item below, and treat a refusal as an answer in itself.
+
+Twelve items to request before a deposit, and what each one proves.
+
+ | # | Item | Ask for | Why it matters
+
+1 | Laser cutting | Photo or video of the cut sheet with your drawing number | Proves the drawing reached the floor
+
+2 | CNC bending | Press-brake tooling list | Bending accuracy drives panel fit and door alignment
+
+3 | Welding and finishing | Weld dressing and powder-coat line photos | Visible seams and colour variation appear here
+
+4 | Coating batch control | Colour standard and batch record | Repeat orders must match the first batch
+
+5 | Assembly area | Photo of your unit mid-build | Shows whether modules are mounted as one set
+
+6 | Burn-in bench | Log with serial number, duration and modules exercised | The single best predictor of field reliability
+
+7 | Test equipment | List of meters, test jigs and software used | Reveals whether testing is functional or cosmetic
+
+8 | ESD and handling | Wrist straps, matting, packaging station | Protects boards and touch controllers
+
+9 | QC records | Incoming, in-process and outgoing inspection sheets | Shows a process, not a promise
+
+10 | RMA process | Written procedure and response time | Tells you what happens after something fails
+
+11 | Spare parts commitment | List of consumables and stocked spares | Printers and card readers wear out first
+
+12 | Documentation | Drawings, module list, packing list, test record | What you need when the unit is in another country
+
+Twelve items, one call, about forty minutes. It is the highest-return hour in a kiosk project.
+
+## How to compare two quotations
+
+Quotes for the same kiosk are rarely comparable, because each supplier scopes the edge items differently. Normalise to one sheet before comparing prices.
+
+Line items to normalise across two kiosk quotations.
+
+ | Line item | What to pin down
+
+Cabinet | Material thickness, finish, colour, logo method, mounting, service access
+
+Display and touch | Size, resolution, brightness, touch technology, cover glass and IK rating
+
+Computing | CPU, RAM, storage, OS licence, port count
+
+Printer | Paper width, cutter, paper-low sensor, bezel and outlet position
+
+Scanner | 1D or 2D, scan window material, illumination
+
+Readers | Card types, NFC/RFID, ID document reader, PIN pad
+
+Payment | Terminal model, bracket, cut-out, cable route, who supplies the device
+
+Software | Image build, driver versions, SDK, who owns updates
+
+Certification | Which scheme, which market, who pays, which model name appears
+
+Testing | Burn-in duration, inspection criteria, record format
+
+Packaging | Carton, foam, pallet, drop standard
+
+Delivery | Incoterm, port, lead time trigger, documents included
+
+After-sales | Warranty term, spare parts, response time
+
+Two quotes that survive this table are genuinely comparable. Most do not, and the difference is usually not price but scope: a cheaper quote often omits certification testing, a spare-parts commitment or the OS licence.
+
+## Red flags worth walking away from
+
+- A price with no module list. If the printer model is not named, it is not specified.
+
+- Certification claimed for a model number you have not seen on a certificate. Ask for the PDF.
+
+- No burn-in record, only “we test 100%”. A record costs nothing to produce if the test exists.
+
+- A promise to certify your payment flow. Nobody outside the payment chain can make that promise.
+
+- A drawing that arrives after the deposit. Design is the cheap part; it should come first.
+
+- A lead time quoted without a start condition. “15 days” means nothing without “from deposit and approved drawing”.
+
+- No answer on end-of-life. A kiosk lives five to eight years; PC platforms do not.
+
+## What to send in a first inquiry
+
+A good inquiry is short and specific. It gets a useful reply in a day instead of a brochure.
+
+- Application. What the customer does at the terminal, in one sentence.
+
+- Venue and conditions. Indoor or outdoor, footfall, ambient temperature, floor space or wall space.
+
+- Peripherals. Printer, scanner, camera, card readers, ID reader, payment terminal model.
+
+- Software. Operating system, application, SDK or API constraints, who owns updates.
+
+- Reference design. A photo, a sketch or a link. Often faster than a written spec.
+
+- Volume and schedule. Pilot quantity, expected annual volume, target installation date.
+
+- Market and certification. Destination country and the schemes that apply.
+
+- Commercial terms. Incoterm, destination port, who handles import clearance.
+
+Send the list even if half the answers are “not decided yet”. Naming the open questions is itself a useful signal to the supplier, and it usually shortens the requirement review.
+
+## How Xinyuehong fits this checklist
+
+Shenzhen Xinyuehong Information Technology Co., Ltd. builds self-service kiosk terminals and the industrial computers inside them, at No. 38 Tian’an Road, Bantian Community, Longgang District, Shenzhen. The points below map to the checklist above, so they can be tested rather than taken on trust.
+
+Reference build data for the factory behind this guide.
+
+ | Item | Detail
+
+Products | Floor-standing, wall-mounted and countertop kiosks from 15.6 to 32 inches; fanless box PCs, panel PCs, Android boards and wall-mount touch panels
+
+Modules | 80 mm thermal printers, 1D/2D scanners, cameras, IC/ID and bank card readers, national ID readers, card dispensers, PIN pads, NFC/RFID
+
+Platforms | Intel Celeron J6412 and Core i3/i5 on x86 with Windows or Linux; Rockchip RK3568 and RK3399 on Android, with an SDK for OS-level customisation
+
+MOQ | 1 unit on the standard module set
+
+Lead time | 15 days from deposit and approved drawing or sample, within the standard module set
+
+Testing | 12-hour burn-in per unit, with display, card readers, printer and scanner exercised in a loop
+
+Fabrication | Laser cut, CNC bent and powder coated in-house; colour and logo approved on a sample first
+
+Compliance | Engineered for CE, FCC and RoHS; ADA mounting heights; IK08 tempered cover glass option; PCI-PTS and EMV terminal cut-outs
+
+Documentation | Two-page PDF datasheets for 23 models, plus drawings and test records per project
+
+Contact | sales@xinyuehongtech.com · +86 139 2749 8231 on WhatsApp · reply within 24 hours
+
+The OEM/ODM route runs through seven stages: requirement, feasibility and budget, enclosure design, prototype, validation, pilot run, production and shipping, with something approved in writing before each stage starts. That structure exists because the alternative, a single price and a single date, is what produces the disputes that fill sourcing forums.
+
+To test the process rather than read about it, send one reference photo and one sentence about the task. The reply will be the closest existing build, the questions that remain open, and the next step.
+
+## Questions buyers ask most
+
+What does a self-service kiosk manufacturer actually make?
+It makes the enclosure, integrates the printer, scanners, card readers and payment bracket, installs the computing platform and operating system image, and tests the assembled terminal. It does not normally write your application software or certify your card payments.
+
+What is a realistic MOQ for a custom kiosk?
+One unit is realistic when the configuration stays inside a standard module set and an existing cabinet design. A modified cabinet typically needs a small batch, and a new enclosure needs a volume that recovers tooling and setup costs. Ask for the three-tier split in writing.
+
+How long does a custom kiosk take to build?
+Production inside the standard module set commonly runs about 15 days from deposit and drawing approval. A new enclosure or a new module stack adds design, tooling, prototype and validation time before that clock starts, so the project date is always longer than the production date.
+
+Can a kiosk manufacturer work with software I already use?
+Usually yes, if the interfaces are documented. Send the operating system, application, driver list and SDK requirements early. Payment flows that involve card schemes stay with your certified provider, with the kiosk handling the physical mounting and cabling.
+
+Who certifies card payments on a kiosk?
+The payment terminal vendor holds the device certification and your acquirer approves the merchant integration. The kiosk manufacturer provides the cut-out, bracket, power and cable route. No cabinet maker can certify a payment flow it does not operate.
+
+What certifications should a kiosk carry?
+For the EU, CE marking with the relevant directive testing; for the US, FCC compliance for the radio and computing parts; RoHS for material restrictions. Destination-specific schemes apply in some markets, such as SABER for Saudi Arabia. Confirm the certificate names the exact model you are buying.
+
+How do I verify a factory I cannot visit?
+Audit by document and video call: the cut sheet with your drawing number, the bending tooling, the coating batch record, a burn-in log with a serial number, inspection sheets and an RMA procedure. A refusal on any of those is more informative than a tour.
+
+What should I send in a first inquiry?
+The application, venue, peripheral list, software stack, a reference photo, estimated volume, target date and destination market. Open questions can be listed as open. That is enough for a configuration recommendation and a first quotation.
+
+## Standards and further reading
+
+- How to choose a self-service kiosk ↗
+
+- OEM/ODM project checklist ↗
+
+- What a self-service kiosk costs in 2026 ↗
+
+- ADA height, IP65 and IK ratings explained ↗
+
+- Mounting an EMV terminal and choosing the OS ↗
+
+- OEM and ODM customization scope ↗
+
+- All self-service kiosk models ↗
+
+- Product datasheets (PDF) ↗
+
+- Request a quotation ↗

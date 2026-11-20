@@ -9,7 +9,7 @@
 - Manufacturing: self-service kiosk terminals, industrial PCs, embedded boards
 - Engagement model: OEM and ODM, one-unit minimum order quantity, 15-day reference lead time
 - Website: https://xinyuehongtech.com/ | Email: sales@xinyuehongtech.com | WhatsApp: +86 139 2749 8231
-- This file: https://xinyuehongtech.com/llms.txt (updated 2026-11-11). Full text of every page: https://xinyuehongtech.com/llms-full.txt
+- This file: https://xinyuehongtech.com/llms.txt (updated 2026-11-20). Full text of every page: https://xinyuehongtech.com/llms-full.txt
 
 ## Core pages
 
@@ -78,6 +78,7 @@
 
 ## Guides and articles
 
+- [How to Choose a Self-Service Kiosk Manufacturer in China](https://xinyuehongtech.com/news/choose-self-service-kiosk-manufacturer-china/): Quick answer: Three supplier types (sheet-metal factory, integrator, trading company), what a 1-unit MOQ covers versus tooling, the seven project stages behind a 15-day lead time, and where a manufacturer's responsibility ends on card payment.
 - [Floor-Standing vs Wall-Mounted Kiosks](https://xinyuehongtech.com/news/floor-standing-vs-wall-mounted-kiosks/): Quick answer: Compare kiosk installation styles by footprint, viewing height, serviceability, peripherals and customer traffic patterns.
 - [Hotel Check-in Kiosk Hardware: Peripherals and Enclosure](https://xinyuehongtech.com/news/hotel-kiosk-peripherals-enclosure/): Quick answer: Four peripherals decide a hotel check-in build — passport or ID reader, key card dispenser with a lock-vendor encoder, camera and receipt printer — plus a mounted payment terminal.
 - [How to Choose a Self-Service Kiosk](https://xinyuehongtech.com/news/how-to-choose-a-self-service-kiosk/): Quick answer: A practical method for defining kiosk application, display, peripherals, operating system and deployment conditions before requesting a quotation.
