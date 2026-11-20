@@ -420,8 +420,9 @@ picture{display:contents}
 /* kiosk grid: four cards per row on wide screens */
 @media(min-width:1101px){.product-grid.kiosk-model-grid{grid-template-columns:repeat(4,1fr)}}
 
-/* product detail pages: cap prose to a comfortable measure, keep tables and galleries full width */
+/* product detail pages: centre the reading column, cap prose, keep tables and galleries full width */
 @media(min-width:900px){
+  .detail-page .rich-text{max-width:1000px;margin-left:auto;margin-right:auto}
   .detail-page .rich-text>p,
   .detail-page .rich-text>h2,
   .detail-page .rich-text>h3,
@@ -430,5 +431,5 @@ picture{display:contents}
   .detail-page .rich-text>dl,
   .detail-page .rich-text>.table-caption,
   .detail-page .rich-text>.faq-list,
-  .detail-page .rich-text>.numbered-list{max-width:74ch}
+  .detail-page .rich-text>.numbered-list{max-width:76ch}
 }
