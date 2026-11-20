@@ -4680,3 +4680,210 @@ NEXT STEP
 ## Send the market and the model
 
 Request a compliance scope ↗ Datasheets ↗
+
+---
+
+# Fingerprint, Iris and Payment Modules for Kiosks
+
+URL: https://xinyuehongtech.com/developers/
+
+MODULE INTEGRATION
+
+# Fingerprint, Iris and Payment Modules for Kiosks
+
+Which biometric and payment modules are commonly specified for self-service projects, where each vendor fits, and what happens inside the cabinet once the module is chosen.
+Kiosk modelsCompliance scopeOEM/ODM process
+
+## How a module becomes part of a kiosk
+
+On most projects the module is the customer’s choice, not ours. A tender names a fingerprint reader, a hospital standardises on one payment terminal, a border programme specifies an iris camera. Our job starts after that decision: cut the aperture to the device, provide power and a cable route, keep the reader at a reachable height, and leave room for the consumables and the service access.
+
+Three things have to be settled before the drawing is approved. First, whether the vendor ships an SDK for the platform we are using, because a Windows-only driver ends an Android build immediately. Second, the physical envelope: depth behind the faceplate, connector orientation, and whether the device needs a light shroud. Third, who carries the certification, since a certified reader does not make the assembled kiosk certified by itself.
+
+The lists below describe the module landscape. Brand names are trademarks of their respective owners. Mentioning a vendor is not a claim of partnership, resale or endorsement, and the final configuration is always confirmed per project.
+
+## Fingerprint modules
+
+Where the main international vendors sit, and what each is normally chosen for.
+
+01
+
+## HID Global
+
+United States and Sweden. The Crossmatch and DigitalPersona lines sit behind many government, banking and border terminals. U.are.U and DigitalPersona readers ship SDKs for Windows, Linux and Android, which is why they are the default when a tender document names a brand.
+
+02
+
+## Suprema
+
+South Korea. SFM fingerprint modules and BioMini scanners with a well-documented SDK. Common in access control and self-service because the module is compact, the supply chain is short and the SDK is easy to work with.
+
+03
+
+## Integrated Biometrics
+
+United States. Kojak, Watson and Columbo sensors are FBI Appendix F certified and thin enough to sit in a shallow deck. Chosen for mobile ID and border work where the captured image is checked against a quality standard.
+
+04
+
+## SecuGen
+
+United States. Hamster Pro readers and a deliberately simple SDK. A pragmatic choice for attendance, access control and smaller kiosk fleets where an elaborate biometric platform is not needed.
+
+05
+
+## IDEMIA
+
+France. Morpho biometrics at government scale: enrolment, national ID and border control. Usually specified by the programme rather than selected by the integrator, so the kiosk is built around a fixed device.
+
+06
+
+## Dermalog
+
+Germany. Industrial-grade fingerprint hardware with a certification-heavy approach, common in European border and public-sector deployments where documentation matters as much as the sensor.
+
+07
+
+## Futronic
+
+Taiwan. FS80 and FS88 sensors with a small SDK and a low unit price. Frequent in cost-sensitive attendance and kiosk projects where basic image quality is sufficient.
+
+08
+
+## ZKTeco
+
+China. Very high volume, low cost and a broad product range. Widely used where price dominates and the project does not carry a certification requirement for the sensor itself.
+
+## Iris modules
+
+Iris is a harder integration than fingerprint, because the reader needs a working distance, controlled light and a stable head position. The module choice usually follows from the environment rather than from the sensor specification.
+
+01
+
+## Iris ID
+
+United States. iCAM series readers for access control and self-service. A finished unit rather than a bare sensor, which simplifies the mechanical design and the service access.
+
+02
+
+## IriTech
+
+United States and South Korea. IriShield modules designed to be embedded, compact enough for a kiosk faceplate and supplied with an SDK for custom software.
+
+03
+
+## IrisGuard
+
+United Kingdom. EyePay combines iris identification with payment, used in humanitarian and unbanked programmes where identity and disbursement are one transaction.
+
+04
+
+## Princeton Identity
+
+United States. Long-range iris capture from an SRI lineage, suited to walk-through identification rather than the close-range posture of a kiosk.
+
+05
+
+## CMITech
+
+South Korea. Iris camera modules rather than finished readers, chosen when the cabinet has to carry the optics and the front panel is designed around the lens.
+
+06
+
+## IDEMIA, Thales and NEC
+
+France, France and Japan. Iris at border-control scale, normally embedded in a government programme with its own hardware qualification list.
+
+## Payment terminals
+
+Payment is the one module the kiosk cannot certify on its own. The terminal carries PCI PTS approval, the acquirer approves the merchant integration, and the kiosk supplies a cut-out, a bracket, power and a cable route.
+
+01
+
+## Ingenico
+
+France, part of Worldline. A broad terminal range including unattended models, common in European and Middle East deployments where the acquirer names the device.
+
+02
+
+## Verifone
+
+United States. Strong in North America with a portfolio that runs from countertop devices to unattended terminals.
+
+03
+
+## PAX Technology
+
+China, Shenzhen. High global volume, wide certification coverage and competitive pricing; frequently chosen for export projects that need a certified device quickly.
+
+04
+
+## Newland
+
+China, Fujian. Strong in emerging markets and a practical alternative to PAX where price, availability or a specific acquirer relationship decides.
+
+05
+
+## Castles Technology
+
+Taiwan. Mid-range terminals with good coverage in South-East Asia and Europe, often used where a local acquirer already supports the model.
+
+06
+
+## Nayax
+
+Israel. Unattended payment for vending, parking and EV charging. The specialist choice when the kiosk must take payment with no staff and no network assumptions.
+
+07
+
+## ID Tech and MagTek
+
+United States. Card reader modules rather than terminals, used when the kiosk integrates the read head directly and the certification path is owned by the acquirer’s software stack.
+
+## What to check before specifying a module
+
+The questions that decide whether a module can go into the cabinet as drawn.
+
+ |  | Module | Check | Why it matters
+
+ | Fingerprint | FBI Appendix F certification, ISO/IEC 19794-2 template format | Decides whether the captured print is accepted by the back-end programme
+
+ | Fingerprint | Sensor type: optical, capacitive or thin-film | Sets the deck depth, the glass window and the cleaning routine
+
+ | Iris | ISO/IEC 19794-6 template format, working distance | A 30 cm reader and a 1 m reader need different faceplate geometry
+
+ | Iris | Behaviour with glasses, sunlight and overhead lighting | Iris degrades faster than fingerprint under bad lighting
+
+ | Payment | PCI PTS version, EMVCo Level 1 and 2 | The terminal holds the approval; the kiosk must not disturb it
+
+ | Payment | Unattended-mode support | A countertop POS terminal is not approved for an unattended lane
+
+ | All modules | Interface and supply: USB, UART or Wiegand; 5, 12 or 24 V; current draw | Decides the internal harness and the power budget before the PSU is chosen
+
+ | All modules | Operating temperature and cleaner tolerance | A public lobby and a hospital ward clean the front face differently
+
+## Integration questions
+
+Can you integrate a module we already use?
+Yes, and most projects start that way. Send the exact model and the SDK version you plan to use. We check platform support, the physical envelope and the supply budget before the cabinet drawing is approved, and flag anything that will not fit or will not run.
+
+Do you supply the module, or do we?
+Either. Where the vendor allows distribution we can quote the module with the kiosk; where it does not, the module is customer-supplied and we integrate it. Keeping the device on your account also keeps its warranty and SDK access with you.
+
+Who certifies the biometric device?
+The vendor certifies the reader, and the local privacy or data-protection rules govern how the biometric data is stored and retained. We handle the mechanical and electrical integration and make sure the device is mounted where it can be reached and serviced.
+
+Which payment terminals can go into an unattended kiosk?
+Only models the acquirer approves for unattended use, with the terminal’s own PCI PTS approval intact. A standard countertop terminal is not a substitute, and moving it into a cabinet does not change what it is approved for.
+
+Are you a partner or reseller of the brands listed?
+No. This page describes the module landscape and how we integrate a named device. Partnership, resale or endorsement is never implied, and brand names remain the property of their owners.
+
+What do you need to quote a module integration?
+The module model and its installation drawing, the operating system the SDK must run on, the interface and supply requirements, and where the module sits on the panel. A photograph of a reference unit helps more than a paragraph of description.
+
+NEXT STEP
+
+## Send the module and the platform
+
+Discuss an integration ↗ OEM/ODM scope ↗

@@ -22,6 +22,8 @@
 - [Kiosk Compliance and Documentation](https://xinyuehongtech.com/certifications/): Which approvals a self-service terminal needs, who holds each one, the PCI PTS boundary that stays with the terminal vendor, and the five questions that expose a supplier overclaim.
 - [Contact Us | Request a Self-Service Kiosk Quote](https://xinyuehongtech.com/contact/): Contact Shenzhen Xinyuehong Information Technology Co., Ltd. for self-service kiosk requirements, specifications and OEM/ODM inquiries.
 
+- [Fingerprint, Iris and Payment Modules for Kiosks](https://xinyuehongtech.com/developers/): Which biometric and payment modules are commonly specified for kiosks, where each international vendor sits, the checks that decide whether a module fits the cabinet, and the PCI PTS boundary.
+
 ## Industries
 
 - [Airport Self Check-in Kiosks & Bag Tag Printing](https://xinyuehongtech.com/industries/airport-aviation/): Airport self check-in kiosks with passport capture, boarding pass and bag tag printing, and multi-language interfaces for departures halls.
