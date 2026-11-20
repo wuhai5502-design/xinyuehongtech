@@ -63,18 +63,19 @@ jobs:
 
       - name: Wait for GitHub Pages to publish
         if: steps.collect.outputs.count != '0'
+        continue-on-error: true
         run: |
-          set -euo pipefail
+          set -uo pipefail
           FIRST=$(head -n 1 urls.txt)
           COMMIT_TS=$(git show -s --format=%ct "${{ github.sha }}")
           echo "first url: $FIRST"
           echo "commit time: $COMMIT_TS"
           for i in $(seq 1 12); do
-            LM=$(curl -sS -o /dev/null -D - "$FIRST" 2>/dev/null \
-                 | tr -d '\r' \
+            HEADERS=$(curl -sS --max-time 25 -o /dev/null -D - "$FIRST" 2>/dev/null) || HEADERS=""
+            LM=$(printf '%s\n' "$HEADERS" | tr -d '\r' \
                  | awk 'tolower($1)=="last-modified:" { $1=""; sub(/^ /,""); print; exit }')
             if [ -n "$LM" ]; then
-              TS=$(date -d "$LM" +%s 2>/dev/null || echo 0)
+              TS=$(date -d "$LM" +%s 2>/dev/null) || TS=0
               echo "attempt $i: last-modified=$LM (epoch $TS)"
               if [ "$TS" -ge "$COMMIT_TS" ]; then
                 echo "deployment confirmed"
@@ -86,6 +87,7 @@ jobs:
             sleep 20
           done
           echo "::warning::Pages deployment not confirmed within 4 minutes; submitting anyway"
+          exit 0
 
       - name: Submit to IndexNow
         if: steps.collect.outputs.count != '0'
