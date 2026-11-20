@@ -4562,6 +4562,8 @@ The application, venue, peripheral list, software stack, a reference photo, esti
 
 ## Standards and further reading
 
+The numbers in this guide come from published standards rather than supplier habit: ADA 308 and 309 for reach ranges on public terminals, IEC 60529 for IP ratings, IEC 62262 for IK impact classes, PCI PTS for payment-terminal security, and the EU Cyber Resilience Act for vulnerability reporting on connected kiosks. Ask any supplier which revision of each standard their drawing was checked against, and put the answer in the specification.
+
 - How to choose a self-service kiosk ↗
 
 - OEM/ODM project checklist ↗
