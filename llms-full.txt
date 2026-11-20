@@ -4581,3 +4581,102 @@ The numbers in this guide come from published standards rather than supplier hab
 - Product datasheets (PDF) ↗
 
 - Request a quotation ↗
+
+---
+
+# Kiosk Compliance and Documentation
+
+URL: https://xinyuehongtech.com/certifications/
+
+COMPLIANCE
+
+# Compliance and Documentation for Kiosk Projects
+
+A self-service terminal is a mains-powered product with a screen, a computer, a printer and often a payment terminal beside it. This page explains which approval belongs to which part of the machine, and how to check a supplier’s claim before the deposit.
+Kiosk modelsOEM/ODM processChoosing a manufacturer
+
+## What a kiosk has to prove
+
+Several approval routes run in parallel on one terminal, and they are rarely held by the same party. The table below is the map we use in a requirement review: it decides who has to produce which document, and what happens when one of them is missing at customs.
+
+Approval routes around a self-service terminal, and who normally holds each one.
+
+ |  | Requirement | Applies to | Held by | Document to ask for
+
+ | Electrical safety | The assembled terminal, mains input to enclosure | Whoever places the unit on the market: the importer or the brand owner | Safety test report naming the exact model and input rating
+
+ | EMC | The terminal and the modules inside it | Same as above, supported by module reports | Emissions and immunity report plus declaration
+
+ | Radio | Wi-Fi, Bluetooth or cellular modules | The module vendor, with a host integration statement | Module certificate and the integration conditions
+
+ | RoHS and REACH | Materials and components | The factory, through supplier declarations | Declaration of conformity and component statements
+
+ | Accessibility | Reach ranges, mounting height, contrast | The designer and the installer | Drawing showing mounting heights and clear floor space
+
+ | Ingress and impact | Enclosure and cover glass | The factory, per model and per option | Test report or the labelled IP and IK rating
+
+ | Card payment | The payment terminal, not the kiosk | The terminal vendor and your acquirer | Device certificate and the acquirer’s approval
+
+ | Connected software | The product with digital elements | The brand owner or manufacturer | Vulnerability reporting process and support period
+
+## CE is a file, not a sticker
+
+In the EU the CE mark is the visible end of a technical file: a risk assessment, test reports, a declaration of conformity and instructions the end user can follow. The mark itself proves nothing, which is why a serious supplier talks about the file and the laboratory rather than the logo. A kiosk carrying a different screen, computer or printer from the tested sample is a different product for this purpose, so the model name on the report has to match the model name on the purchase order.
+
+## FCC is about the radio, not the cabinet
+
+In the United States the compliance question is usually about the modules that radiate: Wi-Fi, Bluetooth, cellular or an RFID reader. Those modules are certified as components, and the host has to respect the integration conditions in the module grant. A kiosk without a radio may sit outside that route entirely; a kiosk with a 4G modem does not.
+
+## Accessibility is a drawing decision
+
+Reach ranges, mounting heights and clear floor space are settled on the drawing, long before any certificate is issued. On a public terminal the operable parts belong roughly between 15 and 48 inches above finished floor, and a wheelchair user needs clear space in front of the unit. A cabinet mounted at eye height looks tidy and fails the person who cannot reach it.
+
+## The payment boundary
+
+A card terminal carries its own PCI PTS approval and its own scheme certification, and your acquirer approves the merchant integration. The kiosk provides a cut-out sized for that exact device, a bracket, power and a cable route. When a reader is built into the cabinet face instead of mounted on it, the certification scope changes, and that is a different project with a different timeline.
+
+## Destination schemes change the file
+
+Electrical products entering Saudi Arabia go through SABER, with a product certificate for the model and a shipment certificate per consignment, both tied to the importer of record. The United Kingdom keeps its own marking route. Some markets add energy, labelling or telecom approvals on top. Certification scope is therefore per model and per destination, and it belongs in the quotation rather than in a footer logo.
+
+## What we hand over on a project
+
+Xinyuehong terminals are engineered for CE, FCC and RoHS, support ADA-compliant mounting heights, can be fitted with IK08 tempered cover glass, and are built with cut-outs for PCI-PTS and EMV terminals. Which of those apply to your unit, and which laboratory tests it, is confirmed in writing during the specification review. Where a project needs a document we do not hold, we say so before the deposit rather than after it.
+
+## Five questions that expose an overclaim
+
+- Which model name is on the certificate? If it does not match the model you are buying, the certificate covers a different product.
+
+- Which laboratory issued it? A named laboratory with an accreditation number can be checked; “our factory is certified” cannot.
+
+- Who is the certificate holder? A factory certificate held by a trading company is not the same document as a certificate for your model.
+
+- What is excluded? Every real certificate has a scope; the exclusions usually explain the whole argument.
+
+- Who pays for the testing this project needs? If nobody has answered that question, the cost has not been quoted.
+
+## Compliance questions buyers ask
+
+Does a kiosk need its own CE certificate?
+The assembled terminal needs a technical file and a declaration of conformity, supported by test reports for the model as built. The certificate on a component inside it does not transfer to the finished machine.
+
+Is the payment terminal covered by the kiosk compliance file?
+No. The terminal is a separately certified device with its own PCI PTS approval. The kiosk is the host, and its file covers the cabinet, power and the mounting of that device.
+
+Can you supply CE and FCC reports for our model?
+Testing is quoted per model and per destination because it is a real cost. Send the model, the market and the quantities, and the scope is confirmed in the quotation along with the laboratory and the timeline.
+
+What is required for Saudi Arabia?
+SABER conformity: a product certificate for the model and a shipment certificate for each consignment, both issued through the importer of record. Arabic interface and 230 V / 60 Hz builds are specified alongside it.
+
+Does the EU Cyber Resilience Act apply to a kiosk?
+Where the terminal has connected software, yes, and reporting duties now run on a 24-hour clock for actively exploited vulnerabilities. The support period and update route belong in the specification, not in a brochure.
+
+What accessibility documentation should be provided?
+A drawing that shows mounting height, reach ranges and clear floor space in front of the unit. ADA and EN 301 549 both turn on those dimensions, and both are settled before the cabinet is cut.
+
+NEXT STEP
+
+## Send the market and the model
+
+Request a compliance scope ↗ Datasheets ↗

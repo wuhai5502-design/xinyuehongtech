@@ -19,6 +19,7 @@
 - [OEM/ODM Custom Kiosk Enclosure & Integration](https://xinyuehongtech.com/customization/): From sheet-metal CAD design and laser cutting to peripheral SDK integration and 12-hour aging tests. Build custom kiosk hardware with 1-unit prototype support.
 - [Kiosk & Industrial PC Datasheets (PDF)](https://xinyuehongtech.com/downloads/): Download two-page PDF datasheets for 23 self-service terminal and industrial PC models: specifications, module options and typical applications.
 - [About Us | Self-Service Kiosk Manufacturer](https://xinyuehongtech.com/about/): Learn how Xinyuehong handles self-service kiosk and industrial computer projects: requirement review, enclosure design, integration and platform choice.
+- [Kiosk Compliance and Documentation](https://xinyuehongtech.com/certifications/): Which approvals a self-service terminal needs, who holds each one, the PCI PTS boundary that stays with the terminal vendor, and the five questions that expose a supplier overclaim.
 - [Contact Us | Request a Self-Service Kiosk Quote](https://xinyuehongtech.com/contact/): Contact Shenzhen Xinyuehong Information Technology Co., Ltd. for self-service kiosk requirements, specifications and OEM/ODM inquiries.
 
 ## Industries

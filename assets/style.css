@@ -419,3 +419,16 @@ picture{display:contents}
 
 /* kiosk grid: four cards per row on wide screens */
 @media(min-width:1101px){.product-grid.kiosk-model-grid{grid-template-columns:repeat(4,1fr)}}
+
+/* product detail pages: cap prose to a comfortable measure, keep tables and galleries full width */
+@media(min-width:900px){
+  .detail-page .rich-text>p,
+  .detail-page .rich-text>h2,
+  .detail-page .rich-text>h3,
+  .detail-page .rich-text>ul,
+  .detail-page .rich-text>ol,
+  .detail-page .rich-text>dl,
+  .detail-page .rich-text>.table-caption,
+  .detail-page .rich-text>.faq-list,
+  .detail-page .rich-text>.numbered-list{max-width:74ch}
+}
