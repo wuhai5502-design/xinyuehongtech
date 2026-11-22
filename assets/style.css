@@ -433,3 +433,14 @@ picture{display:contents}
   .detail-page .rich-text>.faq-list,
   .detail-page .rich-text>.numbered-list{max-width:76ch}
 }
+
+/* OEM/ODM route section: photo pair and decision lists */
+.route-photos{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:32px 0 0}
+.route-photos figure{margin:0;background:#f7f9ff;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.route-photos img{width:100%;height:auto;display:block}
+.route-photos figcaption{padding:14px 16px 16px;font-size:14px;line-height:1.55;color:#46536e}
+.route-photos figcaption strong{color:var(--ink)}
+.route-decide{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:28px 0 0}
+.route-decide h3{font-size:17px;margin:0 0 8px;color:var(--ink)}
+.route-decide ul{margin:0;padding-left:18px;font-size:15px;line-height:1.6;color:#46536e}
+@media(max-width:760px){.route-photos,.route-decide{grid-template-columns:1fr}}
