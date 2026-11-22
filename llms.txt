@@ -81,6 +81,7 @@
 
 ## Guides and articles
 
+- [Hospital Self-Service Terminals: Registration, Payment and Report Printing](https://xinyuehongtech.com/news/hospital-self-service-terminal-buying-guide/): Quick answer: registration, payment and report printing are three different jobs with different readers, printers and service times; how to split them, size the hall from peak arrivals, and what to put in the RFQ.
 - [Integrating a Fingerprint Reader into a Self-Service Kiosk](https://xinyuehongtech.com/news/fingerprint-reader-kiosk-integration/): Quick answer: where the sensor belongs, how the aperture and grounding decide reliability, which SDK platform to check first, and the fallback when a read fails.
 - [Iris Capture on a Self-Service Kiosk](https://xinyuehongtech.com/news/iris-capture-kiosk-distance-lighting-privacy/): Quick answer: working distance, lighting failures, head position and the privacy rule for iris templates on a public terminal.
 - [Unattended Card Payment on a Kiosk](https://xinyuehongtech.com/news/unattended-card-payment-kiosk/): Quick answer: why a countertop terminal is not approved for an unattended lane, how it mounts, what happens when the network drops, and who closes the batch.

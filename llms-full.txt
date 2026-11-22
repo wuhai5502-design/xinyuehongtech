@@ -5116,3 +5116,99 @@ Enough for the device body, its connector, a service loop and the bracket fixing
 - Mounting an EMV terminal and choosing the OS ↗
 
 - Parking payment terminal with an angled deck ↗
+
+---
+
+# Hospital Self-Service Terminals: Registration, Payment and Report Printing
+
+URL: https://xinyuehongtech.com/news/hospital-self-service-terminal-buying-guide/
+
+Quick answer: A hospital self-service project is three different machines pretending to be one: registration, payment and report printing. Each has its own documents, its own service time and its own queue. Most hospitals are better served by registration and payment on one dual-screen unit in the outpatient hall, and a separate printer near the collection window, both connected to the hospital system through an interface it already supports.
+
+## Why the three jobs usually split
+
+Registration is document-heavy and slow: the patient presents an ID card, an insurance card or a booking reference, and the terminal has to read at least one of them before anything else happens. Payment is fast and repetitive. Report printing is bursty and happens at a different place in the building, usually near the laboratory or the collection window, long after the consultation.
+
+Merging all three into one cabinet looks efficient on a specification sheet and creates a single point of failure in the hall: a jammed A4 printer stops registration, and a patient collecting a report queues behind twenty people registering.
+
+The three jobs, and what each one needs from the hardware.
+
+ |  | Job | What the patient brings | Modules | Service time
+
+ | Registration | ID card, insurance card or booking QR | Card and document readers, touchscreen, slip printer | 90–120 seconds
+
+ | Payment | Bank card, QR code, registration slip | Payment terminal on a bracket, receipt printer, barcode scanner | 30–60 seconds
+
+ | Report printing | ID card, collection code, appointment slip | A4 laser printer, ID reader, sometimes a camera | 60–90 seconds
+
+## Registration: the deck is decided by the documents
+
+The reader set follows the document mix, and the document mix follows the hospital’s registration policy. A hospital that accepts national ID cards, insurance cards and a booking QR needs three different readers in the deck, which changes the front panel, the cable harness and the service access.
+
+Two design rules survive contact with real patients. Put the card slot at the same height as the screen’s lower edge, so the patient does not have to look down and then up again. And keep a manual-entry path with a staffed desk within sight, because document readers fail on worn cards and on visitors who present a passport instead of an ID card.
+
+## Payment: the part that belongs to the acquirer
+
+Fee collection in an outpatient hall is usually card and QR, not cash. The payment terminal mounts on the cabinet with its own certification, and the hospital’s finance office owns the merchant agreement. The kiosk contributes the aperture, the bracket, the power and the cable route, plus the receipt printer and a screen message that says what to do when a transaction fails.
+
+If insurance settlement is part of the flow, it usually happens in the hospital system rather than on the terminal, and the kiosk only displays the result. Confirm which system settles before the screen flow is designed.
+
+## Report printing: the queue nobody plans for
+
+Report collection peaks in the late morning and again in the afternoon, and it is the step where privacy matters most. The terminal should verify identity before releasing the document, print to A4 rather than a slip, and stand where the printed page cannot be read by the next person in the queue.
+
+Paper capacity is an operational number, not a technical one: a unit printing 200 reports a day needs a tray that does not empty before lunch, and a restocking routine that belongs to a named person rather than to “the department”.
+
+## How many units
+
+Size the hall by peak arrivals, not by daily totals. Multiply the busiest hour’s registrations by the service time in minutes, divide by 60, and add a third as a buffer for retries and assisted cases.
+
+A hall taking 300 registrations between 07:00 and 10:00 averages 100 an hour; at two minutes each that is 3.3 concurrent users, and with the buffer it is four or five units. The same arithmetic on a single merged unit that also prints reports will undersize the hall, because the report queue borrows time from the registration queue.
+
+## What to put in the RFQ
+
+- The three workflows, written separately, with the documents each one accepts.
+
+- The system that holds the booking and the bill, and the interface it offers: API, local agent or browser session.
+
+- The printing format for each job: 80 mm slip for registration and payment, A4 for reports.
+
+- The payment terminal model and the acquirer, so the cut-out is drawn for the exact device.
+
+- Placement: floor-standing in the hall, wall-mounted beside a corridor, counter-height at a staffed desk.
+
+- Peak arrivals per hour and the number of units the hospital expects, so the sizing can be checked.
+
+- Cleaning and privacy requirements, because they decide the front-face finish and the screen filter.
+
+## Questions hospitals ask
+
+Can one unit handle registration and payment?
+Yes, and a dual-screen cabinet is the usual answer: a guidance display above, the working touchscreen below, with readers and a receipt printer on the deck. It should not also print A4 reports, because the paper path and the service access belong to a different machine.
+
+Do we need a separate report-printing terminal?
+Almost always. Report collection happens at a different time and place from registration, and an A4 printer in the registration cabinet slows every patient behind the person collecting a report.
+
+How does the kiosk connect to the hospital information system?
+The kiosk exposes its readers, printer and payment device to your application, which talks to the hospital system through an API, a local agent or a browser session. Send the interface the hospital already supports before the platform is chosen, because it decides the operating system and the network design.
+
+What about patient privacy at the terminal?
+A privacy filter or recessed screen where the queue stands within a metre, a release rule that verifies identity before printing, and no card data stored on the kiosk. Biometric capture, if it is used at all, needs a lawful basis and a retention rule owned by the hospital.
+
+What is the minimum order and lead time?
+One unit for standard builds, and 15 days from deposit and approved drawing inside the standard module set. A new cabinet or a new reader set adds design and prototype time before that clock starts.
+
+Which certifications apply?
+Electrical safety and EMC for the assembled terminal, CE or FCC depending on the market, RoHS for materials. The payment terminal keeps its own PCI PTS approval, and a hospital kiosk is not normally a medical device, but local procurement rules can add requirements that the quotation has to cover.
+
+## Related reading
+
+- Hospital self-service kiosks, by workflow ↗
+
+- Registration and payment kiosk, dual screen ↗
+
+- Medical record printing kiosk ↗
+
+- What a kiosk costs, and what the quote includes ↗
+
+- Which approval belongs to which part of the machine ↗
