@@ -35,7 +35,50 @@ gtag('config', 'G-QVGKHTQCZX');
 <div class="rich-text">
 <h2>Interfaces on this unit</h2><p>Interfaces listed below are the ones visible on the reference photos. Port counts and levels for your build are confirmed in the specification review.</p><ul class="check-list"><li>Dark-bezel touch display</li><li>Rear aluminium housing with X-braced mount</li><li>VESA holes on the mounting frame</li><li>Side cable junction and gland</li><li>Wi-Fi antenna connector at the rear</li><li>USB service port inside the junction box</li></ul>
 <h2>Configuration options</h2><p>Points to agree before a quotation. Final availability, interfaces and ratings depend on the selected platform.</p><ul class="check-list"><li>Screen size and 4:3 or wide aspect ratio</li><li>Projected capacitive or resistive touch</li><li>Brightness, anti-glare treatment and optical bonding</li><li>Front panel ingress protection rating</li><li>VESA arm, panel cut-out or X-brace mounting</li><li>Windows, Android or Linux platform image</li></ul>
+<h2>How a panel PC is chosen for a kiosk</h2>
+<p>A panel PC is the simplest way to build a terminal: the display, the touch sensor and the computer are one sealed unit, so the cabinet only has to hold a rectangle and route one cable. The four decisions below are the ones that change the specification.</p>
+
+<h3>Screen size follows the viewing distance, not the cabinet</h3>
+<p>A 10 to 15 inch panel suits an arm-mounted HMI where the operator stands at 40 to 60 cm. A 21.5 inch panel suits a counter terminal read at arm&rsquo;s length. Anything at 27 inch and above is a kiosk faceplate, read from 1 m or more, and the enclosure starts to be designed around the panel rather than the other way round.</p>
+
+<h3>The front face is the only part that has to survive the public</h3>
+<p>IP65 on the front panel means the face can be washed; it says nothing about the rear. For a lobby or a semi-outdoor unit, specify the front rating, the glass (tempered or anti-glare), and the cleaning chemicals the venue actually uses. A resistive touch layer still makes sense where gloves are mandatory; for everything else, projected capacitive is the default.</p>
+
+<h3>Mounting decides the service model</h3>
+<p>Panel-mount clamps the unit into a cut-out in the machine or the cabinet door, which is compact but means the whole unit comes out for service. VESA on an X-braced frame lets a technician reach the rear connectors without removing the panel. An arm mount is the third option and the one that most often fouls a door or a guard.</p>
+
+<h3>Fanless is a thermal decision, not a fashion</h3>
+<p>A sealed enclosure with no fan has no filter to change and no airflow path for dust, which is why it dominates kiosk and HMI work. The trade-off is a lower sustained CPU budget: if the application runs video analytics or a heavy browser session, the platform moves up to a box PC with a larger heatsink, or the enclosure gets a ventilation path and loses its sealing.</p>
+
+<p class="table-caption">Panel PC, fanless box PC or Android board: which one fits the job.</p><div class="table-scroll"><table class="spec-table">
+<thead><tr><th scope="col">Option</th><th scope="col">Best fit</th><th scope="col">Service access</th><th scope="col">Where it stops working</th></tr></thead>
+<tbody>
+<tr><th scope="row"><a href="industrial-pc/industrial-panel-pc/">Industrial panel PC</a></th><td>All-in-one terminal: HMI, kiosk faceplate, control cabinet door</td><td>Panel-mount removal or rear VESA access</td><td>Very large screens, or a cabinet that needs a separate display position</td></tr>
+<tr><th scope="row"><a href="industrial-pc/fanless-box-pc/">Fanless box PC</a></th><td>Cabinet with a display already chosen, or several outputs from one computer</td><td>Drawer or door, no display to remove</td><td>Where cable length to the panel becomes a signal problem</td></tr>
+<tr><th scope="row"><a href="industrial-pc/industrial-motherboard/">Android embedded board</a></th><td>Single-purpose content, signage, cost-sensitive builds</td><td>Open the cabinet</td><td>Windows-only drivers or a payment SDK with no Android build</td></tr>
+</tbody></table></div>
+
 <h2>Typical applications</h2><div class="numbered-list"><div><span>01</span><h3>Machine-side HMI on production equipment</h3></div><div><span>02</span><h3>Control and monitoring panel in a cabinet door</h3></div><div><span>03</span><h3>Shop-floor dashboard display</h3></div><div><span>04</span><h3>Operator terminal at a test station</h3></div></div>
+<h2>Where this panel PC goes</h2>
+<p>The same platform sits inside terminals built for different workflows. Each of these pages lists the modules visible on the unit and the operating systems supported, which is usually the fastest way to see whether a configuration resembles yours.</p>
+<ul class="link-list">
+<li><a href="self-service-terminals/bank-self-service-kiosk/">Bank self-service kiosk with PIN pad &#8599;</a></li>
+<li><a href="self-service-terminals/hospital-registration-payment-kiosk/">Hospital registration and payment kiosk, dual screen &#8599;</a></li>
+<li><a href="self-service-terminals/government-services-card-reader-kiosk/">Government services kiosk with document readers &#8599;</a></li>
+<li><a href="self-service-terminals/parking-payment-terminal/">Parking payment terminal with an angled deck &#8599;</a></li>
+<li><a href="self-service-terminals/floor-standing-ticketing-kiosk/">Vertical touchscreen ticketing kiosk &#8599;</a></li>
+<li><a href="self-service-terminals/multi-industry-self-service-terminal/">32-inch multi-industry self-service terminal &#8599;</a></li>
+<li><a href="self-service-terminals/wall-mounted-hospital-payment-terminal/">Wall-mounted hospital payment terminal &#8599;</a></li>
+<li><a href="self-service-terminals/countertop-touch-kiosk/">Tilted countertop touch kiosk &#8599;</a></li>
+</ul>
+
+<h2>Related reading</h2>
+<ul class="link-list">
+<li><a href="news/kiosk-ada-ip-ik-ratings/">ADA reach ranges, IP and IK ratings for a public terminal &#8599;</a></li>
+<li><a href="news/kiosk-thermal-design-24-7-reliability/">Why kiosks fail in 24/7 operation, and what thermal design fixes &#8599;</a></li>
+<li><a href="news/kiosk-touchscreen-technology-comparison/">PCAP, infrared and resistive touch compared &#8599;</a></li>
+<li><a href="news/self-service-kiosk-modules-guide/">The eight module families a kiosk can carry &#8599;</a></li>
+</ul>
 <h2>Before you request a quotation</h2><div class="faq-list"><details><summary>Which screen size and aspect ratio does your HMI expect?</summary><div>The HMI layout usually fixes the ratio before the panel is chosen. Send the target resolution and the mounting cut-out and the panel is matched to both; scaling an HMI designed for 4:3 onto a 16:9 panel rarely looks right.</div></details><details><summary>Will operators wear gloves or use a stylus?</summary><div>Glove use and stylus input change the touch technology: projected capacitive works with thin gloves and most styluses, while resistive remains the safer choice for heavy gloves and wet hands. State the working condition, not just the preference.</div></details><details><summary>What ingress protection does the front panel need?</summary><div>Front-face protection is specified per installation: a wash-down area needs a sealed front and stainless bezel, while a dry control cabinet does not. The rear of the panel normally sits inside the enclosure and does not carry the same rating.</div></details><details><summary>How is the panel mounted: arm, cut-out or bracket?</summary><div>Arm mount, panel cut-out and VESA bracket are all supported, but each changes the rear clearance and the cable route. The mounting is decided with the enclosure drawing, not after the panel arrives.</div></details></div>
 <h2>Discuss your project</h2><p>Tell us the application, environment and I/O requirements. We reply with the questions that still need answers and the next step.</p><p><a class="cta-btn" href="contact/">Discuss Industrial Panel PC</a></p>
 <h2>Kiosks using this platform</h2><p>Terminals from our build range that typically run on a computing unit of this class.</p><div class="related-grid"><a href="self-service-terminals/sloped-touch-information-kiosk/"><picture><source type="image/webp" srcset="assets/images/showcase/showcase-06-480.webp?v=20261107d 480w, assets/images/showcase/showcase-06.webp?v=20261107d 800w" sizes="(max-width:720px) 45vw, 240px"><img src="assets/images/showcase/showcase-06.jpg?v=20261107d" alt="Sloped horizontal touchscreen information kiosk" width="800" height="800" loading="lazy" decoding="async"></picture><span class="related-name">Sloped Touch Information Kiosk</span><span class="related-meta">Floor-standing</span></a><a href="self-service-terminals/exit-entry-immigration-kiosk/"><picture><source type="image/webp" srcset="assets/images/showcase/showcase-04-480.webp?v=20261107d 480w, assets/images/showcase/showcase-04.webp?v=20261107d 800w" sizes="(max-width:720px) 92vw, 540px"><img src="assets/images/showcase/showcase-04.jpg?v=20261107d" alt="Dual-screen exit-entry self-service kiosk with large cabinet" width="800" height="800" loading="lazy" decoding="async"></picture><span class="related-name">Exit-Entry &amp; Immigration Self-Service Kiosk</span><span class="related-meta">Floor-standing</span></a></div>
