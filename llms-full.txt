@@ -5135,11 +5135,11 @@ The three jobs, and what each one needs from the hardware.
 
  |  | Job | What the patient brings | Modules | Service time
 
- | Registration | ID card, insurance card or booking QR | Card and document readers, touchscreen, slip printer | 90–120 seconds
+ | Registration | National ID card; hospital or insurance card where accepted | Card and document readers, touchscreen, slip printer | 90–120 seconds
 
- | Payment | Bank card, QR code, registration slip | Payment terminal on a bracket, receipt printer, barcode scanner | 30–60 seconds
+ | Payment | Bank card, QR code or the registration slip | Payment terminal on a bracket, receipt printer, barcode scanner | 30–60 seconds
 
- | Report printing | ID card, collection code, appointment slip | A4 laser printer, ID reader, sometimes a camera | 60–90 seconds
+ | Report printing | Collection code from the appointment or the lab slip | A4 laser printer, ID reader, sometimes a camera | 60–90 seconds
 
 ## Registration: the deck is decided by the documents
 
