@@ -5212,3 +5212,203 @@ Electrical safety and EMC for the assembled terminal, CE or FCC depending on the
 - What a kiosk costs, and what the quote includes ↗
 
 - Which approval belongs to which part of the machine ↗
+
+---
+
+# How to Run a Self-Service Kiosk Procurement
+
+URL: https://xinyuehongtech.com/news/kiosk-procurement-rfq-guide/
+
+Quick answer: A kiosk procurement succeeds or fails before the bids arrive. Write the requirement as a scored specification, put the same twelve items in every RFQ, and score the answers against weights you set in advance. Price is one line of the decision, not the decision itself: the two quotations that look 30% apart on unit price often differ by less than 10% once freight, certification, spares and commissioning are counted.
+
+## The procurement runs in seven steps
+
+- Requirement. Write the workflow, the venue, the peripherals and the volume, in that order. A requirement that starts with a cabinet style produces a bid that starts with a price.
+
+- Specification. Convert the requirement into must-have and nice-to-have lines, with a number or a range against each one.
+
+- RFQ. Send the same document to every bidder, with the same questions in the same order.
+
+- Evaluation. Score against weights agreed before the bids open, so the scoring cannot be bent to fit a preferred supplier.
+
+- Sample. Buy one unit and test it against the specification, not against the brochure.
+
+- Contract. Fix warranty, spares, change control and acceptance criteria in writing.
+
+- Acceptance. Inspect before shipment and again on site; the second inspection is the one that finds the freight damage.
+
+## Write the requirement before the RFQ
+
+Procurement managers are usually handed a wish list from operations. The job is to turn it into something biddable. Four questions do most of that work: what the customer does at the terminal, where it stands, what they must present or receive, and how many per hour at peak.
+
+Turning a wish list into a scored requirement.
+
+ |  | Line | Must have (with a number) | Nice to have | Who owns it
+
+ | Display | Size in inches, orientation, brightness if near a window | Anti-glare, optical bonding | Operations
+
+ | Identity | Which documents are read, and how (contact, MRZ, scan) | Camera for photo capture | Compliance and operations
+
+ | Payment | Terminal model and acquirer, or “QR only” | Cash acceptor | Finance
+
+ | Printing | Slip, A4 or none; who restocks | Duplicate copy button | Operations
+
+ | Network | Wired or 4G; what happens when it drops | Redundant link | IT
+
+ | Placement | Floor, wall or counter; access for a wheelchair | Branding panel | Facilities
+
+## The RFQ: twelve items that make bids comparable
+
+Bids are not comparable because suppliers scope the edges differently. Force the same twelve answers from everyone and the difference becomes visible.
+
+The twelve lines to put in every kiosk RFQ.
+
+ |  | # | Item | What the answer has to contain
+
+ | 1 | Cabinet | Material, thickness, finish, colour, service access
+
+ | 2 | Display and touch | Size, resolution, brightness, touch technology, cover glass
+
+ | 3 | Computing | CPU, RAM, storage, operating system and licence
+
+ | 4 | Readers | Exact model numbers and interfaces, not categories
+
+ | 5 | Printer | Paper width, cutter, duty cycle, restock access
+
+ | 6 | Payment mounting | Device model, cut-out drawing, cable route
+
+ | 7 | Software scope | Image build, drivers, SDK, who owns updates
+
+ | 8 | Certification | Which scheme, which model name, who pays for testing
+
+ | 9 | Test record | Burn-in duration and what was exercised
+
+ | 10 | Lead time | Stated from deposit and drawing approval, not from enquiry
+
+ | 11 | Commercials | Incoterm, packing, payment terms, validity of the offer
+
+ | 12 | After-sales | Warranty term, spares list, response time, who pays return freight
+
+## Score the bids, do not just compare prices
+
+Set the weights and the scoring rubric before the bids arrive, and record the evidence behind each score. A weighted matrix is defensible to an auditor; a gut decision is not.
+
+A defensible weighting for a kiosk tender. Adjust the weights, keep the method.
+
+ |  | Criterion | Weight | What a high score looks like
+
+ | Technical fit | 30% | Every must-have line answered with a number, and the three hardest ones answered in detail
+
+ | Price and TCO | 25% | Complete landed cost, including freight, duty, spares and commissioning
+
+ | Compliance | 15% | Certificate naming the exact model, plus a clear statement of who holds each approval
+
+ | After-sales | 15% | Named response time, spare-parts list with prices, return-freight responsibility
+
+ | Delivery | 10% | Dates against the seven project stages, not one number
+
+ | References | 5% | Two contactable deployments in a similar environment
+
+## Total cost of ownership, not unit price
+
+The unit price is the smallest part of a five-year cost for a public terminal. The lines below are the ones that get left out of the comparison and then appear in the budget as surprises.
+
+Cost lines to collect from every bidder before comparing totals.
+
+ |  | Cost line | How it is quoted | Why it is missed
+
+ | Unit price | Per unit, FOB or DDP | It is the only number most bids show
+
+ | Freight and insurance | Per shipment, by mode | Omitted from FOB quotes by definition
+
+ | Import duty and VAT | Percentage of the customs value | Depends on the HS code, which nobody asks about
+
+ | Certification | One-off per model and market | Treated as “included” until it is not
+
+ | Spares and consumables | Annual allowance | Printers and card readers wear out first
+
+ | Installation and commissioning | Per site | Often assumed to be the buyer’s own team
+
+ | Software and integration | Project fee | Not a hardware line, so not in the hardware budget
+
+ | Downtime | Per day, per unit | Invisible until the first failure
+
+## Contract terms worth arguing about
+
+- Acceptance criteria, written as measurable checks, attached to the purchase order rather than to a separate annex nobody reads.
+
+- Warranty scope: which modules, how long, and who pays the return freight in each direction.
+
+- Spare parts commitment: a list, a price and a supply period. “Available on request” is not a commitment.
+
+- Change control: how a change after the drawing is approved is priced, and how it affects the delivery date.
+
+- Drawing ownership: the CAD files and the enclosure drawings you paid for should be yours, with a licence back to the supplier if they need them for repeat orders.
+
+- Certification responsibility: who produces which document, and by when, for the destination market.
+
+- Payment terms: deposit, balance and retention, tied to acceptance milestones rather than to shipment.
+
+## Acceptance testing: two inspections, not one
+
+A factory inspection catches build errors; a site inspection catches freight damage and installation errors. Both need a written checklist and a named person who signs it.
+
+What to test before shipment and again on site.
+
+ |  | Check | Before shipment | On site
+
+ | Function | Every module exercised on the unit being shipped | The same modules against the live system
+
+ | Print quality | Receipt and A4 sample kept with the order record | Paper stock actually used by the venue
+
+ | Network | Link to a test server | The venue firewall and proxy
+
+ | Finish | Colour against the approved sample | Transit damage and anchoring
+
+ | Documentation | Drawings, module list, test record, packing list | Spares and consumables handed over
+
+## Red flags in a kiosk bid
+
+- One price, no bill of materials. If the printer and reader models are missing, the bid is a placeholder.
+
+- Certification claimed for a different model. Ask for the certificate and read the model name on it.
+
+- Lead time with no start condition. “15 days” is meaningless without “from deposit and approved drawing”.
+
+- “Any payment terminal”. The cut-out, the bracket and the approval are per device, not generic.
+
+- A promise to certify your payment flow. That belongs to the terminal vendor and your acquirer.
+
+- No answer on end of life. A kiosk lives five to eight years; the platform inside it does not.
+
+## Procurement questions, answered
+
+How many quotations should we collect?
+Three is the practical minimum: enough to reveal the spread in scope, few enough to evaluate properly. For a first project, add one quotation from a supplier you have already worked with, even if the price is higher, to calibrate the others.
+
+Should we buy a sample before the tender?
+Yes, when the specification has any uncertainty in it. A sample unit tested against the acceptance checklist turns assumptions into facts and gives every bidder the same reference build. Budget it as a project cost, not as a discount to be recovered.
+
+Is the lowest unit price ever the right answer?
+Only where the specification is fixed, the after-sales risk is small and the deployment is a one-off. For a fleet, the differences in spares, response time and lead-time reliability usually outweigh the unit delta within the first year of operation.
+
+What should the warranty cover?
+The modules that fail most: printer, card readers, touch panel and power supply. Ask for the term per module, the return-freight responsibility and the replacement lead time, because a three-year warranty with a six-week swap is a three-year problem.
+
+Who owns the drawings and the software image?
+The buyer should own the cabinet drawings and CAD files paid for in the project, and the software image should be handed over with a documentation pack. Agree the licence back to the supplier for repeat orders, rather than leaving ownership ambiguous.
+
+How do we compare quotes in different currencies and Incoterms?
+Convert every quote to a landed cost at the destination site: goods, freight, insurance, duty, clearance, installation and the spares allowance. Comparing FOB prices with DDP prices is the most common expensive mistake in this category.
+
+## Related reading
+
+- How to choose a kiosk manufacturer: factory, MOQ and lead time ↗
+
+- OEM/ODM project checklist for the first RFQ ↗
+
+- What a kiosk costs, and what a quotation contains ↗
+
+- Which approval belongs to which part of the machine ↗
+
+- OEM/ODM scope, from requirement to shipping ↗
