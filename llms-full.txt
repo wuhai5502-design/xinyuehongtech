@@ -5412,3 +5412,95 @@ Convert every quote to a landed cost at the destination site: goods, freight, in
 - Which approval belongs to which part of the machine ↗
 
 - OEM/ODM scope, from requirement to shipping ↗
+
+---
+
+# How to Choose an Outdoor Self-Service Kiosk
+
+URL: https://xinyuehongtech.com/news/outdoor-self-service-kiosk-guide/
+
+Quick answer: An outdoor kiosk is the same machine as an indoor one, plus four problems the indoor version never meets: the sun reads the screen better than the customer, heat soaks the enclosure all afternoon, water finds every seam, and the unit has to survive being unattended at night. Specify those four — brightness and bonding, ingress rating, the thermal path and vandal resistance — before the cabinet is drawn, and the rest is ordinary kiosk work.
+
+## The four problems, and the numbers that solve them
+
+Indoor terminals are specified against a room. Outdoor terminals are specified against weather, and the difference is a set of numbers that most indoor specifications simply leave blank.
+
+Indoor versus outdoor: the four specifications that change.
+
+ |  | Problem | Indoor answer | Outdoor answer | Why
+
+ | Screen readability | 250–500 nits | 1,500–2,500 nits with optical bonding | Direct sun can put 10,000 lux on the glass
+
+ | Water and dust | None, or IP40 | IP54 minimum, IP65 front where washed | Rain, condensation and street dust
+
+ | Temperature | 0–40 °C ambient | −20 to 50 °C, wide-temperature components | Solar load on a sealed box, plus cold starts
+
+ | Vandalism | Optional | IK08 or IK10 glass, locked service doors | The unit sits unattended overnight
+
+## Brightness is not enough: bond the glass
+
+A 2,500-nit panel behind an air gap still washes out, because light bounces between the cover glass and the panel. Optical bonding fills that gap with adhesive and removes the internal reflections, which is why a bonded 1,500-nit screen often beats an un-bonded 2,500-nit one in direct sun.
+
+Specify three things together: the nits at the panel, optical bonding, and an anti-glare treatment. Then note where the screen faces, because a west-facing installation in summer is the worst case, and it decides whether the numbers above are enough or a sun shield is also required.
+
+## Ingress means water in, not just water out
+
+An IP rating is a test result, not a guarantee. The failures come from the details the test does not cover: a sealed door that pools water at the hinge, a cable gland pointing up, a speaker grille that lets condensation in, a gasket that is pinched by a screw the technician missed.
+
+Ask for IP54 as the floor for the whole unit, IP65 on the front where it is hosed or rained on, gasketed doors, weep holes at the base, glands pointing down, and stainless or marine-grade fasteners. All of those are drawing decisions, not components.
+
+## Cooling without a fan
+
+An outdoor enclosure in the sun accumulates heat all afternoon, and a fan is exactly what a dust-and-rain environment cannot have. The standard route is conduction: a fanless computer against the cabinet wall, a sun shield above the screen, and a heat exchanger or a small air conditioner only in genuinely hot climates. The detail is in the thermal path, which is why it is drawn rather than assumed.
+
+## Power, network and the night shift
+
+A kerbside unit shares its feed with lighting, gates and other loads, so surge protection is not optional. A wide DC input — 9 to 55 V — covers 12 V and 24 V sites without a second converter. And because the unit runs unattended, decide the failure behaviour before ordering: most sites fail closed with a message on screen, and a 4G backup covers the places where the wired link is the weak point.
+
+## A short specification checklist
+
+- Brightness in nits, plus optical bonding and anti-glare treatment.
+
+- Ingress rating for the whole unit and the front, glands pointing down, weep holes.
+
+- Temperature range for storage and operation, matched to wide-temperature parts.
+
+- Impact rating for the glass, and what the lock and the service door survive.
+
+- Surge protection and the power input range for the site.
+
+- Network fallback and the screen message when payment is unavailable.
+
+- Service access: who restocks paper, and how, without opening the whole cabinet to the weather.
+
+## Outdoor kiosk questions
+
+What brightness does an outdoor kiosk need?
+At least 1,500 nits for a shaded or semi-outdoor position, and 2,000 to 2,500 nits for full sun, with optical bonding and an anti-glare surface. A west-facing screen in summer is the worst case, so photograph the site and note the orientation before fixing the number.
+
+Which IP rating is right?
+IP54 is the floor for an outdoor unit; IP65 belongs on the front face where the terminal is hosed down or exposed to driving rain. The rating is only as good as the details around it, so check the door gasket, the glands and the weep holes rather than the certificate alone.
+
+Does it need air conditioning?
+Not usually. Fanless conduction, a sun shield and, where the climate is extreme, a heat exchanger cover most sites. Air conditioning appears in very hot locations or where the cabinet itself is in direct sun with no shade and no shield, and it brings a service routine of its own.
+
+Can it take card payments in the rain?
+Yes. The payment terminal carries its own approval and sits in a sealed bay with a hood and a reachable keypad, and the kiosk routes power and cable behind the gasket. Confirm with the acquirer that the terminal model is approved for unattended outdoor use.
+
+How is an outdoor kiosk serviced?
+Consumables — paper, sometimes a receipt roll — are loaded through a sealed front door without opening the electronics bay. Ask for the two to be separated, so a restock does not expose the computer and the readers to weather or to the person doing the restock.
+
+How long does an outdoor build take?
+Production inside the standard module set runs 15 days from deposit and approved drawing. A semi-outdoor or fully sealed enclosure with wide-temperature parts and a sun shield is usually a defined cabinet variant, so it is quoted with its own drawing and prototype rather than as a simple option.
+
+## Related reading
+
+- Parking payment terminal, angled deck for kerbside use ↗
+
+- Thermal design for 24/7 operation ↗
+
+- ADA reach ranges, IP and IK ratings ↗
+
+- Self-payment kiosks for outdoor and lane-side use ↗
+
+- What a kiosk costs, and what the quote includes ↗

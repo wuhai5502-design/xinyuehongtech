@@ -85,6 +85,7 @@
 
 ## Guides and articles
 
+- [How to Choose an Outdoor Self-Service Kiosk](https://xinyuehongtech.com/news/outdoor-self-service-kiosk-guide/): Quick answer: an outdoor kiosk adds four problems &mdash; sunlight readability, water and dust, temperature and vandalism &mdash; and the numbers that solve each.
 - [How to Run a Self-Service Kiosk Procurement](https://xinyuehongtech.com/news/kiosk-procurement-rfq-guide/): Quick answer: a kiosk procurement is decided before the bids arrive — write a scored requirement, put the same twelve lines in every RFQ, weight the criteria in advance, compare landed cost rather than unit price, and run two acceptance inspections.
 - [Hospital Self-Service Terminals: Registration, Payment and Report Printing](https://xinyuehongtech.com/news/hospital-self-service-terminal-buying-guide/): Quick answer: registration, payment and report printing are three different jobs with different readers, printers and service times; how to split them, size the hall from peak arrivals, and what to put in the RFQ.
 - [Integrating a Fingerprint Reader into a Self-Service Kiosk](https://xinyuehongtech.com/news/fingerprint-reader-kiosk-integration/): Quick answer: where the sensor belongs, how the aperture and grounding decide reliability, which SDK platform to check first, and the fallback when a read fails.
