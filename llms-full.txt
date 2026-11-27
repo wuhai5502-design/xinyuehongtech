@@ -5504,3 +5504,130 @@ Production inside the standard module set runs 15 days from deposit and approved
 - Self-payment kiosks for outdoor and lane-side use ↗
 
 - What a kiosk costs, and what the quote includes ↗
+
+---
+
+# Self-Service Kiosk Glossary: 33 Terms, Defined
+
+URL: https://xinyuehongtech.com/self-service-kiosk-glossary/
+
+Quick answer: This glossary defines the thirty-odd terms that appear in every kiosk RFQ, datasheet and quotation — from PCAP and IP65 to MOQ, SABER and PCI PTS — in the sense they carry on a self-service terminal. Each entry is one definition plus one sentence on what it changes in a kiosk build.
+
+## Display and touch
+
+PCAP (projected capacitive)
+The touch technology behind most kiosk screens: a grid of electrical fields detects a conductive finger through a glass cover. On a kiosk it means multi-touch behind a flush, cleanable surface, which is why it is the indoor default.
+
+Infrared (IR) touch
+A frame of emitters and receivers around the display detects a finger breaking the light beams. Cheaper at large sizes, but it adds bezel depth and is more sensitive to dust and sunlight.
+
+SAW (surface acoustic wave)
+Ultrasonic waves across the glass surface detect a touch by absorption. Very clear optically, but affected by scratches and contaminants, so it is rare on unsupervised public terminals.
+
+Optical bonding
+Filling the air gap between the panel and the cover glass with adhesive to remove internal reflections. It makes a 1,500-nit outdoor screen readable where an un-bonded 2,500-nit one still washes out.
+
+Nits
+The unit of luminance (candela per square metre). Indoor kiosks use 250–500 nits; sunlight-readable outdoor screens run 1,500–2,500 nits.
+
+IP rating
+Ingress protection against solids and liquids, per IEC 60529. A kiosk is commonly IP54 (splash-resistant) indoors and IP65 on the front where it is washed or rained on.
+
+IK rating
+Impact resistance, per IEC 62262. Public kiosk glass is usually specified at IK08, with IK10 for unsupervised or high-vandalism sites.
+
+## Computing
+
+Fanless PC
+A computer cooled by conduction to its case rather than a fan. On a kiosk it means no filter to change and no airflow path for dust, at the cost of a lower sustained CPU budget.
+
+Panel PC
+An all-in-one unit with the touch display and the computer in one sealed housing. The simplest way to build a terminal: the cabinet holds a rectangle and routes one cable.
+
+Box PC
+A computer without a display, mounted inside the cabinet. Used where the display is already chosen or several outputs are driven from one machine.
+
+Android embedded board
+A system-on-module board (for example Rockchip RK3568 / RK3399) running Android, used for single-purpose content, signage and cost-sensitive builds.
+
+LVDS / eDP
+The two common internal display interfaces between a board and a panel. They matter when a board is paired with a specific screen, because the connector decides compatibility.
+
+RS-232 / RS-485
+Serial interfaces still used by industrial peripherals. A kiosk printer or reader often needs one, which decides the computer's COM-port count.
+
+GPIO
+General-purpose input/output pins on a board, used to drive simple signals such as LEDs, sensors or a cash-device interlock.
+
+Burn-in test
+Running a finished unit under load — display, readers, printer and scanner exercised in a loop — to catch early failures before shipping. Xinyuehong runs 12 hours per unit.
+
+## Identity and payment
+
+MRZ
+The machine-readable zone — the two lines of characters at the bottom of a passport — read optically by a passport reader.
+
+NFC / RFID
+Contactless short-range communication. On a kiosk it covers contactless cards, phone wallets and some ID documents, usually at 13.56 MHz.
+
+IC card / ID card
+A chip card read by electrical contact. On hospital and government terminals the ID-card reader is a separate module from the bank-card reader.
+
+EMV
+The chip-card standard (Europay, Mastercard, Visa) that governs how a payment terminal reads and authenticates a card.
+
+PCI PTS
+The security standard for payment terminals that handle PIN entry. The certification belongs to the terminal and its vendor — never to the kiosk cabinet.
+
+EPP (encrypting PIN pad)
+A separately certified device for PIN entry, with its own tamper protection. It is mounted on the kiosk, not replaced by the touchscreen.
+
+Card dispenser
+A module that issues cards — hotel keys, clinic cards, visitor badges. A hotel build depends on the lock vendor’s encoder rather than the dispenser alone.
+
+Acquirer
+The financial institution that processes a merchant’s card transactions. The acquirer approves the payment terminal and the unattended-use arrangement.
+
+## Sourcing, compliance and commercials
+
+OEM
+You define the specification and the brand; the factory builds to your document. You usually own the design.
+
+ODM
+The factory already designs the product; you adapt and brand it. The factory owns the design, and you change configuration and appearance.
+
+White label
+An existing product sold under your brand with no design change — logo, packaging and colour only.
+
+MOQ
+Minimum order quantity. On a kiosk it is often one unit on the standard module set, with higher minimums only where a new enclosure needs tooling recovered.
+
+Lead time
+The time from deposit and approved drawing to shipment. The 15-day figure on a kiosk quote covers the standard module set only; a new enclosure adds design and prototype time.
+
+Incoterms (FOB / DDP)
+Shipping terms defining who pays freight, insurance and duty. FOB stops at the port of export; DDP delivers to the buyer’s door. Comparing FOB with DDP quotes is the classic costing mistake.
+
+SABER
+The Saudi conformity system for imported electrical products: a product certificate per model and a shipment certificate per consignment, tied to the importer of record.
+
+CE / FCC / RoHS
+Product-compliance marks: CE for the EU, FCC for US radio and EMC, RoHS for restricted materials. The certificate must name the exact model being shipped.
+
+ADA
+The US accessibility law whose reach-range rules (roughly 15 to 48 inches above finished floor) decide kiosk mounting height and clear floor space.
+
+EU CRA (Cyber Resilience Act)
+EU regulation imposing vulnerability-reporting duties on connected products, including kiosks with software, with reporting windows as short as 24 hours.
+
+## Related reading
+
+- How to choose a self-service kiosk ↗
+
+- ADA, IP and IK ratings explained ↗
+
+- Compliance: which approval belongs to which party ↗
+
+- The procurement guide, from RFQ to acceptance ↗
+
+- Fingerprint, iris and payment modules ↗
