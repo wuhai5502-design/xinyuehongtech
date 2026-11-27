@@ -4,6 +4,7 @@
 
 ## Company facts
 
+- Arabic pages: /ar/ (homepage), /ar/saudi-arabia/, /ar/contact/
 - Legal entity: Shenzhen Xinyuehong Information Technology Co., Ltd.
 - Location: No. 38 Tian'an Road, Bantian, Longgang, Shenzhen, China
 - Manufacturing: self-service kiosk terminals, industrial PCs, embedded boards
