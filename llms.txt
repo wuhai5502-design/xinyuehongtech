@@ -124,6 +124,13 @@ Each product datasheet is a two-page PDF with the technical specification, embed
 
 - [Self-Service Kiosk Glossary: 33 Terms, Defined](https://xinyuehongtech.com/self-service-kiosk-glossary/): 33 terms that appear in every kiosk RFQ and datasheet &mdash; PCAP, IP65, MOQ, SABER, PCI PTS and more &mdash; each with a definition and what it changes in a build.
 
+## People and policies
+
+- [Mark, Project Engineer](https://xinyuehongtech.com/author/mark/): the engineer who writes the technical guides on this site; index of every article.
+- [Privacy Policy](https://xinyuehongtech.com/privacy/): what the website collects and how to have it deleted.
+- [Terms of Use](https://xinyuehongtech.com/terms/): status of published specifications and intellectual property.
+- [Warranty and After-Sales Policy](https://xinyuehongtech.com/warranty/): burn-in, module warranties, claims process and spares.
+
 ## Notes for retrieval
 
 - Specifications describe the reference build; screen size, module mix, ratings and certification scope are confirmed per project.
