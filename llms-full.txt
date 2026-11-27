@@ -5760,3 +5760,222 @@ Yes. We install the agreed OS build, configure peripheral drivers for the integr
 - Why self-service kiosks fail in 24/7 operation ↗
 
 - Unattended card payment on a kiosk ↗
+
+---
+
+# Choosing an 80 mm Thermal Printer for a Kiosk
+
+URL: https://xinyuehongtech.com/news/kiosk-thermal-printer-guide/
+
+Quick answer: The receipt printer is the part of a kiosk that fails first, so it is specified before the cabinet is drawn. Four numbers decide the build: paper width (80 mm standard), the stock and cutter rating, whether the roll loads from the front or the rear, and whether a paper-near-end sensor is wired to the management software. Get those four right and the printer stops being the reason a terminal goes out of service.
+
+## Why the printer decides the cabinet
+
+A printer is a moving mechanical part in a machine that is otherwise solid-state. The paper path, the cutter, the outlet and the restock door all occupy space, and they all have to be reachable by the person who reloads the roll. Decide the printer early, because changing it later usually means re-cutting the front panel, not swapping a module.
+
+On a kiosk the printer serves two audiences at once: the customer reads the receipt, and the operator restocks the paper. The outlet height belongs to the customer; the loading access belongs to the operator. Most printer complaints trace back to one of the two being ignored.
+
+## Paper stock sets the mechanism
+
+80 mm is the standard width, but width is the easy part. The stock decides whether the printer works: thermal paper needs the right coating and thickness for the mechanism, and a pre-printed or heavier roll changes the paper path and the cutter rating.
+
+Specify the stock before the printer. A kiosk that runs out of the approved paper and gets loaded with a thicker roll from the stationery cupboard will jam, and the fault will be reported as the printer’s, not the paper’s.
+
+## Cutter, and what a jam costs
+
+An auto-cutter is standard, but there are two kinds of cut: full guillotine and partial cut with a tear bar. The partial cut leaves the receipt hanging by a tab, which is quieter and cheaper, and the customer tears it. Where the receipt is a legal or tax document, a full cut and a consistent length matter more.
+
+A jam is not the printer’s fault alone. Most jams are paper-related: a curl in the roll, a foreign object in the path, or a cutter that has not been cleaned. The answer is a visible tear bar, a front-loading design, and a jam message on screen that tells the customer the receipt did not print.
+
+## Front or rear loading, and the unattended night
+
+Front-loading printers let a steward swap the roll in thirty seconds without opening the electronics bay. Rear-loading keeps the front face clean but forces the operator to open the cabinet, which is why front-loading wins on most public terminals.
+
+The second design detail is the paper-near-end sensor. It warns the management system before the roll runs out, so a kiosk does not fail silently at 2 a.m. Wire it into the same dashboard that reports the card reader and the touchscreen.
+
+## Specification checklist
+
+- Paper width and stock: 80 mm thermal, with the exact thickness and coating approved for the mechanism.
+
+- Cutter type: full guillotine or partial cut, matched to whether the receipt is a tax document.
+
+- Loading direction: front-loading for unattended units, with the roll behind a locked door.
+
+- Paper-near-end sensor, wired into the management software.
+
+- Outlet height and angle, reachable by a standing adult without bending.
+
+- Duty cycle, matched to the peak transactions per hour rather than the daily average.
+
+## Printer questions
+
+Which printer is right for a kiosk: receipt, ticket or A4?
+They are different machines. An 80 mm thermal printer covers receipts and queue tickets. Event tickets with a pre-printed stock, or A4 documents such as medical reports, need a different mechanism and a different outlet, and are usually quoted as a separate cabinet variant rather than an option.
+
+Why does the printer jam after a reload?
+Almost always the stock: a heavier or pre-printed roll, a curl near the core, or the paper seated off-centre. A front-loading mechanism with a visible path reduces the cases where the operator is the cause, and a printed loading label beside the door removes most of the rest.
+
+Should the receipt printer be customer-facing or hidden?
+The outlet is customer-facing; the mechanism and the roll should be behind a locked door. Keep the tear bar at the outlet so the customer takes the receipt cleanly, and keep the paper path serviceable from the front.
+
+What happens when the paper runs out at night?
+The paper-near-end sensor warns before the roll empties, and the terminal shows a message when it does. On unattended units the fallback is a digital receipt on screen or by QR, agreed with the operator before deployment.
+
+Does the printer affect kiosk certification?
+It affects the electrical and EMC file of the assembled terminal, and the paper-path design affects ingress. The printer itself carries the vendor’s approval; the kiosk certificate covers the unit as built with that printer inside it.
+
+## Related reading
+
+- The eight module families a kiosk can carry ↗
+
+- What a kiosk costs, and what the quote includes ↗
+
+- Hospital terminals: slip versus A4 printing ↗
+
+- Unattended payment, receipts and reconciliation ↗
+
+---
+
+# How to Choose a QSR Self-Ordering Kiosk
+
+URL: https://xinyuehongtech.com/news/qsr-self-ordering-kiosk-guide/
+
+Quick answer: A QSR self-ordering kiosk is specified by three answers: counter or floor, the menu’s size, and how payment reaches the acquirer. Start with the peak orders per hour and the menu item count, then let the screen size, the printer and the payment bracket follow. A simple order takes 40 to 60 seconds at the screen, so one terminal serves roughly one customer a minute.
+
+## Counter, floor or both
+
+A countertop unit suits a till point where staff still hand over the order, and it costs less floor space. A floor-standing unit suits a queue that has to keep moving while the counter is busy, and it earns its place once peak volume passes the point where the counter becomes the bottleneck.
+
+The test is not the daily total but the busiest hour. A venue doing 200 orders a day but 90 between 12:00 and 13:00 needs the layout designed for that hour, because the queue forms then, not spread across the day.
+
+## Screen size follows the menu
+
+A 21.5-inch landscape screen matches a printed menu board and is read at arm’s length. Portrait 27 to 32 inches gives room for categories down one side and a basket down the other, which is why it dominates fast-casual.
+
+If the menu carries photographs for eighty items, portrait 32 is the calm choice; if it is twenty items and one price, 21.5 landscape is enough. The screen has to hold the whole decision, not just the list.
+
+## Payment: the bracket, not the built-in reader
+
+Most projects mount a certified terminal on the cabinet, because the approval then stays with the acquirer’s device. An integrated reader is possible where the acquirer approves it, but it couples the kiosk to one payment provider. The bracket costs a cut-out and a cable route; the integrated reader costs a certification project.
+
+One terminal per kiosk is the normal arrangement. Shared terminals slow the queue and look untidy.
+
+## Receipts and kitchen tickets
+
+A receipt printer at the kiosk is standard; a second printer for kitchen tickets is not. Where the kitchen already receives orders from the POS, the kiosk only needs the customer copy. Where the kiosk is the only order entry, it needs either a kitchen printer or a POS interface that prints on the kitchen side.
+
+Decide which system owns the kitchen ticket before the printer is specified, otherwise the order is printed twice or not at all.
+
+## Grease, cleaning and uptime
+
+Food service is the harshest indoor environment a kiosk meets. Grease films the glass, sanitiser attacks powder coat, and staff clean in a hurry between shifts. Ask for a flat glass front with no exposed bezel, IK08 cover where trolleys pass, and a finish that tolerates alcohol-based cleaner.
+
+Three ordering configurations and the detail that decides each.
+
+ |  | Build | Display | Modules | What it suits
+
+ | Countertop | 21.5 in landscape, PCAP | Terminal bracket, 80 mm printer | Low counters, staff hand over the order
+
+ | Floor-standing | 27–32 in portrait | Bracket, scanner, 80 mm printer | Queue sites, menu with many modifiers
+
+ | Dual-screen | 32 in plus a top display | Two printers, bracket, scanner | Menu or promotion above, ordering below
+
+## Ordering questions
+
+Does the kiosk replace the POS?
+No. The kiosk is the customer-facing terminal, and the order still lands in the POS or kitchen system through an interface. Some projects use the POS vendor’s kiosk module, others run a web app on the kiosk and post orders to the same middleware.
+
+How many orders per hour can one kiosk handle?
+A simple order takes 40 to 60 seconds at the screen, so one terminal serves roughly one customer a minute, less when the menu has many modifiers. Two kiosks usually beat one faster kiosk, because the queue is waiting for a free screen.
+
+Can it print kitchen tickets?
+Yes, with a second printer and a paper path that reaches the kitchen side, or by letting the POS print. Decide which system owns the kitchen ticket before the printer is specified.
+
+Do we need a card reader on every kiosk?
+Where customers pay at the kiosk, yes, unless one shared terminal is cabled across several units. Shared terminals slow the queue and look untidy, so most sites fit one bracket per unit.
+
+What operating system should it run?
+Android suits single-purpose ordering apps and cost-sensitive fleets; Windows suits POS modules and payment SDKs that ship as Windows libraries. Choose from the SDK list your payment provider supports, not from price.
+
+## Related reading
+
+- Self-ordering kiosk configuration scope ↗
+
+- QSR and fast-casual, by workflow ↗
+
+- Windows vs. Android: choosing the kiosk platform ↗
+
+- The 80 mm printer: paper, cutter and jams ↗
+
+---
+
+# SABER Certification for Kiosk Imports into Saudi Arabia
+
+URL: https://xinyuehongtech.com/news/saber-certification-kiosk-guide/
+
+Quick answer: A kiosk imported into Saudi Arabia goes through SABER, the Saudi conformity platform, as two certificates: a Product Certificate of Conformity for the model, and a Shipment Certificate of Conformity for each consignment. Both are issued through the importer of record, not the factory, which is why the buyer’s local partner matters as much as the hardware.
+
+## Two certificates, one platform
+
+SABER, run by the Saudi Standards, Metrology and Quality Organization (SASO), is the online system where electrical products get their conformity documents. A kiosk project meets it twice:
+
+- Product Certificate of Conformity (PCoC). Issued once for the model, valid for a defined period, based on a technical file, a risk assessment and the relevant test reports.
+
+- Shipment Certificate of Conformity (SCoC). Issued per consignment, quoting the PCoC, so that each actual shipment clears customs.
+
+The two are separate because a model can be approved while one specific shipment is not, for example when it contains a different plug, a changed component or a wrong quantity against the PCoC.
+
+## Who holds what
+
+The conformity documents are tied to the importer of record, which is the Saudi-based entity that clears the goods. The factory supplies the technical file and the test reports, but it cannot hold the PCoC on the buyer’s behalf. A quotation that does not state who will obtain the certificates — and on whose account — is not a complete quotation.
+
+This is the part that changes the commercial terms, not the hardware: the buyer needs a registered importer, and the lead time for the certificate has to sit in the project plan alongside production.
+
+## What changes in the build itself
+
+Conformity is only half of a Saudi project. Three build-level items usually travel with it:
+
+- Power. 230 V / 60 Hz mains, with the plug and the internal wiring matched to the Saudi standard.
+
+- Interface and printing. Arabic interface running right-to-left, and a receipt printer with an Arabic code page in its firmware, so the receipt is legible rather than mangled.
+
+- Payment. Local payment methods such as mada, arranged through the acquirer, with the terminal mounted on the kiosk rather than built into it.
+
+## Documents to prepare before ordering
+
+- Technical file for the exact model: specifications, circuit and component information, and the safety and EMC test reports.
+
+- The importer’s registration on SABER, and a decision on who applies for the PCoC and the SCoC.
+
+- HS code classification, which determines the conformity route and the duty.
+
+- Module certificates for anything inside the kiosk with its own approval, such as the payment terminal or a wireless module.
+
+- Arabic documentation for the interface, the receipt and the operator manual.
+
+## SABER questions
+
+Is SABER the same as a CE certificate?
+No. CE is the European route; SABER is the Saudi route run through SASO. A CE report can support the SABER technical file, but it does not replace the Product and Shipment certificates, which are issued on the SABER platform for the Saudi market.
+
+Who applies for the certificates, the factory or the buyer?
+The Saudi importer of record applies, because the certificates are registered to that entity. The factory supplies the technical file, test reports and model information. The split of cost and responsibility belongs in the quotation.
+
+How long does SABER take?
+It depends on the model, the completeness of the technical file and whether testing is already available. Budget it as a project line with its own lead time, and start it in parallel with production rather than after the unit is built.
+
+Does a changed component invalidate the certificate?
+It can. A different power supply, plug, display or wireless module changes the technical file, so component changes after the PCoC is issued must be flagged to the conformity partner before production, not after.
+
+What about the payment terminal?
+The terminal keeps its own certification and is usually arranged through the acquirer for mada. The kiosk provides the cut-out, bracket, power and cable route, and the SABER file covers the assembled unit with that terminal mounted.
+
+## Related reading
+
+- Self-service kiosks for Saudi Arabia ↗
+
+- Compliance: which approval belongs to which party ↗
+
+- Payment and biometric modules for kiosks ↗
+
+- The procurement guide, from RFQ to acceptance ↗
