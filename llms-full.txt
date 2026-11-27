@@ -2990,57 +2990,108 @@ See
 
 ---
 
-# Android Embedded Board | Industrial Computers | Xinyuehong
+## Access Control Intercom Panel
 
-URL: https://xinyuehongtech.com/industrial-pc/industrial-motherboard/
+URL: https://xinyuehongtech.com/industrial-pc/access-control-panel/
 
+Home/Industrial PCs/Access Control Intercom Panel
 
-# Android Embedded Board
-Rockchip RK3568 / RK3399 Android embedded board for kiosks and digital signage: LVDS, eDP and HDMI display outputs, multi-channel UART and GPIO headers, USB, RJ45 and an SDK for OS-level customisation.
+ACCESS CONTROL PANEL
+Wall-Mount Access Control Intercom Panel
+
+A silver-finished wall panel that puts a touchscreen, camera, RFID reader, fingerprint sensor and talk-to-staff buttons into one enclosure, for door entry, staff attendance and visitor calling.
+The faceplate is a brushed metal sheet fixed with four corner screws over a recessed frame. The display sits on the left behind a stepped bezel; the camera is centred above it, with two slim apertures along the top edge for a card slot or a sensor. On the right are the speaker grille, the RFID reading field and a fingerprint module, with the TALK and ALARM buttons below and a microphone aperture under them. That cluster is the point of the product: a visitor can call, be seen, and be identified by card or finger at one piece of wall.
+
+Discuss this configurationAll industrial PCs
+
+Datasheet (PDF, 2 pages)Specifications, module options and typical applications, in one file.
+Download PDF ↓
 
 ## Interfaces on this unit
-Interfaces listed below are the ones visible on the reference photos. Port counts and levels for your build are confirmed in the specification review.
-- 2 x RJ45 Gigabit Ethernet
-- 4 x USB host ports
-- HDMI display output
-- 3.5 mm audio jack
-- DC power jack
-- Terminal blocks for power and serial wiring
-- White FPC connectors for panel, backlight and touch
-- microSD slot, reset and power keys
+
+The items below are the ones visible on the reference photo. Port counts, protocols and ratings for your build are confirmed in the specification review, because the same faceplate carries different modules depending on the access system.
+
+- Recessed touch display on the left of the faceplate
+- Camera centred above the display
+- Two slim apertures at the top edge for a card slot or sensor
+- Speaker grille on the right of the faceplate
+- RFID reading field marked with the RFID icon
+- Fingerprint sensor module below the RFID field
+- TALK and ALARM push buttons
+- Microphone aperture below the buttons
+- Four corner fixings on the brushed faceplate
 
 ## Configuration options
-Points to agree before a quotation. Final availability, interfaces and ratings depend on the selected platform.
-- Memory and eMMC storage size
-- Android version and launcher lock-down
-- Wi-Fi and Bluetooth module population
-- Carrier board, enclosure and cable-set design
-- Remote update and device management approach
-- Long-term supply and revision control
+
+Points to agree before a quotation. Final availability and module compatibility depend on the access-control platform and the software that runs on it.
+
+- Screen size, aspect ratio and touch technology
+- Android or Windows platform image
+- Camera resolution, and infrared illumination where the entrance is dark
+- RFID protocol (13.56 MHz or IC card) or a second card slot
+- Fingerprint sensor type and the SDK supplied with it
+- Relay outputs for the door lock, door sensor and exit button
+- Alarm input, and the call route to the guard desk
+- PoE or DC power, with rear cable entry
+- Silver, black or custom finish and front branding
+- Wall bracket and cable exit position
 
 ## Typical applications
 
-### Digital signage and advertising players
+01
 
-### Mainboard for compact self-service terminals
+## Office and factory door entry
 
-### Queue display and information screens
+02
 
-### Embedded Android appliances
+## Apartment and villa intercom
+
+03
+
+## Staff attendance and access logs
+
+04
+
+## Server-room and restricted-area control
+
+05
+
+## Clinic and school visitor calling
 
 ## Before you request a quotation
-Which Android version and runtime does the application need?
-Which panel, backlight and touch cables must the FPC connectors accept?
-How are firmware updates delivered after deployment?
-How long must this board revision remain buyable?
+
+How is the door lock wired to the panel?
+The lock hangs off a dry relay contact on the panel, normally open or normally closed depending on the lock, with a separate supply for the lock itself. A door sensor and an exit button normally join the same controller. Confirm the lock type and its current draw before the panel is specified.
+
+Should the panel run Android or Windows?
+It follows the access-control or intercom software you intend to run. Android suits a dedicated visitor or attendance app with a small SDK surface; Windows suits a desktop access-control client and its drivers. The platform is fixed before the panel is ordered.
+
+Can we use our own access-control software?
+Yes, if the readers are exposed through documented interfaces. Send the SDK, the API and the credential format the software expects, and we confirm which modules on the faceplate can serve it. The kiosk supplies the hardware; the access decision stays in your software.
+
+Where are the fingerprint and card records stored?
+That is a decision of the access-control system, not the panel. Templates can sit on the panel or on a controller behind it, and the retention rule follows your local data-protection requirement. We confirm the chosen route during the specification review.
+
+What power and network does it need?
+Power over Ethernet where the chosen board supports it, otherwise a 12 or 24 V DC feed. Network is a standard RJ45, and both the power and the data cable enter from the wall behind the bracket, so the services have to be in place before the panel is hung.
 
 ## Discuss your project
-Tell us the application, environment and I/O requirements. We reply with the questions that still need answers and the next step.
 
-## Kiosks using this platform
-Terminals from our build range that typically run on a computing unit of this class.
-See
+Tell us the entrance, the lock type, the credential mix and the software you run. We reply with the closest existing build, the modules that fit it and the questions that still need an answer.
 
+Discuss Access Control Panel
+
+## Other industrial PCs in the range
+
+Panels, box PCs and touch terminals that serve the same wall-mounted or cabinet-mounted roles.
+
+Wall-Mount Touch PanelWall-mounted
+
+Industrial Panel PCPanel computer
+
+Fanless Embedded Box PCFanless
+
+See all industrial PC platforms or the kiosk models in production. Access control overlaps with the Windows versus Android platform choice, which follows the same logic here.
 
 ---
 

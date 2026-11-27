@@ -80,7 +80,7 @@
 ## Industrial PCs and boards
 
 - [Fanless Embedded Box PC | Industrial Computers](https://xinyuehongtech.com/industrial-pc/fanless-box-pc/): Rugged fanless embedded box PC for 24/7 kiosk and HMI integration: Intel Celeron J6412 with Core i3/i5 options, triple Gigabit LAN, four USB 3.0 ports, HDMI and three DisplayPort outputs, two removable drive.
-- [Android Embedded Board | Industrial Computers](https://xinyuehongtech.com/industrial-pc/industrial-motherboard/): Rockchip RK3568 / RK3399 Android embedded board for kiosks and digital signage: LVDS, eDP and HDMI display outputs, multi-channel UART and GPIO headers, USB, RJ45 and an SDK for OS-level customisation.
+- [Access Control Intercom Panel](https://xinyuehongtech.com/industrial-pc/access-control-panel/): Silver wall-mount access control panel with touchscreen, camera, RFID reader, fingerprint sensor and talk and alarm buttons, for door entry, attendance and visitor calling.
 - [Industrial Panel PC | Industrial Computers](https://xinyuehongtech.com/industrial-pc/industrial-panel-pc/): Industrial touch panel PC with 10-point PCAP glass and a die-cast aluminium housing: IP65 front-panel option, panel-mount or VESA installation, for factory HMI, control cabinets and semi-outdoor terminals.
 - [Wall-Mount Touch Panel | Industrial Computers](https://xinyuehongtech.com/industrial-pc/wall-mount-touch-panel/): Slim wall-mount touch terminal in Windows or Android builds: narrow bezel, rear cable entry and a VESA or X-braced wall bracket, for meeting-room booking, bedside enquiry and interactive wayfinding.
 
