@@ -104,87 +104,288 @@ Compare kiosk installation styles by footprint, viewing height, serviceability, 
 
 ---
 
-# Self-Service Kiosks: Ordering, Payment & Check-in Hardware
+# Self-Service Kiosks &amp; Interactive Terminals by Industry Workflow
 
 URL: https://xinyuehongtech.com/self-service-terminals/
 
+SELF-SERVICE TERMINALS
+Self-Service Kiosks & Interactive Terminals by Industry Workflow
 
-# Self-Service Kiosks & Interactive Terminals by Industry Workflow
 From check-in and order placement to queue management, a kiosk works best when the hardware design follows the end-to-end service experience.
 
+The range covers six categories — self-ordering, self-payment, self check-in, ticketing, information and wall-mounted terminals — in floor-standing, wall-mounted and countertop builds from 15.6 to 32 inches. Configurations are assembled from the same module families: a computing platform, a touchscreen, card and identity readers, a thermal printer and a payment-terminal bracket. Most projects start from a build already in production and change the module set, the cabinet colour and the branding; OEM and ODM customization covers the cases where the enclosure itself has to change. For the workflow behind each category, see the industry guides, and for module vendor positions see the module integration page.
+Self-Ordering KiosksSelf-Payment KiosksSelf Check-in KiosksTicketing KiosksInformation KiosksWall-Mounted Kiosks
+
+REAL UNITS
+
 ## Kiosk models in production
+
 Reference photos of units from our build range: hospital registration and payment terminals, ticketing machines, government and social-security service units, parking and financial self-service machines. Modules visible on each unit are listed under the photo.
+
+Floor-standing
+
+Vertical Touchscreen Ticketing Kiosk
+
 Compact floor unit with a vertical touchscreen and an integrated service panel for tickets and scanning.
+
+In view: Vertical touchscreen &middot; Receipt printer &middot; QR code scanner &middot; Contactless card reader
+
+Floor-standing
+
+Government Services Kiosk with Document Readers
+
 Windows-based terminal for identity and card based government or social-security workflows, shown on a mobile caster base.
+
+In view: ID document reader &middot; Social-security card reader &middot; Receipt printer &middot; Bank card reader &middot; Barcode scanner &middot; Caster base
+
+Floor-standing
+
+Hospital Registration & Payment Kiosk
+
 Dual-screen unit: a guidance display above and the working touchscreen below, with keyboard and receipt hardware on the deck.
+
+In view: Guidance display &middot; Touchscreen &middot; Retractable keyboard &middot; Card readers &middot; Receipt printer &middot; Lockable cabinet
+
+Floor-standing
+
+Exit-Entry & Immigration Self-Service Kiosk
+
 Two stacked displays separate queue and notice content from the self-service area, with a high-capacity base cabinet.
+
+In view: Upper guidance display &middot; Lower touchscreen &middot; Card reader &middot; Receipt printer &middot; Large capacity cabinet
+
+Floor-standing
+
+Parking Payment Terminal
+
 Slim dark-cabinet unit with a vertical display and an angled payment deck for cards and scan codes.
+
+In view: Vertical display &middot; Angled payment deck &middot; Card reader &middot; Scanner area
+
+Floor-standing
+
+Sloped Touch Information Kiosk
+
 Horizontal touchscreen set into a curved enclosure, suited to directories, wayfinding and self-service lookup.
+
+In view: Horizontal touchscreen &middot; Curved enclosure
+
+Wall-mounted
+
+Wall-Mounted Hospital Payment Terminal
+
 Slim wall unit that packs registration and payment hardware into a small footprint beside a corridor or lift lobby.
+
+In view: Wall-mounted touchscreen &middot; Receipt printer &middot; Camera &middot; Card reader &middot; PIN pad &middot; Contactless reader
+
+Floor-standing
+
+Mobile Hospital Self-Service Station
+
 Tall service station with a side identification column, multiple payment modules and a lockable base, mounted on casters.
+
+In view: Vertical touchscreen &middot; Camera column &middot; Secondary display &middot; Receipt printer &middot; Card readers &middot; Contactless reader &middot; Lockable cabinet &middot; Casters
+
+Floor-standing
+
+Bank Self-Service Kiosk with PIN Pad
+
 Vertical touchscreen organised around account, payment and enquiry flows, with the PIN pad and card readers on the lower panel.
+
+In view: Vertical touchscreen &middot; Receipt printer &middot; QR scanner &middot; Card swipe &middot; PIN pad
+
+Floor-standing
+
+Dual-Screen Government Affairs Terminal
+
 Large public-office unit: an advertising display on top and a working touchscreen with a full reader set below.
+
+In view: Top display &middot; Touchscreen &middot; Multiple card readers &middot; Receipt printer &middot; Camera module
+
+Floor-standing
+
+Financial Self-Service Terminal (ATM Style)
+
 Recessed-screen enclosure with keypad and card hardware over a reinforced service cabinet for banking-style flows.
+
+In view: Recessed display &middot; PIN keypad &middot; Card reader &middot; Cash/document aperture &middot; Secure service cabinet
+
+Floor-standing
+
+Clinic Self-Service Terminal with Card Dispenser
+
 Registration, payment and report flows on one vertical touchscreen, with card dispensing hardware in the base.
+
+In view: Vertical touchscreen &middot; Card dispenser &middot; Contactless reader &middot; Receipt printer &middot; ID reading
+
+Floor-standing
+
+Ticket Vending & Collection Kiosk
+
 Slim unit for ticket purchase and collection, with a QR/contactless panel above the ticket outlet.
+
+In view: Vertical touchscreen &middot; Ticket printer outlet &middot; QR scanner &middot; Contactless reader
+
+Floor-standing
+
+Medical Record Printing Kiosk
+
 Counter-height enclosure dedicated to medical record printing and identity verification.
+
+In view: Touchscreen &middot; Camera &middot; Document slot &middot; Printing module
+
+Floor-standing
+
+Medical Insurance Service Kiosk
+
 Curved vertical display with insurance service tiles and a reader-and-printer deck below.
+
+In view: Curved vertical display &middot; Card readers &middot; Receipt printer &middot; Scanning module
+
+Floor-standing
+
+Slim Social Security Services Kiosk
+
 Ultra-slim body with a full document and payment module set for social-security self-service.
+
+In view: Slim vertical touchscreen &middot; Receipt printer &middot; QR scanner &middot; Social-security card slot &middot; ID scanner &middot; Compact keyboard
+
+Floor-standing
+
+Border Inspection Service Island
+
 Service island for border checkpoints combining a guidance screen, main touchscreen and four reader slots over a high-capacity cabinet.
+
+In view: Guidance display &middot; Touchscreen &middot; Four card-reader slots &middot; Keyboard &middot; Contactless pad &middot; Large capacity cabinet
+
+Countertop
+
+Tilted Countertop Touch Kiosk
+
 Compact angled touchscreen stand for queries, check-in and information points; available in light and dark finishes.
+
+In view: Angled touchscreen &middot; Compact base
+
+Floor-standing / 32-inch
+
+32-Inch Multi-Industry Self-Service Terminal
+
 32-inch 2560 × 1440 portrait display above a glass scan deck, with 1D/2D barcode and QR scanning, IC/ID and bank card reading, national ID reader and receipt printer — one cabinet for border, bank, hotel, cinema and supermarket counters.
+
+In view: 32-inch QHD touchscreen · 1D/2D barcode & QR scanner · IC/ID & bank card readers · National ID reader · Receipt printer · LED base lighting
+
+Transparent 3D display
+
+Holographic Display Cabinets
+10.1" to 100"
+
+Naked-eye 3D transparent pods and cabinets for retail, museums, lobbies and exhibitions.
+
 Each model page now lists its reference display size, computing platform and module set; brightness, ingress protection and final configuration are confirmed per project.
 
 ## Manufacturing & quality standards
+
 One route for a single prototype and a production batch. The numbers below are our standard process and are confirmed again in the quotation.
 
-### 12-hour burn-in test
+12-HOUR BURN-IN
+12-hour burn-in test
+
 Every finished unit runs a 12-hour burn-in with the display, card readers, printer and scanner exercised in a loop before it is packed.
 
-### 15-day standard lead time
+15-DAY LEAD TIME
+15-day standard lead time
+
 Standard lead time is 15 days from deposit and approved drawing or sample, for orders inside our standard module set.
 
-### Minimum order: 1 unit
+MOQ 1 UNIT
+Minimum order: 1 unit
+
 Prototype and pilot units follow the same test route as volume orders, so a single sample is representative of the batch.
 
-### Sheet-metal fabrication
+ENCLOSURE
+Sheet-metal fabrication
+
 Cabinets are laser cut, CNC bent and powder coated; colour and logo are approved on a sample before the batch runs.
 
-### Module integration
-Printers, readers, scanners and cameras are mounted and tested as one set, so the terminal arrives with a working peripheral stack instead of loose parts.
+INTEGRATION
+Module integration
 
-### Pre-shipment check
+Printers, readers, scanners and cameras are mounted and tested as one set, so the terminal arrives with a working peripheral stack instead of loose parts. The module integration guide covers fingerprint, iris and payment vendors.
+
+PRE-SHIPMENT
+Pre-shipment check
+
 Final inspection covers function, finish, labelling and packing list, and the packed unit is photographed for the order record.
+
 All terminals are engineered for CE, FCC and RoHS compliance, support ADA-compliant mounting heights, can be fitted with IK08 tempered cover glass, and provide custom cut-outs for PCI-PTS / EMV payment terminals. Certification scope is confirmed per destination market.
 
 ## How to read these photos
+
 A quick guide before you send us a reference of your own.
 
-### Modules are visible, ratings are not
+01
+Modules are visible, ratings are not
+
 The printer, reader and keypad layout can be read from a photo. Electrical, environmental and performance ratings cannot, so nothing here is quoted as a fixed specification.
 
-### Colour and branding follow your brand
+02
+Colour and branding follow your brand
+
 Cabinet colour, logo placement and front graphics are part of every OEM/ODM project; the photos show reference finishes only.
 
-### Send us your own reference
+03
+Send us your own reference
+
 A photo of a unit you like plus a short description of the task is enough to start. We reply with the closest build, the open questions and the next step.
+
+SOLUTION ARCHITECTURE
+
+## Typical engineering ranges
+
+A self-service terminal is assembled from a display, an enclosure and a module set. The ranges below describe what the class of terminal normally carries, so a project can be sized before the datasheet for a specific build is issued.
+
+Typical engineering values for this class of hardware. They support budgeting and quote comparison; the datasheet and quotation for a specific build replace them, and any figure can be confirmed in writing before the order.
+
+ |  | Parameter | Typical range | Condition
+
+ | Display size | 15.6–32 in | Landscape for forms and menus, portrait for tall catalogues
+ | Brightness | 250–500 nits indoor | 1,000 nits and above for semi-outdoor cabinets
+ | Mounting height | 15–48 in above finished floor | ADA reach range; the upper band is for standing use
+ | Receipt printer | 80 mm thermal | 58 mm only where the receipt is short and the site demands it
+ | Card reading | EMV chip, contactless, magstripe | PIN entry stays on a certified terminal, not the kiosk screen
+ | Identity reading | MRZ passport, ID card, barcode, fingerprint, iris | Each adds an SDK and a driver to the build
+ | Enclosure | 1.2–2 mm cold-rolled steel | Stainless where wash-down or coastal air is involved
+ | Glass | IK08 tempered, IK10 where specified | Anti-glare or anti-reflective coating for bright sites
+ | Mains input | 110–120 V or 220–240 V AC, 50/60 Hz | Internally converted to 12 or 24 V DC
+ | Ambient inside cabinet | 10–15 °C above room | Higher behind a sunlit shopfront window
 
 ## Align the whole service system
 
-### User interface
+01
+User interface
+
 Touchscreen layout, multilingual access and accessibility requirements.
 
-### Device layer
+02
+Device layer
+
 Scanner, printer, camera, card reader and payment device planning.
 
-### Application software
+03
+Application software
+
 POS, check-in platform, queue system or content service integration.
 
-### Operations
+04
+Operations
+
 Network setup, maintenance access and remote management.
+
+START WITH THE REQUIREMENTS
 
 ## Tell us how your kiosk should work
 
+Discuss your application ↗ Browse models ↗
 
 ---
 
@@ -2935,16 +3136,34 @@ Computing platform: the fanless box PC, panel PC and Android board used inside t
 
 ---
 
-# Fanless Embedded Box PC | Industrial Computers | Xinyuehong
+# Fanless Embedded Box PC
 
 URL: https://xinyuehongtech.com/industrial-pc/fanless-box-pc/
 
+Home
+/
+Industrial PCs
+/
 
-# Fanless Embedded Box PC
+Fanless Embedded Box PC
+
+FANLESS COMPUTING
+Fanless Embedded Box PC
+
 Rugged fanless embedded box PC for 24/7 kiosk and HMI integration: Intel Celeron J6412 with Core i3/i5 options, triple Gigabit LAN, four USB 3.0 ports, HDMI and three DisplayPort outputs, two removable drive bays and a 9-55 V wide-range DC input. Serial port count and RS-232 / RS-485 level are agreed per configuration.
+The unit in the reference photo is a blue sheet-metal box PC with a finned passive heatsink and no fan. Four screw-mounted antennas sit on the top face; the connector panel below carries HDMI, three DisplayPort outputs, VGA, three RJ45 LAN ports, four USB 3.0 ports, three audio jacks (mic, line in, line out) and a keyed DC input with IGN and NC terminals for 9-55 V. Two removable HDD bays run along the bottom edge, and the earth stud and power button sit on the right. Because the connectors are brought out to the panel rather than left on a rear bracket, displays, printers, scanners and card readers can be plugged in without opening the cabinet.
+
+Discuss this configurationAll industrial PCs
+
+Datasheet (PDF, 2 pages)
+Specifications, module options and typical applications, in one file.
+
+Download PDF ↓
 
 ## Interfaces on this unit
+
 Interfaces listed below are the ones visible on the reference photos. Port counts and levels for your build are confirmed in the specification review.
+
 - HDMI and 3 x DisplayPort outputs
 - 3 x RJ45 Gigabit LAN
 - 4 x USB 3.0
@@ -2956,7 +3175,9 @@ Interfaces listed below are the ones visible on the reference photos. Port count
 - Earth stud and power button on the right
 
 ## Configuration options
+
 Points to agree before a quotation. Final availability, interfaces and ratings depend on the selected platform.
+
 - CPU platform, memory and storage configuration
 - Serial port count and RS-232 / RS-485 level per port
 - Wide-voltage DC input range and power budget
@@ -2966,27 +3187,71 @@ Points to agree before a quotation. Final availability, interfaces and ratings d
 
 ## Typical applications
 
-### Main computer inside self-service kiosks
+01
+Main computer inside self-service kiosks
 
-### Industrial control cabinets with several serial devices
+02
+Industrial control cabinets with several serial devices
 
-### Multiple card readers, scanner and printer on one unit
+03
+Multiple card readers, scanner and printer on one unit
 
-### Digital signage player for wall-mounted screens
+04
+Digital signage player for wall-mounted screens
+
+## Typical engineering ranges
+
+A fanless box PC is configured by processor class and I/O count, not by model number. The ranges below describe what this class of hardware normally provides.
+
+Typical engineering values for this class of hardware. They support budgeting and quote comparison; the datasheet and quotation for a specific build replace them, and any figure can be confirmed in writing before the order.
+
+ |  | Parameter | Typical range | Condition
+
+ | Processor class | Intel Celeron J6412 / Core i3 / i5 | J6412 for most kiosk apps; i3/i5 for vision and heavy local workloads
+ | Memory | 4–32 GB DDR4 / DDR5 SO-DIMM | 8 GB is the common floor for a Windows kiosk image
+ | Storage | 1–2 drives, M.2 NVMe or 2.5 in SATA | Industrial SSD where the site exceeds 45 °C
+ | Networking | 2–3 × GbE LAN | Triple LAN where the kiosk bridges a device network
+ | USB | 4–6 × USB 3.0 | More ports remove the external hubs that cause dropouts
+ | Serial | 2–6 × RS-232 / RS-485 | Native COM ports for recyclers, dispensers and legacy printers
+ | Display outputs | HDMI + up to 3 × DisplayPort | Dual-screen kiosks use two of them
+ | Input power | 9–55 V DC | Covers 12 V and 24 V site rails without an extra converter
+ | Power draw | 10–35 W | Depends on CPU class and load; higher figure for Core i5
+ | Operating temperature | 0–50 °C standard | −20–60 °C with wide-temperature storage and DRAM
+ | Mounting | VESA or DIN rail | Access to the service door matters more than the bracket
 
 ## Before you request a quotation
+
 How many serial devices must connect to the unit?
+The standard unit in the photo exposes HDMI, three DisplayPort outputs, three Gigabit LAN ports and four USB 3.0 ports; serial ports are added at configuration stage, so the count and the RS-232 / RS-485 level are agreed per project. If the count is higher, or if isolated RS-485 is needed, the port configuration changes at board level rather than through external adapters.
+
 What are the ambient temperature and dust conditions?
+The fanless housing relies on convection, so ambient temperature and air movement around the cabinet matter more than the CPU rating. Tell us the enclosure, the ambient range and the dust level; a sealed cabinet in direct sun is a different thermal case from a ventilated hall.
+
 Which operating system does your software run on?
+Windows, Linux and Android builds are available on different boards. The choice is driven by drivers and the runtime your application needs rather than by the enclosure, so confirm the OS first and the platform follows.
+
 How is the unit mounted inside the cabinet?
+The box is mounted on its base or on a side bracket, with the I/O face accessible for servicing. Clearance for the connector hoods and airflow around the fins has to be planned in the cabinet drawing.
 
 ## Discuss your project
+
 Tell us the application, environment and I/O requirements. We reply with the questions that still need answers and the next step.
 
-## Kiosks using this platform
-Terminals from our build range that typically run on a computing unit of this class.
-See
+Discuss Fanless Embedded Box PC
 
+## Kiosks using this platform
+
+Terminals from our build range that typically run on a computing unit of this class.
+
+Hospital Registration & Payment Kiosk
+
+Floor-standing
+
+Parking Payment Terminal
+
+Floor-standing
+
+See all kiosk models in production or the other industrial PC platforms. For the thermal side of a fanless build, read the 24/7 reliability and thermal design guide.
 
 ---
 
@@ -3095,16 +3360,34 @@ See all industrial PC platforms or the kiosk models in production. Access contro
 
 ---
 
-# Industrial Panel PC | Industrial Computers | Xinyuehong
+# Industrial Panel PC
 
 URL: https://xinyuehongtech.com/industrial-pc/industrial-panel-pc/
 
+Home
+/
+Industrial PCs
+/
 
-# Industrial Panel PC
+Industrial Panel PC
+
+PANEL COMPUTER
+Industrial Panel PC
+
 Industrial touch panel PC with 10-point PCAP glass and a die-cast aluminium housing: IP65 front-panel option, panel-mount or VESA installation, for factory HMI, control cabinets and semi-outdoor terminals.
+This is a black all-in-one panel computer: a touch display behind a dark front bezel, with the computing module and cabling tucked into a black aluminium rear housing. The rear view shows the X-braced mounting frame with VESA holes and a side cable junction, which is how the unit is fixed to a machine frame or an arm. The dashboard on screen in the photo is a rendering to show the display format — the interface itself comes from your own HMI software, so the panel is specified around your application rather than ours.
+
+Discuss this configurationAll industrial PCs
+
+Datasheet (PDF, 2 pages)
+Specifications, module options and typical applications, in one file.
+
+Download PDF ↓
 
 ## Interfaces on this unit
+
 Interfaces listed below are the ones visible on the reference photos. Port counts and levels for your build are confirmed in the specification review.
+
 - Dark-bezel touch display
 - Rear aluminium housing with X-braced mount
 - VESA holes on the mounting frame
@@ -3113,7 +3396,9 @@ Interfaces listed below are the ones visible on the reference photos. Port count
 - USB service port inside the junction box
 
 ## Configuration options
+
 Points to agree before a quotation. Final availability, interfaces and ratings depend on the selected platform.
+
 - Screen size and 4:3 or wide aspect ratio
 - Projected capacitive or resistive touch
 - Brightness, anti-glare treatment and optical bonding
@@ -3121,29 +3406,133 @@ Points to agree before a quotation. Final availability, interfaces and ratings d
 - VESA arm, panel cut-out or X-brace mounting
 - Windows, Android or Linux platform image
 
+## How a panel PC is chosen for a kiosk
+
+A panel PC is the simplest way to build a terminal: the display, the touch sensor and the computer are one sealed unit, so the cabinet only has to hold a rectangle and route one cable. The four decisions below are the ones that change the specification.
+
+Screen size follows the viewing distance, not the cabinet
+
+A 10 to 15 inch panel suits an arm-mounted HMI where the operator stands at 40 to 60 cm. A 21.5 inch panel suits a counter terminal read at arm’s length. Anything at 27 inch and above is a kiosk faceplate, read from 1 m or more, and the enclosure starts to be designed around the panel rather than the other way round.
+
+The front face is the only part that has to survive the public
+
+IP65 on the front panel means the face can be washed; it says nothing about the rear. For a lobby or a semi-outdoor unit, specify the front rating, the glass (tempered or anti-glare), and the cleaning chemicals the venue actually uses. A resistive touch layer still makes sense where gloves are mandatory; for everything else, projected capacitive is the default.
+
+Mounting decides the service model
+
+Panel-mount clamps the unit into a cut-out in the machine or the cabinet door, which is compact but means the whole unit comes out for service. VESA on an X-braced frame lets a technician reach the rear connectors without removing the panel. An arm mount is the third option and the one that most often fouls a door or a guard.
+
+Fanless is a thermal decision, not a fashion
+
+A sealed enclosure with no fan has no filter to change and no airflow path for dust, which is why it dominates kiosk and HMI work. The trade-off is a lower sustained CPU budget: if the application runs video analytics or a heavy browser session, the platform moves up to a box PC with a larger heatsink, or the enclosure gets a ventilation path and loses its sealing.
+
+Panel PC, fanless box PC or Android board: which one fits the job.
+
+ |  | Option | Best fit | Service access | Where it stops working
+
+ | Industrial panel PC | All-in-one terminal: HMI, kiosk faceplate, control cabinet door | Panel-mount removal or rear VESA access | Very large screens, or a cabinet that needs a separate display position
+
+ | Fanless box PC | Cabinet with a display already chosen, or several outputs from one computer | Drawer or door, no display to remove | Where cable length to the panel becomes a signal problem
+
+ | Access control intercom panel | Door entry, attendance and visitor calling at the wall | Front faceplate on four corner fixings | Where the entrance needs no display, or the lock is a standalone reader
+
 ## Typical applications
 
-### Machine-side HMI on production equipment
+01
+Machine-side HMI on production equipment
 
-### Control and monitoring panel in a cabinet door
+02
+Control and monitoring panel in a cabinet door
 
-### Shop-floor dashboard display
+03
+Shop-floor dashboard display
 
-### Operator terminal at a test station
+04
+Operator terminal at a test station
+
+## Where this panel PC goes
+
+The same platform sits inside terminals built for different workflows. Each of these pages lists the modules visible on the unit and the operating systems supported, which is usually the fastest way to see whether a configuration resembles yours.
+
+- Bank self-service kiosk with PIN pad ↗
+
+- Hospital registration and payment kiosk, dual screen ↗
+
+- Government services kiosk with document readers ↗
+
+- Parking payment terminal with an angled deck ↗
+
+- Vertical touchscreen ticketing kiosk ↗
+
+- 32-inch multi-industry self-service terminal ↗
+
+- Wall-mounted hospital payment terminal ↗
+
+- Tilted countertop touch kiosk ↗
+
+## Related reading
+
+- ADA reach ranges, IP and IK ratings for a public terminal ↗
+
+- Why kiosks fail in 24/7 operation, and what thermal design fixes ↗
+
+- PCAP, infrared and resistive touch compared ↗
+
+- The eight module families a kiosk can carry ↗
+
+## Typical engineering ranges
+
+Panel PCs are quoted in sizes and brightness bands rather than one fixed SKU. The ranges below describe the class of hardware, so a specification can be sized before a quotation exists.
+
+Typical engineering values for this class of hardware. They support budgeting and quote comparison; the datasheet and quotation for a specific build replace them, and any figure can be confirmed in writing before the order.
+
+ |  | Parameter | Typical range | Condition
+
+ | Display size | 10.1–32 in | Common kiosk builds use 15 to 21.5 in; 27–32 in for menu boards
+ | Brightness | 250–500 nits | Sheltered indoor position, ordinary shop lighting
+ | Brightness | 800–1,500 nits | Semi-outdoor, glazed facade or bright lobby
+ | Brightness | 1,500–2,500 nits + optical bonding | Direct sunlight; bonding removes internal reflections
+ | Touch | PCAP, 10-point, IK08 cover glass | Public use; IK10 where vandalism is a known risk
+ | Operating temperature | 0–50 °C | Standard build, fanless, inside a cabinet
+ | Operating temperature | −20–60 °C | Wide-temperature option with industrial SSD and DRAM
+ | Front protection | IP65 front, IP54 rear | Typical; confirm the seal for wash-down sites
+ | Input power | 12–24 V DC | Fed from the kiosk supply; board-dependent, confirmed per build
+ | Power draw | 15–30 W | Display on, typical application load
+ | Mounting | VESA 75/100 or panel cut-out | Cut-out needs a drawing before the cabinet is welded
 
 ## Before you request a quotation
+
 Which screen size and aspect ratio does your HMI expect?
+The HMI layout usually fixes the ratio before the panel is chosen. Send the target resolution and the mounting cut-out and the panel is matched to both; scaling an HMI designed for 4:3 onto a 16:9 panel rarely looks right.
+
 Will operators wear gloves or use a stylus?
+Glove use and stylus input change the touch technology: projected capacitive works with thin gloves and most styluses, while resistive remains the safer choice for heavy gloves and wet hands. State the working condition, not just the preference.
+
 What ingress protection does the front panel need?
+Front-face protection is specified per installation: a wash-down area needs a sealed front and stainless bezel, while a dry control cabinet does not. The rear of the panel normally sits inside the enclosure and does not carry the same rating.
+
 How is the panel mounted: arm, cut-out or bracket?
+Arm mount, panel cut-out and VESA bracket are all supported, but each changes the rear clearance and the cable route. The mounting is decided with the enclosure drawing, not after the panel arrives.
 
 ## Discuss your project
+
 Tell us the application, environment and I/O requirements. We reply with the questions that still need answers and the next step.
 
-## Kiosks using this platform
-Terminals from our build range that typically run on a computing unit of this class.
-See
+Discuss Industrial Panel PC
 
+## Kiosks using this platform
+
+Terminals from our build range that typically run on a computing unit of this class.
+
+Sloped Touch Information Kiosk
+
+Floor-standing
+
+Exit-Entry & Immigration Self-Service Kiosk
+
+Floor-standing
+
+See all kiosk models in production or the other industrial PC platforms. Touch-stack choices are compared in the touchscreen technology guide; heat paths in the thermal design guide.
 
 ---
 
