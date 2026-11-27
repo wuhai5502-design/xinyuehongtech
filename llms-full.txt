@@ -3588,57 +3588,105 @@ See
 
 ---
 
-# Floor-Standing vs Wall-Mounted Kiosks | Xinyuehong
+# Floor-Standing vs Wall-Mounted Kiosks
 
 URL: https://xinyuehongtech.com/news/floor-standing-vs-wall-mounted-kiosks/
 
-# Floor-Standing vs Wall-Mounted Kiosks
-By
+← All news
+
+Home
+/
+News
+/
+
+Floor-Standing vs Wall-Mounted Kiosks
+
+NEWS / 2026-10-24
+Floor-Standing vs Wall-Mounted Kiosks
+
+By Mark, Project Engineer · Published October 24, 2026 · 6 min read
+
+In one line: Floor-standing units suit queue-forming transactions and carry the full module set; wall-mounted units save corridor width but hold only shallow modules and need a structural wall. Decide by footprint, viewing height, module space and how often staff must change paper.
+
 ## Start with the footprint, not the cabinet
-A floor-standing terminal needs a footprint of roughly 350 by 450 mm for a single-screen unit and 500 by 600 mm once a printer, a document reader and a cash module share the base. The number that actually decides the position is the clear space in front: a wheelchair user needs a 30 by 48 inch approach, and a standing queue needs about 1.2 m from the screen to the next person's toes. Measure that before the cabinet is drawn; it eliminates more positions than the cabinet dimensions ever will.
+
+A floor-standing terminal needs a footprint of roughly 350 by 450 mm for a single-screen unit and 500 by 600 mm once a printer, a document reader and a cash module share the base. The number that actually decides the position is the clear space in front: a wheelchair user needs a 30 by 48 inch approach, and a standing queue needs about 1.2 m from the screen to the next person's toes. Measure that before the enclosure is detailed; it eliminates more positions than the cabinet dimensions ever will.
+
 A wall-mounted unit is a different calculation. The cabinet is typically 100 to 250 mm deep, so the corridor keeps its width, but the wall has to carry 40 to 90 kg at an eccentric load. That means blocking or a steel sub-frame behind the finish, not plasterboard anchors. If the wall is a glazed partition or a drywall demountable system, budget for a frame and a structural check.
+
 ## Viewing height decides the screen size
+
 ADA 308 and 309 ask for controls within 15 to 48 inches above the finished floor; a comfortable screen centre for a standing adult lands around 1,200 to 1,400 mm. A floor-standing cabinet reaches that height with a stand, which is why a 27-inch portrait screen reads comfortably while a 21.5-inch landscape does not. A wall-mounted unit usually sits at 1,100 to 1,200 mm centre and needs a shallower viewing cone — fine for a 21.5-inch screen at 500 to 700 mm viewing distance, tight for anything larger.
+
 Two practical consequences follow. On a floor-standing unit, spend the height budget on the screen and put the printer outlet below 1,200 mm so the ticket is reachable without bending. On a wall-mounted unit, keep the reading and printing tasks separate: put the printer in a pedestal or a counter below the screen rather than hanging it at shoulder height.
+
 ## Where the hardware goes
+
 Inside a floor-standing cabinet there is room for the computing platform, a receipt printer, a document or card module, a UPS and the cable slack that service work needs. That space is the real reason floor-standing units dominate multi-function kiosks: a 32-inch terminal with five modules needs a cabinet volume a wall unit cannot offer.
+
 A wall-mounted unit is limited to shallow modules — a card reader, a QR scanner, a contactless pad, a small thermal printer. When the computing platform will not fit, it goes into a ceiling void, a riser cupboard or a nearby comms cabinet, and the run to the screen becomes a design constraint: keep USB and video runs under the limits your platform supports, and specify shielded cable if the run passes near mains wiring.
+
 ## Service access and consumables
+
 Every kiosk needs someone to change paper, clear a jam, wipe the screen and reboot it. On a floor-standing unit, a front-hinged door with a lock is the default; a rear door only works if the unit stands away from the wall, which conflicts with queue geometry more often than expected. On a wall-mounted unit, the service door usually swings forward, so the same 900 mm of clear floor that serves the wheelchair user serves the technician.
+
 Count the consumable events before choosing the style. A busy ticket counter may reload a printer three times a day; a check-in terminal once a week. High-consumable tasks favour a floor-standing cabinet with a large roll and a front door. Low-consumable tasks — a directory, a card enquiry — tolerate a wall unit.
+
 ## Traffic pattern and queue geometry
+
 Floor-standing terminals form queues well because people can approach from three sides and the screen faces the aisle. Wall-mounted terminals serve better as side tasks: a payment at the end of a counter, a check-in in a corridor, a wayfinding point beside a lift lobby. The failure mode for a wall unit is a queue that forms along the wall and blocks the corridor behind it.
+
 Watch the approach angle too. A screen set flat against a wall is read at 90 degrees, which is fine for a short interaction and tiring for a two-minute form. A floor-standing cabinet can be rotated five to ten degrees toward the approach path, which costs nothing at drawing stage and removes a whole class of complaints.
+
 ## Installation cost and structure
+
 Floor-standing units cost more to ship and less to install: a plinth or levelling feet, a power point and a network drop. Wall-mounted units cost less to ship and more to install: a structural survey, blocking, a licensed installer, and a lift if the wall is above ground floor. On a multi-site roll-out the difference compounds — a wall unit that needs a survey per site can add weeks to a schedule.
+
 The decision table below summarises the trade-off. Use it as a first filter, then confirm against the actual site drawing.
+
 Choosing between the two installation styles
-Factor
-Floor-standing
-Wall-mounted
-Footprint
-350-600 mm deep, needs clear floor in front
-100-250 mm deep, keeps corridor width
-Screen size
-21.5" to 32" comfortable
-15.6" to 21.5" comfortable
-Module space
-Full: printer, PC, UPS, cash
-Shallow only; PC may be remote
-Installation
-Plinth, power, network
-Structural survey, blocking, installer
-Best for
-Queue-forming transactions
-Side tasks and narrow corridors
-## Hardware this guide refers to
-## Working on a related kiosk project?
+
+ | Factor | Floor-standing | Wall-mounted
+
+ | Footprint | 350-600 mm deep, needs clear floor in front | 100-250 mm deep, keeps corridor width
+
+ | Screen size | 21.5" to 32" comfortable | 15.6" to 21.5" comfortable
+
+ | Module space | Full: printer, PC, UPS, cash | Shallow only; PC may be remote
+
+ | Installation | Plinth, power, network | Structural survey, blocking, installer
+
+ | Best for | Queue-forming transactions | Side tasks and narrow corridors
+
+## The hardware behind this guide
+
+- Mobile hospital station for ward use ↗
+- Large-cabinet exit-entry kiosk ↗
+
+## If you are scoping a similar job
+
 Share your specifications and intended use with our team, and we will reply with the questions that still need answers.
-## Common questions
+
+Request a kiosk quote Browse kiosk models
+
+## Practical questions
+
 Can a wall-mounted kiosk be fitted to plasterboard?
+Not directly. A loaded wall unit weighs 40 to 90 kg at an eccentric distance from the wall, so the fixings have to reach blocking, a steel sub-frame or a structural wall. Plasterboard anchors are rated for a fraction of that load. If the wall is a demountable partition, budget for a frame behind it.
+
 How much clear floor space does a kiosk need?
+A 30 by 48 inch clear floor area in front of the controls covers wheelchair approach under ADA 305. Practically, allow about 1.2 m from the screen face so a queue does not press against the current user, and keep 900 mm clear for whoever changes the paper.
+
 Which style is cheaper for a multi-site roll-out?
-## Where to go next
+Wall-mounted units are cheaper to ship but usually dearer to install, because each site needs a wall survey and blocking before the unit arrives. Floor-standing units ship on a pallet and need a plinth and two services. Once a site has more than a handful of units, the floor-standing route tends to win on schedule.
+
+## Keep reading
+
+- Vertical ticketing kiosk ↗
+- Wall-mounted payment terminal ↗
+- Wall-mounted kiosks ↗
+- Touchscreen technology: PCAP, IR and resistive ↗
+- Product datasheets (PDF) for every model ↗
 
 ---
 
@@ -3646,664 +3694,1232 @@ Which style is cheaper for a multi-site roll-out?
 
 URL: https://xinyuehongtech.com/news/hotel-kiosk-peripherals-enclosure/
 
+← All news
+Home
+/
+News
+/
 
-# Hotel Check-in Kiosk Hardware: Peripherals and Enclosure
-By
+Hotel kiosk hardware
+
+NEWS / 2026-11-10
+Hotel Check-in Kiosk Hardware: Peripherals and Enclosure
+
+By Mark, Project Engineer · Published November 10, 2026 · 8 min read
+
+Quick answer: Four peripherals decide a hotel check-in build — passport or ID reader, key card dispenser with a lock-vendor encoder, camera and receipt printer — plus a mounted payment terminal. The enclosure is 1.2 to 2.0 mm cold-rolled steel, laser cut and CNC bent, powder coated at 60 to 80 microns, and takes three to six weeks from approved CAD to a finished batch.
+
 A hotel check-in kiosk looks like a software project and is actually a peripheral-integration project. The screen is settled in a week; the key card encoder, the passport reader and the lock vendor decide whether the unit works at all. Then the enclosure has to fit all of it, survive a lobby, and look like it belongs to the brand.
 
 ## The short version
+
 Four peripherals decide the build: a passport or ID reader, a key card dispenser with an encoder that matches the lock system, a camera for identity capture, and a receipt printer. The payment terminal is mounted, not integrated. The enclosure is 1.2 to 2.0 mm cold-rolled steel, laser cut and CNC bent, powder coated at 60 to 80 microns, and it takes three to six weeks from approved CAD to a finished batch — one to two weeks for the drawing, two to three for a prototype.
 
 ## Part 1: the peripheral stack
-What each peripheral needs, and where hotel projects usually stall.
-Peripheral
-What it needs from the project
-Where it stalls
-Passport / ID reader
-MRZ reading as standard; chip reading depends on the module; local ID cards need their own reader
-Assuming MRZ covers every document, when the property also accepts national IDs or residence permits
-Key card dispenser and encoder
-A dispenser sized for your card stock, and an encoder that talks to the lock system
-The lock vendor is engaged after the cabinet is drawn, and the encoder does not fit the bay
-Camera
-Position above the display at face height, with the field of view set for a standing guest
-Camera added as an afterthought, giving a chin-level view and unusable captures
-Receipt printer
-80 mm thermal with auto-cutter, paper accessible from the front
-Paper change needs a technician, so staff stop using the printer
-Payment terminal
-Mounted on a plate cut for the exact device, with power and data inside the cabinet
-Treated as part of the kiosk, so the certification and the bracket are both wrong
 
-### The key card problem is a vendor problem
+What each peripheral needs, and where hotel projects usually stall.
+
+ |  | Peripheral | What it needs from the project | Where it stalls
+
+ | Passport / ID reader | MRZ reading as standard; chip reading depends on the module; local ID cards need their own reader | Assuming MRZ covers every document, when the property also accepts national IDs or residence permits
+
+ | Key card dispenser and encoder | A dispenser sized for your card stock, and an encoder that talks to the lock system | The lock vendor is engaged after the cabinet is drawn, and the encoder does not fit the bay
+
+ | Camera | Position above the display at face height, with the field of view set for a standing guest | Camera added as an afterthought, giving a chin-level view and unusable captures
+
+ | Receipt printer | 80 mm thermal with auto-cutter, paper accessible from the front | Paper change needs a technician, so staff stop using the printer
+
+ | Payment terminal | Mounted on a plate cut for the exact device, with power and data inside the cabinet | Treated as part of the kiosk, so the certification and the bracket are both wrong
+
+The key card problem is a vendor problem
+
 Most hotel self-service projects fail here, and not because the hardware is bad. A key card is issued by an encoder that must be certified or licensed by the lock system vendor — ASSA ABLOY, Salto, Onity and Dormakaba all have their own encoder families and their own integration paths. The kiosk factory can provide the bay, the power and the serial link, but it cannot make a third-party encoder talk to a lock system without that vendor in the room.
+
 The practical sequence is: lock vendor first, encoder model second, kiosk bay third. Projects that start with the cabinet usually end up with a dispenser that issues blank cards, which is worse than no kiosk at all.
 
-### Identity capture is a policy question as much as a hardware one
+Identity capture is a policy question as much as a hardware one
+
 Reading a passport MRZ gives you name, number and dates. Reading the chip gives you a signed record. Scanning the photo page gives you an image that a human may have to review. Which of those the property is allowed to store, and for how long, is set by local data-protection rules and by the hotel group's own policy — and it changes the reader specification. A property that only needs to verify a name does not need a chip reader.
 
 ## Part 2: from CAD to powder coating
+
 An enclosure is a sequence of processes, and each one has a tolerance that accumulates. The chain for a kiosk cabinet is: laser cutting, CNC bending, welding or riveting, surface pretreatment, powder coating, then assembly and test.
 
-### Cutting and bending
+Cutting and bending
+
 Sheet is normally 1.2 to 2.0 mm cold-rolled steel for a painted cabinet, or 1.5 mm stainless where the front face is touched constantly and must not chip. Laser cutting holds roughly ±0.1 mm on a profile; CNC bending holds roughly ±0.2 mm on a bend position, and the tolerance grows with the number of bends in a chain. That is why a drawing that stacks six bends to position a card slot is a drawing that will need a slotted hole, not a round one.
 
-### Finishing
+Finishing
+
 Powder coating is where appearance and durability are decided. The pretreatment matters more than the powder: degreasing, phosphating and a rinse before coating is what stops a cabinet from rusting at a scratch two years later. Coating thickness is typically 60 to 80 microns, and colour is matched against a physical sample rather than a screen, because the same RAL number looks different in a lobby at 3000 K and in a factory under daylight.
 
-### Prototype, then batch
+Prototype, then batch
+
 Typical schedule for a custom enclosure, counted from the approved brief.
-Stage
-Duration
-What is fixed at the end of it
-CAD and drawing approval
-1 – 2 weeks
-Peripheral positions, service access, cable routes, material and finish
-Prototype build
-2 – 3 weeks
-Fit of every module, coating sample, label positions
-Validation
-1 – 2 weeks
-Burn-in, thermal check, customer sign-off on the sample
-Production batch
-3 – 4 weeks
-Fixtures and bending programs reused, batch coating, final inspection
+
+ |  | Stage | Duration | What is fixed at the end of it
+
+ | CAD and drawing approval | 1 – 2 weeks | Peripheral positions, service access, cable routes, material and finish
+
+ | Prototype build | 2 – 3 weeks | Fit of every module, coating sample, label positions
+
+ | Validation | 1 – 2 weeks | Burn-in, thermal check, customer sign-off on the sample
+
+ | Production batch | 3 – 4 weeks | Fixtures and bending programs reused, batch coating, final inspection
+
 The economics change between prototype and batch. A single unit carries the full programming and setup cost; a batch of fifty amortises the same work across the run. What does not amortise is new tooling — a weld fixture or a custom extrusion is a one-off that stays a one-off, and it is quoted separately for that reason.
 
 ## What drives cost in the enclosure
 
+- Number of bends and welds. Every additional bend is a setup and a tolerance, and visible welds need grinding and re-finishing.
+
+- Material. Stainless costs two to three times cold-rolled steel per kilogram, before the extra tool wear.
+
+- Finish. A standard powder colour is cheap; a colour match to a brand guideline, or a brushed stainless finish, is not.
+
+- Cut-outs and apertures. Each peripheral opening is a separate laser path, and a mis-sized one is a re-cut.
+
+- Service access. A hinged front door with a lock and a gasket costs more than a screw-fixed panel, and is usually worth it.
+
+- Volume. Fifty units against one typically removes 15 to 25% of the unit price, mostly in programming and coating batches.
+
 ## Specification checklist before an RFQ
+
 - The full peripheral list, with model numbers where already chosen
+
 - Lock system and encoder, confirmed with that vendor in writing
+
 - Documents the reader must accept, and what may be stored
+
 - Cabinet material, colour reference and finish (painted, stainless, brushed)
+
 - Mounting: floor-standing with plinth, wall bracket, or countertop
-- Ingress and impact requirements, which decide gaskets and glass (
+
+- Ingress and impact requirements, which decide gaskets and glass (see the ADA, IP and IK guide)
+
 - Branding: logo file, placement, and whether it is printed, etched or a badge
+
 - Prototype quantity, batch quantity, and the date the first unit has to be on site
 
-## Questions hotel projects ask first
+## FAQ
+
 Can the kiosk issue a hotel key card?
+The cabinet can carry a dispenser and an encoder, but the encoder must be compatible with the lock system and is normally licensed by that vendor. The sequence that works is lock vendor first, encoder model second, kiosk bay third. Without the lock vendor's involvement the unit can dispense a card but not a working key.
+
 Which documents should the reader accept?
+Which documents a hotel check-in reader must accept depends on the property and the market. A city hotel may need passport MRZ plus national ID; a resort may need residence permits as well. Chip reading is a separate module from MRZ reading, and storing the document image is a data-protection decision rather than a hardware one.
+
 How long does a custom enclosure take?
+Typically three to six weeks from approved brief: one to two weeks for CAD and drawing approval, two to three weeks for a prototype, then three to four weeks for a production batch. The variables are the number of peripheral cut-outs and whether the finish is a standard colour or a brand match.
+
 What steel thickness is normal for a kiosk cabinet?
+1.2 to 2.0 mm cold-rolled steel for painted cabinets, commonly 1.5 mm on structural panels. Stainless is used where the front face is touched constantly and must not chip. Thicker sheet adds weight and cost without improving stiffness as much as a folded profile does.
+
 Can we use our own colour and logo?
+Yes. Colour is matched against a physical sample rather than a screen, and the logo can be printed, etched or fitted as a badge. Branding is approved on the prototype before the batch is coated, because changing colour mid-batch is not practical.
+
 How much cheaper is a batch than a single prototype?
+Fifty units typically come in 15 to 25% below a single-unit price, mostly through amortised programming, bending setup and coating batches. New tooling for a custom enclosure is a separate one-off cost that does not reduce with volume.
 
-## Where to go next
+## Further reading
 
+- Hotel self check-in kiosk guide ↗
+
+- 32-inch terminal with a reader bay ↗
+
+- OEM / ODM enclosure design ↗
+
+- Mounting the payment terminal and choosing the OS ↗
+
+- ADA, IP65 and IK requirements ↗
+
+- OEM/ODM project checklist ↗
+
+- What a kiosk build costs ↗
+
+- Product datasheets (PDF) for every model ↗
 
 ---
 
-# How to Choose a Self-Service Kiosk | Xinyuehong
+# How to Choose a Self-Service Kiosk
 
 URL: https://xinyuehongtech.com/news/how-to-choose-a-self-service-kiosk/
 
-# How to Choose a Self-Service Kiosk
-By
+← All news
+
+Home
+/
+News
+/
+
+How to Choose a Self-Service Kiosk
+
+NEWS / 2026-10-24
+How to Choose a Self-Service Kiosk
+
+By Mark, Project Engineer · Published October 24, 2026 · 6 min read
+
+Short answer: Start from the transaction and how long it takes, then fix screen size and mounting height, the module list with its interfaces, the operating system your software needs, and the environment. Compare quotes on the same module list, then pilot two to four units before volume.
+
 ## Start from the transaction, not the catalogue
+
 Write the transaction down as a sequence of steps and time each one. A wayfinding lookup is 15 seconds and never touches a printer. A restaurant order is 90 seconds, ends with two receipts and often a payment card. A hospital registration is two to three minutes, needs an ID document, a payment and a printed slip. Those three numbers — 15 seconds, 90 seconds, three minutes — set the screen size, the peripheral list and the cabinet size far more reliably than a product photo.
+
 Note the error paths at the same time. What happens when the card is declined, the passport chip cannot be read, or the printer is empty? A kiosk that handles the happy path in 30 seconds and the failure path in five minutes will generate staff interventions, and staff interventions are the cost that kills the business case.
+
 ## Match the screen to the task
+
 Screen size follows the amount of information the customer has to read and the number of targets they have to hit. A directory or a single-question check-in works on 15.6 to 21.5 inches in landscape. A food menu with modifiers needs 21.5 to 27 inches, portrait, because the category rail and the basket both want horizontal space. A multi-service terminal — immigration, banking, hotel, retail in one cabinet — goes to 32 inches with a QHD panel so two content zones can coexist without shrinking the type.
+
 Mounting height matters as much as size. Controls between 15 and 48 inches above the finished floor satisfy ADA 308, and a screen centre around 1,200 to 1,400 mm suits a standing adult. Portrait orientation puts more of the screen inside that band. If the unit also serves seated users, plan a 30 by 48 inch clear floor in front of it and keep the primary buttons in the lower half.
+
 ## List the peripherals with their interfaces
+
 Write the list as a table with four columns: module, model, interface, who supplies the driver. Most integration surprises come from that last column. A receipt printer may be USB with a vendor SDK, a serial device with a virtual COM port, or a network printer that needs a fixed IP. A passport reader may present itself as a keyboard wedge or require a full SDK. A payment terminal is its own certified device and connects over USB, serial or Ethernet depending on the provider.
+
 Separate mandatory modules from optional ones before you ask for prices. A quote that lists every possible module is not comparable to one that lists the required set. Payment is the clearest example: the terminal, its certification and its integration are usually supplied through an acquirer, so the kiosk's job is to provide a mounting position, power and a data path — not to certify the payment application.
+
 ## Decide the operating system from the software, not the hardware
+
 Windows suits applications that depend on a full driver stack — serial devices, legacy POS clients, USB peripherals with Windows-only SDKs. Android suits content-led applications, digital signage and web apps, and boots faster, but the vendor's Android build and its peripheral support have to be confirmed module by module. Linux suits teams with in-house engineering and a fixed peripheral set.
+
 The practical test is a list: for every module, does the chosen platform have a driver and a supported SDK? If two modules only exist on Windows, the decision is made for you. If the application is a browser page and the peripherals are USB HID, Android will usually cost less to run.
+
 ## Check the deployment conditions
+
 Indoor lobby and outdoor kerbside are different machines. Indoor units can use a standard front face; wet or dusty positions need a sealed front and a defined IP rating, and public unsupervised sites need an impact rating for the glass. Brightness is the other variable: 400 to 500 nits is fine under a ceiling, 700 to 1,000 nits is normal for a screen that faces daylight, and anti-glare glass matters more than the peak figure.
+
 Also confirm the duty cycle. A terminal that runs 24/7 with no restart window needs industrial components and a thermal design that removes heat without a fan; a terminal that runs eight hours a day in a staffed lobby can be built closer to commercial hardware.
+
 ## Compare quotations on the same basis
+
 Ask for a quotation in the module structure you defined, with each line marked included, optional or excluded. Freight, duties, installation, software integration and the spare-parts kit are the five lines most often left out, and they are the five that change the total. A quote that states the certification scope per module is worth more than one that says "CE certified" without saying for what.
+
 ## Pilot before volume
+
 Run two to four units for four to six weeks and measure transactions per unit per day, average session time, intervention rate and the top three failure reasons. Those four numbers decide the roll-out mix better than any specification review. They also tell you whether the screen was the right size — if staff are regularly leaning in to press a button, it was not.
-## Hardware this guide refers to
-## Working on a related kiosk project?
+
+## The hardware behind this guide
+
+- Hospital registration and payment kiosk ↗
+- Self-payment kiosks with scanner and printer layouts ↗
+- Industrial panel PCs for cabinet integration ↗
+
+## If you are scoping a similar job
+
 Share your specifications and intended use with our team, and we will reply with the questions that still need answers.
-## Common questions
+
+Request a kiosk quote Browse kiosk models
+
+## The questions that come up
+
 What is the first thing to decide when specifying a kiosk?
+The transaction the customer completes, written as steps and timed. A 15-second lookup and a three-minute registration with a document reader produce different screens, different modules and different cabinets. Starting from a product photo usually ends with a unit that is either oversized or missing a peripheral.
+
 Should the kiosk run Windows, Android or Linux?
+Follow the software and the peripheral drivers. If the application needs a full driver stack or vendor SDKs that only exist on Windows, use Windows. If it is a browser application with USB HID peripherals, Android usually costs less to run. Linux suits teams with engineering capacity and a fixed module list.
+
 How do I compare two kiosk quotations fairly?
-## Where to go next
+Fix the module list first, then ask each supplier to mark every line as included, optional or excluded, and to state the certification scope per module. Add freight, duties, installation, integration and spares before comparing totals; those five lines account for most of the difference between quotes.
+
+## Related guides
+
+- Kiosk terminology, defined ↗
+- Outdoor kiosk: the four specifications that change ↗
+- Vetting a manufacturer: factory, integrator or trader ↗
+- Self-service terminals ↗
+- Self-ordering kiosks ↗
+- Tilted countertop kiosk ↗
+- Touchscreen technology: PCAP, IR and resistive ↗
+- Thermal design for 24/7 kiosk operation ↗
+- Self-service kiosk price ranges for 2026 ↗
+- Product datasheets (PDF) for every model ↗
 
 ---
 
-# Kiosk ADA Height, IP65 and IK Ratings Explained | Xinyuehong
+# Kiosk ADA Height, IP65 and IK Ratings Explained
 
 URL: https://xinyuehongtech.com/news/kiosk-ada-ip-ik-ratings/
 
+← All news
+Home
+/
+News
+/
 
-# Kiosk ADA Height, IP65 and IK Ratings Explained
-By
+ADA, IP and IK ratings
+
+NEWS / 2026-11-10
+Kiosk ADA Height, IP65 and IK Ratings Explained
+
+By Mark, Project Engineer · Published November 10, 2026 · 9 min read
+
+In one line: On a public self-service terminal the reach range is 15 to 48 inches above finished floor (ADA 308/309), the usual ingress protection is IP54 indoors and IP65 where the unit is washed or rained on, and public glass is normally specified at IK08 with IK10 for unsupervised sites. A 30 by 48 inch clear floor space is required in front of the unit.
+
 Three numbers decide most of the mechanical design of a public terminal: the reach range the users have to work within, the ingress protection the site demands, and the impact energy the front glass has to survive. Get them wrong and the cabinet is rebuilt; get them right at drawing stage and they cost almost nothing.
 
 ## The three constraints at a glance
+
 Reference values. Local codes and the client's own accessibility policy always take precedence.
-Constraint
-Standard
-Number that matters
-Reach range
-ADA 2010, sections 308 and 309 (US); EN 301 549 and ISO 21542 elsewhere
-Operable parts between
-Clear floor space
-ADA 305
-Ingress protection
-IEC 60529
-Impact resistance
-IEC 62262
+
+ |  | Constraint | Standard | Number that matters
+
+ | Reach range | ADA 2010, sections 308 and 309 (US); EN 301 549 and ISO 21542 elsewhere | Operable parts between 15 in and 48 in above finished floor
+
+ | Clear floor space | ADA 305 | 30 in x 48 in in front of the unit, for a forward or side approach
+
+ | Ingress protection | IEC 60529 | IP65 for wash-down and exposed sites; IP54 for covered corridors
+
+ | Impact resistance | IEC 62262 | IK08 (5 joule) as a minimum for public glass; IK10 (20 joule) for unsupervised sites
 
 ## ADA: what the standard actually asks of a kiosk
+
 The Americans with Disabilities Act is a US civil-rights law, and its 2010 Standards for Accessible Design set dimensional rules that apply to self-service equipment in places of public accommodation. The two sections that matter most for a kiosk are 308, which defines reach ranges, and 309, which defines how an operable part must work.
+
 In practice this produces four requirements on the drawing:
-Two practical consequences. First, if the same terminal serves standing adults and wheelchair users, either the whole interactive zone is lowered and the screen tilted, or a second lower screen is added — the
+
+- Height. Every control the customer must touch — screen, card reader, PIN pad, scanner, ticket outlet — has to sit between 15 inches and 48 inches above the finished floor. On a floor-standing kiosk that usually means the interactive zone is centred around 40 to 44 inches, not at the 60-inch height that looks good in a render.
+
+- Reach depth. A forward reach to 48 inches is only allowed over an obstruction no deeper than 20 inches. Put the card reader 25 inches back on a counter and the allowed height drops to 44 inches. Deep counters are where accessible designs most often fail.
+
+- Clear floor space. A 30 by 48 inch clear area is needed in front of the unit, positioned for either a forward or a parallel approach. This is a floor-planning item, not a cabinet item, but it is decided at the same meeting.
+
+- Operation. Controls must work with one hand, without tight grasping, pinching or twisting, and with an operating force under five pounds. A recessed button that needs a fingernail, or a card slot with a stiff flap, fails this test regardless of where it is mounted.
+
+Two practical consequences. First, if the same terminal serves standing adults and wheelchair users, either the whole interactive zone is lowered and the screen tilted, or a second lower screen is added — the mobile hospital station and the dual-screen government terminal are two answers to that problem. Second, a kiosk designed to ADA reach ranges is usually also comfortable for elderly users and for anyone carrying a bag, which is why the constraint is worth applying even in markets where the law does not require it.
 
 ## IP ratings: the two digits, decoded
+
 IP codes come from IEC 60529. The first digit is solids, the second is water, and a higher number always includes the lower ones. Only the first digit goes to 6; the second can go to 9K.
+
 Ingress protection levels that appear in kiosk specifications.
-Rating
-Solids
-Water
-Where it is appropriate
-IP54
-Dust protected
-Splashing water
-Covered corridors, hospital wards, office lobbies
-IP65
-Dust tight
-Water jets from a nozzle
-Wash-down areas, covered outdoor bays, food production
-IP66
-Dust tight
-Powerful water jets
-Exposed kerbside units, vehicle wash-down zones
+
+ |  | Rating | Solids | Water | Where it is appropriate
+
+ | IP54 | Dust protected | Splashing water | Covered corridors, hospital wards, office lobbies
+
+ | IP65 | Dust tight | Water jets from a nozzle | Wash-down areas, covered outdoor bays, food production
+
+ | IP66 | Dust tight | Powerful water jets | Exposed kerbside units, vehicle wash-down zones
+
 The rating applies to the enclosure as tested, not to the whole machine in service. A unit rated IP65 with the service door open is not IP65, and a cable gland left loose at installation cancels the rating just as effectively. That is why the specification should say which surfaces carry the rating — front face only, or the complete cabinet — and how the cable entry is sealed.
-For an indoor terminal in a dry hall, IP54 is enough and cheaper. For anything that will be hosed down or rained on, the front face needs a sealed bezel and the rear needs a gasketed door; the
+
+For an indoor terminal in a dry hall, IP54 is enough and cheaper. For anything that will be hosed down or rained on, the front face needs a sealed bezel and the rear needs a gasketed door; the parking payment terminal is built around that logic.
 
 ## IK ratings: impact, not water
+
 IK codes come from IEC 62262 and describe how much mechanical impact the enclosure survives, expressed in joules. IK08 is 5 joules, roughly a 1.7 kg mass dropped from 30 cm; IK10 is 20 joules, roughly a 5 kg mass from 40 cm.
+
 On a kiosk the rating is really a statement about two different things: the cover glass, and the cabinet shell. A 3 mm chemically strengthened glass can pass IK08 while a 6 mm annealed glass of the same size may not, because the failure is about how the glass breaks, not how thick it is. The shell matters for the corners and the service door, which is where a trolley or a delivery cart usually lands.
+
 For unsupervised sites — a station forecourt, a 24-hour lobby, a car park — IK10 on the front glass and a bolted plinth are the normal combination. In a staffed hospital corridor, IK08 is usually sufficient and the money is better spent on the touch stack.
 
 ## Brightness and touch in daylight
+
 Brightness is measured in nits (cd/m²). A standard indoor panel runs 250 to 350 nits; a window-facing lobby needs 500 to 700; direct sunlight needs 1,000 or more, plus an anti-reflective treatment, or the screen becomes a mirror.
+
 Typical brightness targets by position.
-Position
-Brightness
-Note
-Indoor hall, no daylight
-250 – 350 nits
-Standard panel, lowest cost
-Lobby or corridor with windows
-500 – 700 nits
-Anti-glare glass, auto brightness
-Covered outdoor bay
-1,000 nits
-Light sensor, thermal management
-Direct sun
-1,500 – 2,500 nits
-Heated or cooled enclosure, IR touch often preferred
+
+ |  | Position | Brightness | Note
+
+ | Indoor hall, no daylight | 250 – 350 nits | Standard panel, lowest cost
+
+ | Lobby or corridor with windows | 500 – 700 nits | Anti-glare glass, auto brightness
+
+ | Covered outdoor bay | 1,000 nits | Light sensor, thermal management
+
+ | Direct sun | 1,500 – 2,500 nits | Heated or cooled enclosure, IR touch often preferred
+
 Touch technology interacts with the environment. Projected capacitive (PCAP) gives the best image and multi-touch, but a thick glove or a film of water breaks contact. Infrared touch works through gloves and scratches less visibly, at the cost of a deeper bezel and sensitivity to dust on the frame. Resistive still has a place where the operator wears heavy gloves and uses a stylus.
+
 Heat is the other half of the outdoor problem. A sealed enclosure in direct sun can sit 20 to 30 °C above ambient inside, which is why outdoor units are usually specified with an air-conditioned or heat-exchanger cabinet rather than a fan, and why the panel's operating temperature range is quoted separately from the enclosure's.
 
 ## How these constraints reach the sheet metal
+
 None of the above is a software problem, and all of it lands on the drawing:
+
 - The interactive zone is set by the reach range, which sets the cabinet height and the screen tilt — not the other way round.
+
 - IP rating sets the door gasket, the cable gland, the seam welding and the powder-coat coverage on cut edges.
+
 - IK rating sets the glass specification, the bezel retention and the plinth fixings.
+
 - Brightness and heat set the panel, the glass coating and whether the cabinet carries a heat exchanger.
+
 - All of it changes the maintenance access, which is why the service door is usually the last thing drawn and the first thing to regret.
+
 If the project is a standard cabinet, these are options and the quotation lists them. If the project is a new enclosure, they are inputs to the CAD model, and changing them after the first prototype is what turns a four-week build into a twelve-week one.
 
 ## Questions engineers ask first
+
 Does a self-service kiosk have to be ADA compliant?
+In the United States, self-service equipment in places of public accommodation is covered by the ADA, and the 2010 Standards set reach and operable-part requirements that apply to it. Other markets have their own rules, commonly EN 301 549 or a national building code. Local counsel or the authority having jurisdiction decides applicability; the dimensional guidance is the same.
+
 What height should a kiosk screen be?
+For a standing adult, the screen centre usually sits between 40 and 44 inches above finished floor, so that the whole interactive zone falls inside the 15 to 48 inch reach range. If the terminal also serves wheelchair users without a second screen, the zone is lowered and the screen tilted rather than left at standing height.
+
 Does IP65 matter for an indoor kiosk?
+Usually not. A dry indoor hall is adequately served by IP54, and paying for IP65 adds cost in gaskets, sealed connectors and finishing. IP65 or better is specified where the unit is hosed down, placed in a covered outdoor bay, or installed in a food-production area.
+
 Is IK10 better than IK08 for a kiosk?
+IK10 survives four times the impact energy of IK08, and it is the right choice for unsupervised sites where the front glass is exposed to trolleys, carts or deliberate damage. In a staffed indoor corridor, IK08 is usually sufficient and the budget is better spent on the touch stack or the printer.
+
 Can projected capacitive touch work outdoors?
+PCAP works outdoors but is sensitive to water films and thick gloves, both of which are common outdoors. Infrared touch is often the better choice for exposed sites because it reads through gloves and a wet screen, at the cost of a deeper bezel and more attention to dust on the frame.
+
 How bright does an outdoor kiosk screen need to be?
+As a working guide: 500 to 700 nits for a lobby with windows, around 1,000 nits for a covered outdoor bay, and 1,500 nits or more with an anti-reflective treatment for direct sun. Brightness alone is not enough — a sealed cabinet in direct sun also needs thermal management, not just a brighter panel.
 
-## Where to go next
+## Standards and sources
 
+Primary sources for the requirements referred to above.
+
+- ADA Standards for Accessible Design, US Access Board ↗
+- Americans with Disabilities Act, ada.gov ↗
+
+## More on this
+
+- All self-service kiosk models ↗
+
+- Wall-mounted payment terminal with a hooded PIN pad ↗
+
+- Outdoor-ready parking payment terminal ↗
+
+- PCAP, IR and resistive touch compared ↗
+
+- Thermal design for 24/7 operation ↗
+
+- What a kiosk build costs, line by line ↗
+
+- OEM / ODM enclosure design ↗
+
+- Integrating the payment terminal and choosing the OS ↗
+- Product datasheets (PDF) for every model ↗
 
 ---
 
-# EMV Terminal Integration and Kiosk OS Choice | Xinyuehong
+# Integrating a Payment Terminal into a Kiosk
 
 URL: https://xinyuehongtech.com/news/kiosk-payment-integration-os/
 
+← All news
+Home
+/
+News
+/
 
-# Integrating a Payment Terminal into a Kiosk
-By
+Payment terminal integration
+
+NEWS / 2026-11-10
+Integrating a Payment Terminal into a Kiosk
+
+By Mark, Project Engineer · Published November 10, 2026 · 8 min read
+
+Bottom line: Mount the terminal on the cabinet rather than building payment into it. The terminal keeps its own PCI PTS and scheme approval; the kiosk supplies power, a cut-out for the exact device model and a serial, USB or ethernet link. Choose the operating system from the SDK your provider supports — Windows has the widest coverage, Android is the cheapest, Linux the most locked down.
+
 Payment is the part of a kiosk project that most often arrives late, and it is the part that cannot be retrofitted cheaply. The terminal is a certified device with its own approval, the kiosk is the host that powers it, presents it and talks to it — and the boundary between those two responsibilities decides the bracket, the cable route and the operating system.
 
 ## The short version
+
 Mount the terminal on the cabinet rather than building payment into the cabinet. Cut the bracket for the exact device model, route power and data inside the enclosure, and let the terminal's own certification stay with the terminal. Then choose the operating system by asking which SDK your payment provider supports, not by asking which platform is cheapest.
 
 ## Who certifies what
+
 Three different things get called "payment certification" and they belong to different parties:
+
+- The terminal carries its own approval — PCI PTS for PIN entry devices, EMVCo for chip behaviour, and the scheme rules for unattended use. That approval is held by the terminal vendor and the acquirer, not by the kiosk factory.
+
+- The payment application running on the terminal, and the key injection process, belong to the provider or the acquirer. The kiosk never sees a PIN block.
+
+- The kiosk is a host: it supplies power, a mounting point, a data link and a physical position that lets the customer reach the device privately. Its job is mechanical and electrical, not cryptographic.
+
 That division is why a kiosk quote normally excludes the payment device. Where a project does integrate a reader into the cabinet face, the certification scope changes and the schedule usually does too.
 
 ## Three ways to connect the terminal
+
 Connection methods used in kiosk projects. The right choice follows from your provider's SDK, not from the cable you prefer.
-Method
-Typical device
-What the kiosk application does
-Trade-off
-Serial (RS-232) with a vendor protocol
-Countertop terminal from Ingenico, Verifone or PAX
-Sends the amount and receives the result over a documented protocol; the terminal drives its own UI
-Very stable, well understood, but the protocol and cable are device-specific
-USB or serial with a provider SDK
-Terminal supplied by a PSP with a local SDK
-Calls the SDK from the kiosk app; the SDK handles the transaction and the terminal screen
-Cleaner integration, but the SDK ties you to one provider and often one OS
-Ethernet or cloud (semi-integrated)
-Terminal with its own network link
-Only displays the amount and polls the result; the terminal talks to the PSP directly
-Least coupling and easiest to swap providers, at the cost of a second network drop
+
+ |  | Method | Typical device | What the kiosk application does | Trade-off
+
+ | Serial (RS-232) with a vendor protocol | Countertop terminal from Ingenico, Verifone or PAX | Sends the amount and receives the result over a documented protocol; the terminal drives its own UI | Very stable, well understood, but the protocol and cable are device-specific
+
+ | USB or serial with a provider SDK | Terminal supplied by a PSP with a local SDK | Calls the SDK from the kiosk app; the SDK handles the transaction and the terminal screen | Cleaner integration, but the SDK ties you to one provider and often one OS
+
+ | Ethernet or cloud (semi-integrated) | Terminal with its own network link | Only displays the amount and polls the result; the terminal talks to the PSP directly | Least coupling and easiest to swap providers, at the cost of a second network drop
+
 Serial is still the most common in unattended kiosks because it survives reboots and needs no driver stack. The provider SDK route is faster to build and harder to leave. The semi-integrated route is the easiest to certify, because the kiosk never handles card data at all.
 
 ## The bracket is a drawing, not an accessory
+
 Every terminal has a footprint, a cable exit position, a screen angle and a PIN pad that needs a sight line the next customer cannot share. In practice the mounting drawing fixes four things:
+
+- The cut-out. A plate cut for an Ingenico model will not accept a Verifone of the same class. The drawing is made against the device datasheet and confirmed before the sheet metal is cut.
+
+- The reach. The terminal has to sit inside the same reach envelope as the screen. On an accessible build that means the card slot and the PIN pad both fall within the 15 to 48 inch band described in the ADA and IP rating guide.
+
+- The cable route. Power and data enter through the cabinet, not through a hole drilled on site. A visible cable is both a tamper opportunity and a service liability.
+
+- The service access. Paper, card stock and the terminal itself have to be reachable by staff without removing the kiosk from the wall or the plinth.
+
 Re-cutting a finished fascia is the single most expensive change in a kiosk project. It is worth waiting a week for the terminal model before releasing the drawing.
 
 ## When you need a reader on the kiosk as well
+
 Payment is not the only card interaction. Loyalty cards, staff badges, national ID and access cards are read by the kiosk, not by the payment terminal, and mixing the two confuses customers. The common arrangement is a reader bay on the kiosk for identification, and a separate certified terminal for payment, positioned so the customer does not present the same card twice to two different slots.
 
 ## Choosing the operating system
+
 Platform comparison for kiosk applications. Support status refers to the application stack, not to the hardware.
-Platform
-Best fit
-Strengths
-Constraints
-Windows (IoT Enterprise LTSC)
-Applications with a full driver stack, OPOS/JavaPOS peripherals, provider SDKs that ship as Windows libraries
-Widest driver and SDK support; familiar to integrators
-Licence cost, larger update surface, needs a locked-down shell
-Android (AOSP)
-Content, ordering and check-in apps with a small peripheral set
-Cheap hardware, fast boot, simple kiosk mode
-Fewer payment SDKs; serial device support depends on the board vendor
-Linux
-Locked-down deployments where the application owns the whole boot chain
-Smallest attack surface, no licence cost, full control
-Drivers must be sourced per device; support is on you
-The decision is usually made by one question: does your payment provider ship an SDK for that platform? A platform that cannot talk to the terminal is not a candidate, however good its price. The second question is who maintains the image in the field — remote update tooling differs sharply between the three.
+
+ |  | Platform | Best fit | Strengths | Constraints
+
+ | Windows (IoT Enterprise LTSC) | Applications with a full driver stack, OPOS/JavaPOS peripherals, provider SDKs that ship as Windows libraries | Widest driver and SDK support; familiar to integrators | Licence cost, larger update surface, needs a locked-down shell
+
+ | Android (AOSP) | Content, ordering and check-in apps with a small peripheral set | Cheap hardware, fast boot, simple kiosk mode | Fewer payment SDKs; serial device support depends on the board vendor
+
+ | Linux | Locked-down deployments where the application owns the whole boot chain | Smallest attack surface, no licence cost, full control | Drivers must be sourced per device; support is on you
+
+The decision is usually made by one question: does your payment provider ship an SDK for that platform? A platform that cannot talk to the terminal is not a candidate, however good its price. The second question is who maintains the image in the field — remote update tooling differs sharply between the three. That maintenance window is also where the EU Cyber Resilience Act reporting duties begin to apply to a connected kiosk.
 
 ## What to settle before the drawing
+
 - Terminal make, model and mounting drawing, or a decision to use a universal bay
+
 - Connection method and the protocol or SDK version the application will use
+
 - Whether the terminal needs its own network drop or shares the kiosk link
+
 - Operating system, chosen against the SDK list rather than the price list
+
 - Peripheral interfaces: serial, USB or both, and how many of each
+
 - Cash: none, acceptor only, or acceptor with recycler, and the cabinet depth that implies
+
 - Remote update and monitoring tooling, and who operates it
+
 - Key injection and terminal deployment process, owned by the provider
 
 ## Questions integrators ask first
+
 Can we mount our own payment terminal on the kiosk?
+Yes, and it is the normal arrangement. The bracket and cut-out are drawn for the specific terminal model, with power and data routed inside the cabinet. Send the device model and its installation drawing before the sheet metal is cut, because a plate made for one vendor's device will not accept another's.
+
 Does the kiosk need its own PCI certification?
+The payment terminal carries the PIN entry approval, and the payment application belongs to your provider. The kiosk is the host: it supplies mounting, power and the data link, and it should never handle card data. If a reader is integrated into the cabinet face instead of a separate terminal, the certification scope changes and that is a different project.
+
 Which operating system should the kiosk run?
+Whichever platform your payment provider supports with an SDK. Windows has the widest driver and SDK coverage; Android is cheaper and simpler for content and ordering apps; Linux gives the smallest attack surface where the application controls the whole boot chain. Price is the wrong first question.
+
 Do we need a separate card reader for loyalty or ID?
+Usually yes, and it is better to keep it physically separate from the payment terminal. Loyalty, staff and ID cards are read by the kiosk application, while payment is handled by the certified terminal. Two slots in different positions also stop customers presenting the same card twice.
+
 Can the kiosk accept cash?
+A cash acceptor or recycler can be fitted, but it changes the cabinet depth, the service access and the certification scope. Card-only builds are smaller and faster to certify; cash should be a deliberate decision, not a default.
+
 How long does it take to change the payment device after production?
+The bracket is the constraint, not the software. Swapping to a device with the same footprint is quick; a different footprint means a new front plate, and on a finished cabinet that is a re-cut. This is why the terminal model is fixed before the drawing is released.
 
-## Where to go next
+## Keep reading
 
+- Bank kiosk with an encrypting PIN pad ↗
+
+- ATM-style financial terminal ↗
+
+- Parking payment terminal with an angled deck ↗
+
+- 32-inch terminal with a full reader bay ↗
+
+- Industrial PCs and computing platforms ↗
+
+- What each kiosk module actually does ↗
+
+- ADA, IP65 and IK requirements ↗
+
+- OEM / ODM enclosure design ↗
+
+- Hotel build: peripherals and sheet metal ↗
+- Product datasheets (PDF) for every model ↗
 
 ---
 
-# Why Self-Service Kiosks Fail in 24/7 Operation | Xinyuehong
+# Why Self-Service Kiosks Fail in 24/7 Operation
 
 URL: https://xinyuehongtech.com/news/kiosk-thermal-design-24-7-reliability/
 
-# Why Self-Service Kiosks Fail in 24/7 Operation
-By
+← All news
+
+Home
+/
+News
+/
+
+Why Self-Service Kiosks Fail in 24/7 Operation
+
+NEWS / 2026-11-04
+Why Self-Service Kiosks Fail in 24/7 Operation
+
+By Mark, Project Engineer · Published November 4, 2026 · 7 min read
+
+Short answer: Most kiosk downtime traces back to heat, not software. Thermal design, fanless industrial PCs and component derating keep terminals running around the clock.
+
 When a self-service terminal is returned for repair, the fault report usually says "main board dead" or "screen not responding". The root cause underneath is more often the same: heat that had nowhere to go. A kiosk is a sealed sheet-metal box with a computer inside, running at full load in a lobby or on a sidewalk for years without a restart window. Consumer-grade hardware is simply not specified for that duty cycle.
+
 This article walks through where the heat comes from, why it kills electronics, and the design decisions — enclosure, airflow, PC selection — that keep a terminal alive through years of continuous operation.
+
 ## Where the heat comes from
+
 A typical kiosk stacks several heat sources into one cabinet:
+
+- The computing platform — an x86 board or Android box, drawing anything from 10 to 65 W depending on configuration
+- The display and its backlight — the single largest contributor on bright units, rising sharply with screen size and brightness
+- Reader and printer modules — receipt printers and payment terminals add both heat and their own ventilation needs
+- Solar gain — for outdoor units, direct sun on the enclosure can add more heat than the electronics do
+
 Individually these are modest loads. The problem is accumulation inside a closed volume: without deliberate airflow, the air inside the cabinet stabilizes 20–35 °C above ambient. In a 35 °C lobby or a sun-facing outdoor bay, the internal air can reach 60–70 °C — beyond the rated limits of most consumer components.
+
 ## What heat actually does to the hardware
+
 Electronics do not usually fail instantly from heat; they age. Three mechanisms account for most field failures:
+
+1. Electrolytic capacitor drying. Standard consumer boards use general-purpose electrolytic capacitors whose lifetime roughly halves for every 10 °C rise. A board rated for five years at 40 °C can be dead within a year at 65 °C. Power sections fail first, which matches the classic symptom "unit powers off randomly".
+
+2. Solder-joint fatigue. Repeated thermal cycling expands and contracts solder joints. Fan-cooled consumer boards cycle harder because the fan switches on and off; joints around the CPU and power regulators crack over months of cycles.
+
+3. Storage throttling and wear. Consumer SSDs throttle when the controller passes its temperature limit, so the symptom is not death but a unit that "gets slower through the day" — a classic complaint on units with the SSD mounted directly above the CPU.
+
 None of these show up in a factory test of a few hours. They appear after 6–24 months of continuous duty, which is exactly when the buyer has stopped paying attention and the operator has started counting downtime.
+
 ## Fanless industrial PCs versus consumer mini PCs
+
 The computing platform is where the decision matters most. A consumer mini PC is cheaper on the quote — and more expensive over the contract.
-A properly specified
-Consumer mini PCs can work in a kiosk
+
+A properly specified fanless industrial PC handles the duty cycle through three design features:
+
+- A die-cast chassis used as the heatsink. Heat moves from CPU and chipset to the enclosure walls by conduction, then to the ambient air by natural convection. No fan means no dust intake, no bearing to fail, and no thermal cycling from fan switching.
+- Component derating. Industrial boards use solid polymer or tantalum capacitors rated for 105 °C, extended-temperature DRAM, and storage specified to 85 °C operation. Every part is chosen for worst-case internal temperature, not laboratory temperature.
+- Wide-input, filtered power. A 9–36 V DC input range with surge protection absorbs the voltage sags and spikes typical of shared building circuits — another common cause of "random reboots" that gets misdiagnosed as a software problem.
+
+Consumer mini PCs can work in a kiosk if the thermal budget allows it: a low-power fanless CPU (10–15 W class), the unit mounted in the coolest part of the cabinet, and an honest duty-cycle assumption. What does not work is putting a 65 W desktop-class board behind a 32-inch bright display in a sealed tower and hoping for the best.
+
 ## Enclosure design: giving the heat a path
+
 The cabinet is half of the thermal system. Four rules decide whether it works:
+
+- Separate the heat zones. The printer bay, the display bay and the PC bay each get their own convection path. A printer is both a heat source and a paper-dust generator — it must never share airflow with the PC's intake.
+- Use the chimney effect where possible. Vent slots low at the rear and high near the top let internal air rise and exit, drawing cooler air in behind it — silent, filterless, and effective for the 20–40 W loads most units carry.
+- Dump heat to the skin, not into the cabinet. On fanless builds, the PC is mounted against the rear panel so its chassis conducts heat to the outer skin instead of warming the internal air volume.
+- Give outdoor units a real margin. Sun-facing enclosures should be specified for 50–55 °C ambient at minimum, with reflective powder coating, sun shields on dark colours, and optionally a filtered forced-air kit or a thermoelectric cooler for extreme climates.
+
 A useful acceptance test during prototyping: run the fully assembled unit at maximum screen brightness with a sustained CPU load for four hours, then measure the air 10 cm above the PC board and the skin temperature above the CPU footprint. Those two numbers predict the machine's service life better than any component datasheet.
+
 ## The checklist before you sign a 24/7 order
-- Compute platform specified for
-- Cabinet airflow with
-- For outdoor: ambient rating with
-- A
-## Hardware this guide refers to
-## Working on a related kiosk project?
+
+- Compute platform specified for continuous duty (industrial board or low-power fanless class), not desktop parts
+- Solid-state capacitors rated 105 °C on the power section
+- Industrial-grade storage rated to 85 °C, mounted away from the CPU
+- Cabinet airflow with separated heat zones and dust control around the printer
+- For outdoor: ambient rating with solar margin, reflective coating and optional active cooling
+- A burn-in protocol in the factory contract — 48–72 hours at full load before shipment, not 30 minutes
+
+## Kiosk builds used here
+
+- Wall-mount touch panel with a fanless rear housing ↗
+- Stainless 32-inch terminal for public halls ↗
+
+## Related work
+
 Send us the installation site — indoor hall, outdoor bay, expected ambient temperature and duty cycle — and we will propose a platform and cabinet configuration with the thermal budget written down, not guessed.
-## Common questions
+
+Request a kiosk quote Explore industrial PCs
+
+## The questions that come up
+
 Do fanless kiosks still need thermal design?
+Yes, and more than fan-cooled ones. Without a fan there is no forced airflow, so the only path for heat is conduction to the enclosure and natural convection off its surface. That means the cabinet has to be designed as a heat sink: a metal body, a clear internal path from the hottest component to the wall, and vents positioned so the chimney effect works. A fanless PC bolted into a sealed plastic box will still overheat.
+
 When is a fan acceptable in a public kiosk?
+When the fan is part of a filtered, serviceable airflow path and someone owns the filter. Fans move more heat per unit of volume, which helps high-brightness outdoor units, but they also pull in dust and require filter changes. In a clean indoor lobby a fan-cooled unit is workable; at a kerbside or a dusty hall the maintenance burden usually outweighs the cooling gain.
+
 What should be tested before a 24/7 order is signed?
-## Where to go next
+A burn-in at ambient with every module active, temperature logging at the hottest point inside the cabinet, a check that the display backlight and the printer are not recirculating each other's heat, and a restart test after the unit has reached steady state. Record the numbers: the second order and the field failure analysis both depend on having a baseline.
+
+## Further reading
+
+- Windows vs. Android for kiosks: J6412 vs. RK3568 ↗
+- Industrial panel PCs ↗
+- Fanless box PCs ↗
+- Self-service kiosk modules: what to specify ↗
+- Touchscreen technology: PCAP, IR and resistive ↗
+- Product datasheets (PDF) for every model ↗
 
 ---
 
-# Kiosk Touchscreen Technologies Compared | Xinyuehong
+# Kiosk Touchscreen Technologies Compared
 
 URL: https://xinyuehongtech.com/news/kiosk-touchscreen-technology-comparison/
 
-# Kiosk Touchscreen Technologies Compared
-By
+← All news
+
+Home
+/
+News
+/
+
+Kiosk Touchscreen Technologies Compared
+
+NEWS / 2026-11-04
+Kiosk Touchscreen Technologies Compared
+
+By Mark, Project Engineer · Published November 4, 2026 · 6 min read
+
+In one line: PCAP, infrared and SAW touchscreens behave differently behind glass, in rain, with gloves and after vandalism. A practical comparison for kiosk buyers.
+
 Most touchscreen comparisons are written for phones and tablets. A self-service kiosk is a different machine: the screen sits behind glass or a bezel, strangers press it all day, cleaning crews spray it, and the enclosure lives outdoors or in a dusty hall. Under those conditions the "best" technology on a spec sheet is often not the best technology behind sheet metal.
+
 This article compares the three touch technologies installed most often — projected capacitive (PCAP), infrared (IR) and surface acoustic wave (SAW) — from the installer's and the operator's point of view.
+
 ## How each technology actually senses a touch
+
+Projected capacitive (PCAP) measures the disturbance of a grid of tiny electrical fields. The sensor is a glass or film laminate, and the controller continuously scans rows and columns. Anything conductive — a finger, a thin glove, a stylus — changes the local capacitance and is reported as a touch point.
+
+Infrared (IR) places a frame of LED emitters and receivers around the perimeter of the display. A finger breaks a set of invisible light beams crossing the surface, and the controller triangulates the position from the interrupted beams. The touch surface is simply whatever glass or plastic you put over the frame.
+
+Surface acoustic wave (SAW) sends ultrasonic waves across the surface of the glass itself. A finger absorbs part of the wave at the touch point, and the controller calculates the coordinates from the attenuation pattern.
+
 The sensing method explains almost every practical difference below.
+
 ## Durability against the public
+
 PCAP is the most forgiving against vandalism because the sensor sits behind the cover glass; scratching the surface degrades optics, not touch function. Multi-touch gestures, edge swipes and signature capture all work naturally.
+
 IR frames are exposed at the bezel. They survive hard use well — there is nothing on the glass to wear out — but the optical strip is the vulnerable part: dust, condensation, paint splatter or a jammed flyer can block beams and produce phantom touches. Quality varies a lot between frame suppliers, mainly in how well the firmware filters interference from sunlight and compact-fluorescent lighting.
+
 SAW glass has no overlays and keeps excellent optical clarity, but the wave needs a bare, slightly damp fingertip to absorb energy properly. Hard styluses, thick gloves and dirty screens all degrade accuracy. For public units that get abused, SAW is usually the third choice today.
+
 ## Rain, dust, gloves and cleaning chemicals
+
 This is where the technologies separate most clearly:
-Condition
-PCAP
-Infrared
-SAW
-Rain or condensation on the glass
-Needs water-rejection firmware tuning
-Beams scatter; phantom touches likely
-Drips absorb waves; false inputs
-Dusty or greasy film on the glass
-Almost unaffected
-Beam blocking causes drift over time
-Absorption weakens; accuracy drops
-Thin disposable gloves
-Usually works
-Works (beams are broken regardless)
-Unreliable
-Thick winter gloves
-Requires glove-tuned controller
-Works
-Does not work
-Alcohol or ammonia cleaners
-Safe through cover glass
-Safe for glass; protect the frame seals
-Never use harsh solvents on the surface
+
+ |  | Condition | PCAP | Infrared | SAW
+
+ | Rain or condensation on the glass | Needs water-rejection firmware tuning | Beams scatter; phantom touches likely | Drips absorb waves; false inputs
+ | Dusty or greasy film on the glass | Almost unaffected | Beam blocking causes drift over time | Absorption weakens; accuracy drops
+ | Thin disposable gloves | Usually works | Works (beams are broken regardless) | Unreliable
+ | Thick winter gloves | Requires glove-tuned controller | Works | Does not work
+ | Alcohol or ammonia cleaners | Safe through cover glass | Safe for glass; protect the frame seals | Never use harsh solvents on the surface
+
 For outdoor parking, ticketing and border lanes, the default recommendation is PCAP behind chemically strengthened cover glass, with the controller tuned for water rejection. For indoor units in very dusty industrial halls, IR frames with sealed bevels are a proven alternative when multi-touch is not required.
+
 ## Optics and enclosure integration
+
 PCAP laminates add layers to the stack, so anti-reflective treatment matters more: without AR coating, sunlight can wash the display out and the controller picks up interference. Budget for the AR or anti-glare cover glass when specifying outdoor PCAP — it is not an option, it is part of the touch system.
+
 IR adds a visible bezel around the display, typically 15–20 mm per side on larger panels. That is why flush-glass designs with narrow borders almost always use PCAP: the IR frame physically does not fit behind 3 mm borders.
+
 SAW offers the cleanest optics of the three — no layers, no bezel — which is why it still appears on indoor directory and information kiosks where hands are clean and vandalism is rare.
+
 ## What to recommend, in practice
-## Hardware this guide refers to
-## Working on a related kiosk project?
-Tell us the installation environment — indoor or outdoor, expected user flow, glove or bare-hand operation — and we will recommend a touch and cover-glass stack that matches it, with reference builds for each combination.
-## Common questions
+
+- Outdoor or semi-outdoor units (parking, ticketing, EV charging, border): PCAP with strengthened cover glass, AR coating and water-rejection controller tuning. Single-touch is acceptable if the application does not need gestures.
+- Indoor public units (queuing, registration, directories): PCAP as the default; IR where budget is tight, multi-touch is unnecessary, and dust can be controlled.
+- Clerk-operated counters and back-office terminals: any of the three works; PCAP still wins on handwriting and signature quality.
+- Any unit handling PIN entry: remember the touch layer is separate from the payment terminal — the encrypting PIN pad is its own certified device and is never replaced by a touchscreen.
+
+## Units referenced in this guide
+
+- Information and wayfinding kiosks with anti-glare touch ↗
+- Tilted countertop kiosk at a 30° reading angle ↗
+- Parking payment terminal with anti-glare glass ↗
+
+## Adjacent projects
+
+Tell us the installation environment — indoor or outdoor, expected user flow, glove or bare-hand operation — and we will recommend a touch and cover-glass stack that matches it, with standard builds for each combination.
+
+Request a kiosk quote Browse kiosk models
+
+## Practical questions
+
 Which touch technology is best for a public kiosk?
+Projected capacitive for most indoor public terminals: it survives cleaning, has no exposed frame for dirt to collect in, and supports multi-touch and thin gloves. Infrared is competitive where cost matters and the environment is clean and indoor, because it accepts any input object. SAW is rarely the right answer for a new public build.
+
 Does PCAP work with gloves and wet fingers?
+Thin gloves and slightly damp fingers usually register; thick work gloves and heavy water films do not. If the deployment is a cold store, a warehouse or an outdoor site in rain, test the actual glove and the actual water condition on a sample — the specification sheet will not answer it for you.
+
 Can the touchscreen be cleaned with normal chemicals?
-## Where to go next
+The glass surface tolerates most commercial glass cleaners; the risk is the edge seal and the controller, not the glass. Spray the cloth rather than the screen, avoid ammonia on printed bezels and keep liquids away from the frame joint. Specify the cleaning regime in the service manual so the cleaning contractor follows it.
+
+## Where this leads
+
+- Self-service kiosk modules: what to specify ↗
+- How to choose a self-service kiosk ↗
+- OEM & ODM customization ↗
+- Wall-mount touch panel with a sealed front ↗
+- Product datasheets (PDF) for every model ↗
 
 ---
 
-# OEM/ODM Self-Service Kiosk Project Checklist | Xinyuehong
+# OEM/ODM Self-Service Kiosk Project Checklist
 
 URL: https://xinyuehongtech.com/news/oem-odm-self-service-kiosk-project-checklist/
 
-# OEM/ODM Self-Service Kiosk Project Checklist
-By
+← All news
+
+Home
+/
+News
+/
+
+OEM/ODM Self-Service Kiosk Project Checklist
+
+NEWS / 2026-10-24
+OEM/ODM Self-Service Kiosk Project Checklist
+
+By Mark, Project Engineer · Published October 24, 2026 · 6 min read
+
+Quick answer: A workable OEM/ODM brief covers the transaction, the space and dimensions, the module list with interfaces, the split between branding and engineering changes, target-market compliance, and the acceptance criteria for the sample.
+
 ## Write a brief that gets a real answer
+
 A useful RFQ contains four things: what the unit has to do, what it has to fit into, how many you need and when. Everything else is detail that follows. The failure mode is a one-line email asking for "a custom kiosk price" — the reply can only be a range, and a range is not a budget.
+
 Attach whatever exists: a sketch, a competitor photo, an industrial-design file, a measured drawing of the space. State the screen size you have in mind, the mounting position, the height available and any access constraint. If the unit replaces an existing machine, the dimensions of the old one are the most useful drawing you can send.
+
 ## Enclosure: the decisions that change the price
-Sheet-metal gauge, finish and sealing are the three cost drivers. A 1.5 mm cold-rolled steel body with a powder coat is the standard reference build; stainless or aluminium changes both material and welding time. A sealed front with a gasketed door adds machining and a sealing test. Colour is cheap when it is a powder-coat batch and expensive when it is a one-off custom match.
+
+Sheet-metal gauge, finish and sealing are the three cost drivers. A 1.5 mm cold-rolled steel body with a powder coat is the standard standard build; stainless or aluminium changes both material and welding time. A sealed front with a gasketed door adds machining and a sealing test. Colour is cheap when it is a powder-coat batch and expensive when it is a one-off custom match.
+
 Decide early whether the enclosure is a modification of an existing platform or a new design. Modifying an existing cabinet — new cut-outs, a different module stack, a logo — is a fraction of the cost of a new shell, because the tooling, the fold programme and the fit between parts already exist. A new shell means design review, a prototype, fit checks and usually a second iteration.
+
 ## Modules and interfaces
+
 List every module with its interface and, where you have a preference, its part number. The kiosk's job is to provide mechanical mounting, power and a data path; the module's vendor provides the driver and the SDK. When a module is chosen late, its dimensions can force a cabinet change, so the module list belongs in the first brief rather than the third revision.
+
 State the power budget too. A unit with a 32-inch bright panel, a receipt printer, an A4 printer and a cash recycler can draw well over 300 W at peak, which changes the power supply, the inlet connector and the heat load the enclosure has to remove.
+
 ## Separate branding from engineering
+
 A logo, a colour and a printed panel are branding: they change artwork and a powder-coat batch. A new enclosure, a different cooling path, an added module or a changed screen size are engineering: they change drawings, prototypes and acceptance criteria. Mixing the two in one request makes both the cost and the lead time impossible to estimate, and usually produces a quote that is wrong in one direction or the other.
+
 ## Compliance belongs to the market, not the catalogue
+
 State the destination country and the approvals the buyer expects: CE and UKCA in Europe, FCC in the United States, RoHS and REACH for materials, SABER for Saudi Arabia, and accessibility rules such as ADA in the United States or EN 301 549 in Europe. Payment adds its own layer: the terminal is certified by its provider, and the kiosk has to provide a compliant mounting and data path.
+
 Ask for evidence per model rather than a logo on a page. A certificate that names the cabinet and the module list is worth more than a badge, and a supplier who cannot produce one is telling you something useful.
+
 ## Samples, acceptance and change control
+
 Agree what "accepted" means before the first unit is built: which tests, on which modules, with what pass criteria. A practical set is a 12-hour burn-in at ambient, a full transaction run on every module, a print quality check, a touch calibration check and a visual inspection against the drawing. Record the result and sign it off — that document is the baseline for every later change.
+
 Change control is the other half. After sign-off, every request should be classified as cosmetic, functional or structural, with the cost and schedule impact stated before work starts. Projects that skip this step discover the cost of a late module change after the cabinets are already cut.
+
 ## Timeline and milestones
+
 A modification of an existing platform typically runs: brief and drawing review, sample build, sample approval, first batch, inspection, shipment. A new enclosure adds a design iteration and a fit-check prototype. Ask each supplier to commit to milestone dates rather than a single lead-time figure, so a slip is visible while there is still time to react.
-## Hardware this guide refers to
-## Working on a related kiosk project?
+
+## The hardware behind this guide
+
+- 32-inch multi-industry terminal with a full module bay ↗
+- Fanless box PC for the computing platform ↗
+- Government services kiosk with document readers ↗
+
+## If you are scoping a similar job
+
 Share your specifications and intended use with our team, and we will reply with the questions that still need answers.
-## Common questions
+
+Request a kiosk quote Browse kiosk models
+
+## FAQ
+
 What should be in the first message to a kiosk OEM?
+The transaction the unit performs, the space it fits into, the screen size you have in mind, the modules you need, the quantity and the target date. Sketches or a photo of an existing machine help more than adjectives. With those five items a supplier can quote a scope instead of a range.
+
 When does a branding change become an engineering change?
+A logo, colour or printed panel is branding and costs artwork plus a coating batch. A new enclosure, a different cooling path, an added module or a changed screen size is engineering: drawings, prototypes and acceptance criteria all change. Mixing them in one request makes both cost and lead time hard to estimate.
+
 What acceptance criteria should a sample meet?
-## Where to go next
+A 12-hour burn-in at ambient, a full transaction on every module, a print quality check, a touch calibration check and a visual inspection against the drawing. Sign the result off and treat it as the baseline: every later change should be classified as cosmetic, functional or structural with its cost stated first.
+
+## Keep reading
+
+- Choosing the factory behind the RFQ ↗
+- OEM / ODM services ↗
+- Kiosk models in production ↗
+- Multi-reader service island ↗
+- Kiosk cost structure and hidden costs ↗
+- Product datasheets (PDF) for every model ↗
 
 ---
 
-# How Much Does a Self-Service Kiosk Cost? 2026 Price Guide
+# How Much Does a Self-Service Kiosk Cost?
 
 URL: https://xinyuehongtech.com/news/self-service-kiosk-cost/
 
+← All news
+Home
+/
+News
+/
 
-# How Much Does a Self-Service Kiosk Cost?
-By
+Self-Service Kiosk Cost
+
+NEWS / 2026-11-08
+How Much Does a Self-Service Kiosk Cost?
+
+By Mark, Project Engineer · Published November 8, 2026 · 9 min read
+
+Bottom line: A basic countertop self-service kiosk costs US$380–700 FOB Shenzhen. A 27–32-inch floor-standing kiosk with card readers, scanner and receipt printer runs US$1,300–2,600. Dual-screen public-service terminals with multiple document readers are US$1,800–3,400, and ATM-style units with a cash acceptor start around US$3,500. These are reference ranges for 2026; the final price is set by the module list, not by the cabinet.
+
 Kiosk prices are quoted per build, not per category. The same 27-inch cabinet can leave the factory at US$900 or US$2,400 depending on which readers, printer, panel and computing platform are inside it. The ranges below are reference points for 2026, FOB Shenzhen, for orders from one unit to about 100 units.
 
 ## What a self-service kiosk costs in 2026
+
 Reference ranges, FOB Shenzhen, 2026. Final price depends on the module list, not on the cabinet name.
-Build
-Typical range (USD)
-Usually included
-Countertop touch kiosk, 15.6 in
-380 – 700
-Screen, PC, enclosure; reader or printer optional
-Wall-mounted payment terminal, 21.5 in
-650 – 1,200
-Screen, PC, card reader, PIN pad, 80 mm printer
-Floor-standing payment or enquiry, 21.5 – 27 in
-900 – 1,800
-Screen, PC, one or two readers, receipt printer
-Floor-standing service terminal, 27 – 32 in
-1,300 – 2,600
-Screen, PC, multi-reader bay, scanner, receipt printer
-Dual-screen public-service terminal, 32 + 21.5 in
-1,800 – 3,400
-Two screens, full reader bank, printer, keyboard
-ATM-style financial terminal with cash acceptor
-3,500 – 9,000
-Recessed screen, encrypting PIN pad, EMV reader, cash module, vault-style door
-Industrial panel PC, 15 – 21 in
-350 – 900
-Panel, touch stack, fanless computer, mounting frame
-Fanless box PC
-220 – 650
-Barebone to Core i5, six serial ports, dual LAN
-Android embedded board
-70 – 220
-Board, heatsink, I/O set
+
+ |  | Build | Typical range (USD) | Usually included
+
+ | Countertop touch kiosk, 15.6 in | 380 – 700 | Screen, PC, enclosure; reader or printer optional
+
+ | Wall-mounted payment terminal, 21.5 in | 650 – 1,200 | Screen, PC, card reader, PIN pad, 80 mm printer
+
+ | Floor-standing payment or enquiry, 21.5 – 27 in | 900 – 1,800 | Screen, PC, one or two readers, receipt printer
+
+ | Floor-standing service terminal, 27 – 32 in | 1,300 – 2,600 | Screen, PC, multi-reader bay, scanner, receipt printer
+
+ | Dual-screen public-service terminal, 32 + 21.5 in | 1,800 – 3,400 | Two screens, full reader bank, printer, keyboard
+
+ | ATM-style financial terminal with cash acceptor | 3,500 – 9,000 | Recessed screen, encrypting PIN pad, EMV reader, cash module, vault-style door
+
+ | Industrial panel PC, 15 – 21 in | 350 – 900 | Panel, touch stack, fanless computer, mounting frame
+
+ | Fanless box PC | 220 – 650 | Barebone to Core i5, six serial ports, dual LAN
+
+ | Android embedded board | 70 – 220 | Board, heatsink, I/O set
+
 Two assumptions sit behind those numbers: standard module set (no new tooling) and payment by bank transfer. Freight, import duty, market certification and software are quoted separately, because none of them belong to the cabinet.
 
 ## What is inside the price
+
 A quotation is a bill of materials with margin on top. In a typical kiosk build the split looks like this. Percentages are shares of the unit price, not of the cost.
+
 Indicative cost structure for a floor-standing kiosk with readers and a printer.
-Line
-Share of unit price
-What moves it
-Enclosure and metalwork
-20 – 30%
-Steel thickness, laser cutting, bending, powder coating, custom cut-outs
-Display and touch stack
-15 – 25%
-Panel brand, brightness, size, PCAP versus infrared, cover glass
-Computing platform
-10 – 20%
-Android board versus Intel Celeron versus Core i5, RAM and SSD
-Peripherals
-15 – 30%
-Printer class, scanner, card readers, PIN pad, camera, dispenser
-Assembly, wiring, burn-in, QC
-5 – 8%
-Harness labour, 12-hour burn-in, final inspection
-Certification and documentation
-2 – 5%
-CE, FCC or RoHS testing, reports, labelling
-Packaging and inland freight
-2 – 4%
-Foam crate, pallet, port delivery
-Margin and warranty reserve
-10 – 20%
-Order size, payment terms, warranty length
+
+ |  | Line | Share of unit price | What moves it
+
+ | Enclosure and metalwork | 20 – 30% | Steel thickness, laser cutting, bending, powder coating, custom cut-outs
+
+ | Display and touch stack | 15 – 25% | Panel brand, brightness, size, PCAP versus infrared, cover glass
+
+ | Computing platform | 10 – 20% | Android board versus Intel Celeron versus Core i5, RAM and SSD
+
+ | Peripherals | 15 – 30% | Printer class, scanner, card readers, PIN pad, camera, dispenser
+
+ | Assembly, wiring, burn-in, QC | 5 – 8% | Harness labour, 12-hour burn-in, final inspection
+
+ | Certification and documentation | 2 – 5% | CE, FCC or RoHS testing, reports, labelling
+
+ | Packaging and inland freight | 2 – 4% | Foam crate, pallet, port delivery
+
+ | Margin and warranty reserve | 10 – 20% | Order size, payment terms, warranty length
 
 ## The five things that move the price most
 
-### 1. Screen size, panel grade and brightness
+1. Screen size, panel grade and brightness
+
 A 15.6-inch industrial panel and a 32-inch 2560 × 1440 panel are not the same purchase. Moving from a 21.5-inch 1080p panel to a 32-inch QHD panel typically adds US$250–500 to the bill of materials before any mechanical changes. High-brightness panels for outdoor or window-facing units add more again.
 
-### 2. Touch technology
+2. Touch technology
+
 Projected capacitive (PCAP) is the default for indoor public terminals. Infrared touch is cheaper on large sizes but adds bezel depth and is more sensitive to dust. Resistive survives gloves and wet hands but feels dated. The gap between the cheapest and the most durable stack on the same screen is usually US$60–200.
 
-### 3. Card readers, PIN pads and payment devices
+3. Card readers, PIN pads and payment devices
+
 This is where quotations diverge most. A contactless-only reader is inexpensive; a full set of chip, swipe and contactless plus a certified encrypting PIN pad can add several hundred dollars. Where the acquirer requires a specific certified payment terminal, that device is usually bought separately and mounted on the kiosk rather than integrated into it.
 
-### 4. The computing platform
+4. The computing platform
+
 An Android board, an Intel Celeron fanless box and a Core i5 box with 16 GB of RAM sit in different price bands. The right question is not which is cheapest but which one your software, drivers and payment SDK actually run on. Replacing a platform after the enclosure is drawn costs far more than choosing the correct one at the start.
 
-### 5. Order size, tooling and lead time
+5. Order size, tooling and lead time
+
 At one unit you pay for setup. At 100 units the same cabinet may drop 15–25%, mostly because laser programming, fixtures and powder-coat batches are amortised. New tooling for a custom enclosure is a one-off cost, typically US$2,000–8,000 depending on complexity, and it does not disappear at higher volumes. Rush orders add cost at the component level, not the assembly level.
 
 ## Costs that are not on the quotation
+
 Buyers comparing two kiosk quotes often compare the wrong totals. These lines are usually missing from both:
 
+- Market certification. CE, FCC or RoHS testing for a new model family typically runs US$1,500–6,000, once, and is not repeated per unit.
+
+- Payment approval. Acquirer and scheme fees for the payment device, paid to the provider rather than to the kiosk factory.
+
+- Spare parts and consumables. Budget 5–10% of the hardware value per year for printers, paper, readers and a small stock of spares.
+
+- Freight and insurance. A floor-standing kiosk is bulky freight, not parcel freight. Sea LCL is normal for pilots; air is used for samples and costs several times more.
+
+- Import duty and VAT. Depends entirely on the destination market and the HS code applied to the unit.
+
+- Software integration. Usually the largest non-hardware line in the project, and the one most often underestimated.
+
+- Installation and commissioning. Site preparation, power, network, anchoring and staff training.
+
+- Warranty logistics. Who pays the return freight for a failed unit, and how long a replacement takes.
+
 ## How to compare two quotations
+
 Ask both suppliers for the same eleven lines. If a quote cannot answer them, it is not comparable, however low the total looks.
+
 Line-by-line comparison list for kiosk quotations.
-Item
-What to ask for
-Enclosure
-Steel thickness, finish, service-door design
-Panel
-Brand, brightness in nits, resolution, backlight life
-Touch
-Technology, cover glass, number of touch points
-Computer
-CPU model, RAM, storage, operating system image
-Printer
-Brand, paper width, cutter rating, duty cycle
-Readers
-Exact model numbers, interfaces, certification status
-Test report
-Burn-in duration, what was exercised, who signs it off
-Certification
-Which marks are included, and who pays for testing
-Warranty
-Length, what is covered, who pays return freight
-Lead time
-From deposit or drawing approval, not from enquiry
-Packing
-Crate type, pallet dimensions, container loading plan
+
+ |  | Item | What to ask for
+
+ | Enclosure | Steel thickness, finish, service-door design
+
+ | Panel | Brand, brightness in nits, resolution, backlight life
+
+ | Touch | Technology, cover glass, number of touch points
+
+ | Computer | CPU model, RAM, storage, operating system image
+
+ | Printer | Brand, paper width, cutter rating, duty cycle
+
+ | Readers | Exact model numbers, interfaces, certification status
+
+ | Test report | Burn-in duration, what was exercised, who signs it off
+
+ | Certification | Which marks are included, and who pays for testing
+
+ | Warranty | Length, what is covered, who pays return freight
+
+ | Lead time | From deposit or drawing approval, not from enquiry
+
+ | Packing | Crate type, pallet dimensions, container loading plan
 
 ## The cheapest way to start
+
 Most first projects do not need a new enclosure. They need a working terminal in front of real users, fast. A practical low-cost route:
+
 - Order one prototype unit from a standard cabinet and standard module set — minimum order quantity of one is common in this industry.
+
 - Skip custom tooling in round one. Prove the flow first; tool the enclosure once the service is validated.
+
 - Use a certified third-party payment terminal instead of an integrated payment module. It is cheaper to certify and easier to swap.
+
 - Run the pilot for four to six weeks and measure transactions per unit per day, not satisfaction scores.
+
 - Scale with a production batch that shares the pilot's enclosure, so the drawings, fixtures and test procedure are reused.
 
 ## Terms used in kiosk quotations
 
-## Questions buyers ask most
+MOQMinimum order quantity. For kiosk hardware this is often one unit for a standard build, and 20–50 units for a custom enclosure run.
+FOBFree on board. The price covers the goods loaded at the named port; freight, insurance and import duty are added by the buyer.
+EPPEncrypting PIN pad. A separately certified device for PIN entry; it is never replaced by the touchscreen.
+PCAPProjected capacitive touch. The technology behind most modern kiosk and phone screens; supports multi-touch and a flush glass surface.
+
+## Questions that decide the build
+
 How much does a basic self-service kiosk cost?
+A countertop unit with a 15.6-inch screen and an Android or Celeron platform starts around US$380–700 FOB Shenzhen. Adding a card reader and a receipt printer usually moves the same build into the US$700–1,100 range.
+
 Why do two quotes for the same kiosk differ by a factor of two?
+Almost always the components behind the cabinet: panel brand and brightness, touch technology, reader models, printer duty cycle, and whether the computer is an Android board or an Intel box. A quote that lists only the enclosure cannot be compared with one that lists the bill of materials.
+
 Does ordering more units reduce the price?
+Yes, typically 15–25% at 100 units against a single-unit price, because programming, fixtures, powder-coat batches and test setup are amortised. Tooling for a new enclosure is a separate one-off cost that does not scale down this way.
+
 Is the payment terminal included in the kiosk price?
+Usually not. Where the acquirer requires a certified device, the kiosk is quoted with the mounting, power and cable route, and the payment terminal is bought through the provider. Some projects integrate a reader instead, but that changes the certification path.
+
 How much does shipping a kiosk cost?
+Kiosk shipping cost depends on volume and route, not on the unit price. A floor-standing kiosk is bulky freight: sea LCL is normal for pilot quantities, a 40-foot container is normal for a roll-out. Air freight is used for samples and typically costs several times the sea rate.
+
 Is CE or FCC certification included?
+CE or FCC certification is quoted as a separate line because testing is per model family, not per unit. Budget US$1,500–6,000 for a new family, once. If a supplier says certification is included, ask which laboratory and which report number.
+
 Does the price include software?
+No. Kiosk hardware is quoted with the operating system image and driver support, but the service application is written by you or your integrator, and it is usually the largest non-hardware cost in the project.
+
 What lead time should I expect?
+Roughly 15 days from deposit and approved drawing for a standard build inside the standard module set. A new enclosure adds drawing time and a prototype cycle; a production batch with new tooling typically takes four to eight weeks.
+
 Can I buy a single unit as a sample?
+Yes. Minimum order quantity of one is normal for standard cabinets, and the sample should go through the same burn-in and inspection route as a production batch, so it represents what the batch will be.
 
-## Where to go next
+## Where this leads
 
+- All self-service kiosk models ↗
+
+- Tilted countertop kiosk (lowest entry point) ↗
+
+- ATM-style financial terminal with cash handling ↗
+
+- Industrial PCs and computing platforms ↗
+
+- OEM / ODM customization ↗
+
+- What each kiosk module actually does ↗
+
+- OEM/ODM project checklist ↗
+
+- How to choose a self-service kiosk ↗
+
+- Request a quotation ↗
+
+- ADA, IP65 and IK requirements for a kiosk build ↗
+- Mounting an EMV terminal and choosing the OS ↗
+- Product datasheets (PDF) for every model ↗
 
 ---
 
-# Self-Service Kiosk Modules: What to Specify | Xinyuehong
+# Self-Service Kiosk Modules: What to Specify
 
 URL: https://xinyuehongtech.com/news/self-service-kiosk-modules-guide/
 
-# Self-Service Kiosk Modules: What to Specify
-By
+← All news
+
+Home
+/
+News
+/
+
+Self-Service Kiosk Modules: What to Specify
+
+NEWS / 2026-10-29
+Self-Service Kiosk Modules: What to Specify
+
+By Mark, Project Engineer · Published October 29, 2026 · 11 min read
+
+Quick answer: Almost every self-service kiosk is assembled from the same eight module families — display and touch, computing platform, card and identity readers, barcode and QR scanners, printers, payment and cash handling, cameras and biometrics, plus the enclosure, power and connectivity that hold it together. Which ones you need is decided by the transaction, not by the catalogue.
+
 A kiosk quotation is mostly a list of modules. Two units can look identical from the outside and differ by a factor of three in cost, simply because one carries a certified card reader and a cash recycler while the other only needs a QR scanner and a receipt printer. Knowing what each module does — and what it obliges you to maintain — is the fastest way to keep a project inside budget.
+
 ## The eight module families
+
 The table below is the map for the rest of this guide. Use it as a checklist when you write an RFQ: mark each family as required, optional or not applicable before you ask anyone for a price.
+
 Module families used in self-service terminals
-Family
-What does the work a customer cannot do on a screen
-Typical options
-Contact IC, contactless RFID, magnetic stripe, national ID, passport MRZ, 1D/2D imager, thermal or A4 printer, PIN pad, bill acceptor, coin hopper, cash recycler, camera, fingerprint, NFC
-Chosen by
-The transaction: what the customer must present, prove, pay with, or take away
-Watch out for
-Driver support on your operating system, power budget, service access, certification in the destination market
+
+ | Family | What does the work a customer cannot do on a screen
+
+ | Typical options | Contact IC, contactless RFID, magnetic stripe, national ID, passport MRZ, 1D/2D imager, thermal or A4 printer, PIN pad, bill acceptor, coin hopper, cash recycler, camera, fingerprint, NFC
+
+ | Chosen by | The transaction: what the customer must present, prove, pay with, or take away
+
+ | Watch out for | Driver support on your operating system, power budget, service access, certification in the destination market
+
 ## 1. Card and identity reading
+
 This is the family most projects underestimate, because "card reader" covers six different devices. A contact IC reader handles bank and CPU cards inserted into a slot. A contactless RFID reader (13.56 MHz, ISO 14443 A/B, MIFARE) handles tap cards, staff badges and transport cards. A magnetic stripe reader handles older bank and membership cards. An ID reader at 125 kHz handles proximity cards used for building access. A national ID reader reads the chip on a resident identity card, which is mandatory for hospital, telecom and government self-service in several markets. A passport MRZ scanner reads the two-line code at the bottom of a passport page for border, hotel and immigration counters.
+
 The practical constraint is never whether the reader exists — it is whether it has a driver for the operating system you intend to run, and whether its certification is valid in the country where the unit will be installed. Confirm both in writing before the cabinet is tooled.
+
 ## 2. Barcode and QR scanning
+
 A 1D laser engine reads printed linear barcodes: tickets, printed vouchers, product labels. A 2D imager reads both linear codes and matrix codes, and it is the only option if customers will present a QR code on a phone screen — mobile wallet payment, e-tickets, loyalty codes, health codes. Because phone screens are backlit and often cracked or dimmed, a 2D engine needs adequate illumination and a scan window angled so the screen faces the imager rather than the ceiling.
+
 Two mounting styles dominate. A presentation window behind tempered glass — the scan deck — is the robust choice for public counters because there is no protruding hardware to break. A flush-mounted engine in the bezel saves space on wall-mounted and countertop units. Both are read by the same 2D engine; the difference is how much abuse the installation will take.
+
 ## 3. Printing
+
 An 80 mm thermal receipt printer with an auto-cutter is the default for payment, queue tickets and transaction records; 58 mm is used where the receipt is short and paper cost matters. An A4 laser printer is specified when the customer must leave with a document — a medical record, a statement, a certificate, a boarding pass on paper. Parking and cinema installations often use a dedicated ticket printer with a larger roll and a different media path.
+
 Specify three things that are easy to forget: roll capacity, whether the printer loads from the front or the rear, and whether a paper-near-end sensor is wired to the management software. In the field, a kiosk that runs out of paper without warning is a kiosk that is out of service.
+
 ## 4. Computing platform and operating system
+
 Two platform families cover most builds. Android boards such as the RK3568 and RK3399, with 2–8 GB of RAM and 16–64 GB of eMMC storage, suit single-purpose applications, digital signage hybrids and cost-sensitive deployments. Windows and Linux builds on Intel Celeron J6412, optionally Core i3 or i5, with 4–16 GB of DDR memory and 64–512 GB of SSD storage, suit legacy peripherals, heavy browser applications and anything that needs a specific Windows driver.
-Choose the platform last, not first. It is a consequence of the modules you selected: if the ID reader only has a Windows driver, the platform decision has already been made for you. Request kiosk-mode lock-down, a hardware watchdog and remote device management, so the unit recovers from a frozen application without a site visit.
+
+Choose the platform last, not first. It is a consequence of the modules you selected: if the ID reader only has a Windows driver, the platform decision has already been made for you. Request kiosk-mode lock-down, a hardware watchdog and remote device management, so the unit recovers from a frozen application without a site visit. The software side of that choice carries a compliance clock too: the EU Cyber Resilience Act puts vulnerability reporting duties on connected products, and a kiosk image counts as one.
+
 ## 5. Display and touch
+
 Sizes run from 15.6-inch countertop panels to 32-inch floor-standing displays. A 32-inch portrait panel at 2560 × 1440 gives enough vertical space for a full registration form plus a guidance column, which is why it has become the reference size for multi-step workflows. Smaller panels at 1920 × 1080 remain the right choice for wall-mounted and desktop units.
+
 Touch is projected capacitive (PCAP) with ten points in nearly all current designs, under tempered or anti-glare glass. Where a PIN is entered, ask for a privacy filter. Where the screen faces a window, ask for higher brightness and optical bonding. A second display mounted above the main screen costs little and is used for queue guidance, advertising or showing the operator's side of the transaction on dual-screen counters.
+
 ## 6. Payment and cash handling
+
 Card payment splits into three approaches. A card reader integrated into the cabinet handles the card and sends the transaction to a payment gateway. A certified PIN pad handles the encrypted PIN entry, which is what banks and most regulated markets require. A bracket for an external POS terminal lets the acquirer supply and certify their own device — slower to integrate, but it removes certification risk from the kiosk builder.
+
 QR payment is cheaper than card payment because it can work by displaying a code for the customer to scan, or by scanning the code the customer shows. Cash handling is the most expensive family: a bill acceptor, a coin hopper and a cash recycler each add weight, a reconciliation routine, a cash collection schedule and a service contract. Model the cost of cash collection before you specify it.
+
 ## 7. Cameras and biometrics
+
 A camera above the display serves face capture for KYC, membership enrolment, access control and anti-fraud records. A fingerprint module serves the same purposes where a fingerprint is the established credential. Both raise data questions before they raise technical ones: where images are stored, how long they are retained, and which regulation applies. Settle that with your compliance owner before the module is ordered.
+
 ## 8. Enclosure, power and connectivity
+
 The cabinet is a module too. A floor-standing base with lockable castors lets one unit be moved for cleaning and repositioned between seasons; a fixed base is more stable and slightly cheaper. Countertop and wall-mounted cabinets serve the same applications where floor space is scarce. Powder-coated steel is the default; a higher ingress rating, sealed cable entries and a filtered ventilation path are required for semi-outdoor and industrial sites.
+
 Power and network planning belongs in the same conversation: Ethernet as primary, Wi-Fi or 4G where cabling is impractical, and a small UPS so a power cut produces a graceful shutdown and a completed transaction record rather than a corrupted database.
+
 ## Module sets by scenario
+
 The table below shows the sets we most often build. Treat it as a starting point: these are the combinations that survive contact with real queues.
+
 Common module combinations and where they are used
-Hospital registration and payment
-National ID reader, IC and bank card reader, 1D/2D scanner for referral codes, 80 mm receipt printer, optional A4 printer for records, second display for queue guidance. See the
-Parking payment
-1D/2D scanner for tickets and mobile codes, bank card reader with PIN pad, bill acceptor and coin hopper, 80 mm receipt printer, high-brightness display for covered car parks. See the
-Bank and financial self-service
-Certified PIN pad, contact IC and magnetic stripe reader, 2D scanner, A4 statement printer, privacy filter, camera for audit records. See the
-Hotel, cinema and venue
-Passport or ID reader, 2D scanner for e-tickets, ticket or receipt printer, camera for enrolment, second display for wayfinding. The
-Supermarket self-checkout
-2D scanner with a large scan deck, bank card reader, 80 mm receipt printer, scale interface, bagging area detection.
-Government and social security
-National ID reader, IC card reader, 2D scanner, A4 printer for certificates, camera, signature or fingerprint capture. See the
-Border and immigration
-Passport MRZ scanner, national ID reader, camera with liveness detection, fingerprint module, 2D scanner, receipt printer.
-Clinic card dispensing
-Card dispenser with a stack, national ID reader, 2D scanner, receipt printer, small footprint cabinet. See the
+
+ | Hospital registration and payment | National ID reader, IC and bank card reader, 1D/2D scanner for referral codes, 80 mm receipt printer, optional A4 printer for records, second display for queue guidance. See the hospital registration and payment kiosk and the exit-entry and immigration kiosk.
+
+ | Parking payment | 1D/2D scanner for tickets and mobile codes, bank card reader with PIN pad, bill acceptor and coin hopper, 80 mm receipt printer, high-brightness display for covered car parks. See the parking payment terminal.
+
+ | Bank and financial self-service | Certified PIN pad, contact IC and magnetic stripe reader, 2D scanner, A4 statement printer, privacy filter, camera for audit records. See the financial self-service terminal and the card reader service kiosk.
+
+ | Hotel, cinema and venue | Passport or ID reader, 2D scanner for e-tickets, ticket or receipt printer, camera for enrolment, second display for wayfinding. The 32-inch multi-industry terminal covers these five applications in one cabinet.
+
+ | Supermarket self-checkout | 2D scanner with a large scan deck, bank card reader, 80 mm receipt printer, scale interface, bagging area detection.
+
+ | Government and social security | National ID reader, IC card reader, 2D scanner, A4 printer for certificates, camera, signature or fingerprint capture. See the social security kiosk and the dual-screen government affairs terminal.
+
+ | Border and immigration | Passport MRZ scanner, national ID reader, camera with liveness detection, fingerprint module, 2D scanner, receipt printer.
+
+ | Clinic card dispensing | Card dispenser with a stack, national ID reader, 2D scanner, receipt printer, small footprint cabinet. See the clinic card dispenser kiosk.
+
 ## Five questions to settle before you order
+
+- Which operating system will your application run on? Every module must have a driver for it. This single answer decides the computing platform, the board and much of the cost.
+
+- What is the power budget and the cable path? Cash modules, A4 printers and heated enclosures are the loads that break an undersized supply.
+
+- How is the unit serviced? Front access lets a wall unit stay on the wall; rear access is cheaper but needs clearance. Decide who refills paper and how long that takes.
+
+- Which certifications must the payment and identity modules carry? Card, PIN and identity modules are regulated differently in each market, and certification belongs to a specific module model, not to the cabinet.
+
+- What should happen when a transaction fails? Define the recovery flow, the on-screen message and the remote alert before the software is written, not after the first complaint.
+
 ## What to send with your module RFQ
+
 An RFQ that lists modules with interfaces and quantities gets a comparable quotation; one that says "kiosk with card reader" does not. Include the target operating system, the module list with preferred interface (USB, RS232, TTL), the daily transaction volume, the installation environment, the certification markets, the expected service access and the quantity at first order and at full rollout.
+
 ## Working on a module list right now?
+
 Send the workflow you need and the modules you think you need, and we will reply with the ones that are missing, the ones that are redundant, and the driver constraints we can see.
-## Common questions
+
+Request a module quotation Browse kiosk models
+
+## FAQ
+
 Which modules are mandatory on a self-service kiosk?
+Only three are close to universal: a display with touch, a computing platform and something that proves the transaction happened — usually a printed receipt or a digital confirmation. Everything else follows from the task. A directory needs no printer; a payment terminal needs a certified reader and a mounting position for it.
+
 Can modules be added after the cabinet is designed?
+Sometimes, and expensively. A card reader or a QR scanner can often go into an existing cut-out if the panel has spare area. A receipt printer, a document reader or a cash module changes the internal layout, the power budget and sometimes the cabinet depth. Adding a module late is the most common reason a project slips a month.
+
 How does the module list affect the price?
-## Where to go next
+More than the screen size does. Two units with the same 27-inch display can differ by a factor of two or three depending on whether one carries a certified payment terminal and a document reader while the other has a QR scanner and a printer. Certify the module list before comparing quotes.
+
+## More on this
+
+- The 80 mm thermal printer: paper, cutter and jams ↗
+- Self-service terminals ↗
+- 32-inch multi-industry terminal ↗
+- OEM and ODM configuration ↗
+- Industrial PCs and computing platforms ↗
+- How to choose a self-service kiosk ↗
+- OEM/ODM project checklist ↗
+- Floor-standing vs wall-mounted kiosks ↗
+- Touchscreen technology: PCAP, IR and resistive ↗
+- Thermal design for 24/7 kiosk operation ↗
+- What a kiosk build costs, line by line ↗
+- Product datasheets (PDF) for every model ↗
 
 ---
 
@@ -4543,54 +5159,118 @@ Compare with
 
 URL: https://xinyuehongtech.com/news/eu-cra-kiosk-reporting/
 
-# The CRA Reporting Clock Started in September. Kiosk Builds Are Still Catching Up
-By
+Home
+/
+News
+/
+
+EU CRA Reporting and Kiosks
+
+NEWS / 2026-11-13
+
+The CRA Reporting Clock Started in September. Kiosk Builds Are Still Catching Up
+
+By Mark, Project Engineer · Published November 13, 2026 · 7 min read
+
+Short answer: Since 11 September 2026 the EU Cyber Resilience Act requires manufacturers of products with digital elements to report actively exploited vulnerabilities within 24 hours, then 72 hours, then 14 days after a fix. A self-service kiosk counts. Most kiosk projects cannot yet say which software build sits in which unit, which is exactly the information the first deadline asks for.
+
 ## What counts as a product with digital elements
+
 The cabinet is not the product. The unit that goes into a hospital lobby or a bank branch is a computer running Windows, Android or Linux, an application, and a set of peripheral modules, sold as one thing. If it has any data connection, and almost every terminal does, it falls inside the definition in the Cyber Resilience Act.
+
 Article 3(13) puts the obligation on whoever markets the product under its own name or trademark. That is usually the company whose logo is on the front panel, not the sheet-metal shop that cut the enclosure and not the board vendor. An importer or distributor that rebrands a terminal, or modifies it substantially, takes on manufacturer duties as well. For a Chinese-built kiosk sold into the EU, the practical question is which company is legally on the hook, and it should be answered in the contract rather than worked out after an incident.
+
 ## The clock: 24 hours, 72 hours, 14 days
+
 Reporting opened on 11 September 2026 and runs through the ENISA single reporting platform, which forwards a single notification to the CSIRT of the member state coordinating the case. The deadlines are short enough that the process has to exist before it is needed.
+
 Article 14 reporting stages
-Stage
-Deadline
-What it contains
-Early warning
-24 hours after becoming aware
-That the vulnerability is actively exploited, the affected product, and whether malicious actors are suspected.
-Notification
-72 hours
-Product and version, nature of the exploit, corrective or mitigating measures already available to users.
-Final report
-14 days after a fix exists
-Severity and impact, any known actor, and the details of the update or workaround.
-Severe incident
-24 h / 72 h / 1 month
-Same early warning and notification pattern, with the final report one month after the notification.
+
+ | Stage | Deadline | What it contains
+
+ | Early warning | 24 hours after becoming aware | That the vulnerability is actively exploited, the affected product, and whether malicious actors are suspected.
+
+ | Notification | 72 hours | Product and version, nature of the exploit, corrective or mitigating measures already available to users.
+
+ | Final report | 14 days after a fix exists | Severity and impact, any known actor, and the details of the update or workaround.
+
+ | Severe incident | 24 h / 72 h / 1 month | Same early warning and notification pattern, with the final report one month after the notification.
+
 The trigger is the moment you have reasonable certainty, not the moment you have a fix. That is the part manufacturers underestimate. A support engineer reading a customer report on a Monday morning can start a 24-hour clock, and the first notification does not need a root cause, only a statement that exploitation is happening.
+
 Jurisdiction follows the member state where cybersecurity decisions about the product are mainly taken. A manufacturer with no EU establishment gets routed by reference to its authorised representative, importer or distributor, which is one more reason to know who that is before a firmware team in Shenzhen has to file anything in Europe.
+
 ## Where kiosk builds actually fall over
+
+The Windows image nobody owns. Plenty of kiosk fleets ship with a captured image: drivers baked in, kiosk-mode shell pre-configured, no patch process. When a vulnerability lands in a printer driver or in the shell, the supplier cannot say which of the 400 units in the field run the affected build. A component list per shipment, with versions, is unglamorous work. It is also the difference between a 24-hour answer and a week of guessing.
+
+The module with no maintainer. A receipt printer SDK last updated in 2019. A card reader vendor acquired twice. An Android BSP for a board that has been superseded. None of these are unusual in this industry. Under Article 14 you only report when the vulnerability is exploitable in your product, but you cannot assess exploitability if the module vendor publishes nothing. Ask for the security contact and the advisory feed when you sign the purchase order, not when a CVE appears.
+
+The support period promise. The CRA expects a declared support period, during which vulnerabilities are handled. Kiosks stay in service for seven to ten years. Promise five years of security updates and you have committed to spare PCs, operating-system licensing, a re-imaging process and a test rig that can validate a patch against every module in the cabinet. That is a budget line, and it belongs in the quotation rather than in the small print afterwards.
+
 ## What the September date does not require
+
 It does not require CE marking. The essential requirements, the technical documentation and the conformity assessment apply from 11 December 2027. It does not require reporting every vulnerability, only actively exploited ones. And it does not require you to report a flaw that exists in a component but cannot be exploited in your configuration.
+
 What it does require is knowing your own build. In practice that means four things: a component inventory per product version, a fixed update path for units in the field, a named security contact reachable outside office hours, and a written support period that sales is not allowed to improvise.
+
 ## Six questions to put in the next RFQ
+
 Buyers in Europe have started asking these. Suppliers who cannot answer lose the shortlist.
+
 - Which operating system image and version ships, and who is responsible for patching it after delivery?
-- Can you provide a component list with versions for each shipment, not just for the reference build?
+
+- Can you provide a component list with versions for each shipment, not just for the standard build?
+
 - What support period do you declare in writing, and what happens when it ends?
+
 - Which third-party modules have a public vulnerability disclosure channel, and where is it?
+
 - Who is the security contact, and what is the escalation path when a report arrives at 2 a.m.?
+
 - When a fix is released, how do the units already installed receive it?
+
 None of these are difficult questions. The difficulty is that they cut across departments: sales promises a support period, engineering owns the image, procurement owns the module vendors, and legal signs the contract. A kiosk project that has not assigned those four responsibilities will answer the first question confidently and the fifth one badly.
+
 ## The unglamorous part
+
 A kiosk fleet is an IT estate of a few hundred devices, each with a screen, a computer, a printer and a reader, distributed across branches and lobbies. The CRA asks manufacturers to run it like one. That is not a certification exercise you can buy at the end of a project. It is a documentation habit that starts with the first prototype and continues for as long as the last unit is in the field.
+
 For anyone specifying terminals in Europe this year, the practical filter is simple: ask the six questions, and see which supplier answers all of them without forwarding your email to someone else.
-## Common questions
+
+## The questions that come up
+
 Does the CRA apply to kiosks that were installed before September 2026?
+Yes. The Article 14 reporting duty covers products already on the market, not only new ones shipped after 11 September 2026. If an actively exploited vulnerability in a terminal you supplied becomes known after that date, the clock starts regardless of when the unit was built. Knowing which serial numbers run which software build is therefore the first practical requirement.
+
 Do we have to report every vulnerability we find?
+No. The obligation covers vulnerabilities with reliable evidence of active exploitation, and severe incidents affecting your own development or update processes. Findings from internal testing or security research can be reported voluntarily through the same platform. A vulnerability that exists in a third-party component but is not exploitable in your configuration does not trigger a report, though it still has to be fixed upstream.
+
 When does CE marking under the CRA become mandatory?
-## Hardware this guide refers to
+The substantive obligations, including security-by-design requirements, vulnerability handling, technical documentation and conformity assessment, apply from 11 December 2027. The September 2026 date only covers reporting. A kiosk delivered between the two dates is not yet CE-marked under the CRA, but it is already inside the reporting regime.
+
+## Units referenced in this guide
+
+- 32-inch multi-industry terminal with a full module bay ↗
+- Fanless box PC for the computing platform ↗
+- Bank terminal with an encrypting PIN pad ↗
+
 Working on a related kiosk project? Send the requirements and we will reply with the questions that still need answers.
-## Where to go next
+
+Request a kiosk quote Browse kiosk models
+
+## Standards and sources
+
+Primary sources for the requirements referred to above.
+
+- Regulation (EU) 2024/2847, the Cyber Resilience Act (EUR-Lex) ↗
+
+## Where this leads
+
+- Integrating a payment terminal into a kiosk ↗
+- Self-service kiosk modules: what to specify ↗
+- OEM/ODM custom kiosk builds ↗
+- Product datasheets (PDF) for every model ↗
 
 ---
 
@@ -4598,68 +5278,138 @@ Working on a related kiosk project? Send the requirements and we will reply with
 
 URL: https://xinyuehongtech.com/news/naked-eye-3d-transparent-cabinet/
 
-# Naked-Eye 3D Transparent Cabinets: What the 10 to 100 Inch Range Actually Buys You
-By
+Home
+/
+News
+/
+
+Naked-Eye 3D Transparent Cabinets
+
+NEWS / 2026-11-15
+
+Naked-Eye 3D Transparent Cabinets: What the 10 to 100 Inch Range Actually Buys You
+
+By Mark, Project Engineer · Published November 15, 2026 · 8 min read
+
+Bottom line: Most cabinets sold as "3D holographic" are one of three things: a transparent panel with graphics over a real object, a Pepper's ghost pyramid, or an autostereoscopic LCD. Only the third shows true depth, and it halves the resolution. Sizes run from 10.1 to 100 inches, but the panel route changes completely above 55 inches, and the brightness you can actually use depends on the light in the room.
+
 ## Three different machines share one name
+
 Search the category and every listing looks the same: a glass box, a floating object, a slogan about holograms. Open the cabinet and you find one of three things, and they behave nothing alike.
+
+A transparent panel showcase. A transparent OLED or transparent LCD sits in the front door of a lit cabinet. The product behind it is real, the graphics sit on the glass. Depth comes from the physical object, not from the display. This is the most common format above 43 inches and the easiest to sell, because a real watch in a real box with animated text over it is genuinely striking.
+
+A Pepper's ghost pyramid. Coated glass at 45 degrees reflects a display hidden in the base. The image appears to float in the middle of the box, and the effect holds from most angles. It is bright, cheap per unit and works in sizes from a 10-inch desk unit to a 2-metre booth, but it is a reflected image, so it has no real depth and the object inside is optional rather than essential.
+
+An autostereoscopic panel. A parallax barrier or a lenticular lens in front of a normal LCD shows two or more views at once, and the brain does the rest. This is the only one of the three that shows true stereo depth, and the only one where the content has to be authored as multi-view. It also halves the resolution, because two images share the panel.
+
 When a supplier quotes a "3D transparent cabinet" at a suspiciously low price, it is usually the second type. That is not a criticism. A pyramid does a better job of floating a logo than a transparent panel does, and it costs less. It just cannot do what a panel does.
+
 ## The size ladder, from desk to wall
+
 Panel availability, not demand, decides what is realistic above 32 inches. Transparent LCD exists in small sizes and is inexpensive per inch; transparent OLED clusters around 55 inches; anything near 100 inches is transparent LED film, an LED mesh cabinet, or projection onto a coated film.
+
 Reference sizes and what each one is good for
-Size
-Panel route
-Typical placement
-What to watch
-10.1" - 15.6"
-Transparent LCD
-Countertop, jewellery tray, cosmetics shelf
-Low transmittance, needs a lit enclosure
-21.5" - 32"
-Transparent LCD
-Retail shelf end, museum plinth, reception
-Backlight heat inside a small box
-43" - 55"
-Transparent OLED or LCD
-Floor cabinet, showroom, bank counter
-Black level in bright rooms
-65" - 86"
-Transparent OLED, projector film
-Lobby wall, exhibition stand, automotive
-Freight, service access, power budget
-100"
-Transparent LED or projection
-Atrium, flagship window, event stage
-Pixel pitch, viewing distance, heat
+
+ | Size | Panel route | Typical placement | What to watch
+
+ | 10.1" - 15.6" | Transparent LCD | Countertop, jewellery tray, cosmetics shelf | Low transmittance, needs a lit enclosure
+
+ | 21.5" - 32" | Transparent LCD | Retail shelf end, museum plinth, reception | Backlight heat inside a small box
+
+ | 43" - 55" | Transparent OLED or LCD | Floor cabinet, showroom, bank counter | Black level in bright rooms
+
+ | 65" - 86" | Transparent OLED, projector film | Lobby wall, exhibition stand, automotive | Freight, service access, power budget
+
+ | 100" | Transparent LED or projection | Atrium, flagship window, event stage | Pixel pitch, viewing distance, heat
+
 Two practical notes. Below 21.5 inches, the cabinet is mostly electronics and glass, so the enclosure needs forced air or a large metal heat path or the backlight will cook itself. Above 65 inches, the unit stops being a cabinet and becomes a structure: it arrives in sections, needs a lift, and the freight can approach the panel cost.
+
 ## Transparency and brightness pull in opposite directions
+
 A transparent OLED transmits roughly 38 to 45 percent of the light behind it. A transparent LCD is closer to 10 percent, because it still needs a backlight behind the liquid crystal. That single number explains most of the difference in price and effect between the two routes.
+
 The number that is harder to publish is contrast. A transparent panel has no black. Every dark pixel is whatever is behind the unit, seen through the panel, attenuated by its transmittance. Put the cabinet in a 750-lux retail aisle and the "floating" image competes with a bright wall behind it. Put the same unit in a dim showroom and it looks like a different product.
+
 So the specification conversation should not start with inches. It should start with the lux on the front face. If the answer is above roughly 500 lux, plan a shroud, a dark backing panel, or a brighter panel, and expect the transparency to suffer as the brightness rises. Peak figures quoted by panel makers, often 400 to 800 nits, are measured in a dark room and are not what the customer sees at noon.
+
 ## 3D has a sweet spot, not a viewing angle
+
 Autostereoscopic panels are sold on "viewing angle", which is misleading. A parallax barrier produces a limited number of views at a fixed distance. Step half a metre to the left and the image either flips to the other eye's view or goes flat. Multi-view panels widen the zone at the cost of resolution and brightness, because more views share the same pixels.
+
 The workable approach is to design for where people actually stand. A countertop unit has one viewer at 500 to 700 mm. A floor cabinet outside a lift lobby has people walking past at 1.5 to 3 m, and a two-view panel will look broken to half of them. Tell the display supplier the standing positions, not just the room dimensions.
+
 ## The cost sits in the content, not the glass
+
 Hardware is the predictable part. A 55-inch transparent cabinet with a player, a frame and a power supply has a price you can quote in a day. The content pipeline is what derails the project.
+
 Multi-view 3D needs an asset with depth, not a flat render. That means either a CAD model with proper materials, a photogrammetry scan, or a rebuild from product photography. The jewellery brand that wants its ring floating in the cabinet usually has a STEP file of the setting and nothing of the stone, so a modeller has to reconstruct the light return. That work is measured in days per object, and it is usually the line item nobody budgets for.
+
 Then someone has to keep it current. A cabinet that loops the same 30 seconds for a year is a decoration. The ones that work are tied to a content management system the marketing team can actually use, with a template that keeps 3D assets inside the technical limits of the panel.
+
 ## Where the format earns its cost
+
+Jewellery and watches. The object is small, high value and looks better under controlled light. A 21.5-inch transparent cabinet at the counter, with the piece behind glass and the specification floating over it, replaces a salesperson for the browsing step.
+
+Cosmetics and fragrance. Bottles read well in transparency. The cabinet shows the physical product and the shade range at once, which a poster cannot do.
+
+Museums and cultural sites. Small artefacts behind glass with context layered over them. The transparency is the point: the visitor sees the real object, not a screen pretending to be one.
+
+Automotive and industrial showrooms. A cutaway component or a gearbox rotating in a 65-inch unit explains a mechanism faster than a video on a wall.
+
+Banks and premium retail. Gold, cards, and collectibles, usually with a lift-and-learn sensor so the content changes when the object is picked up.
+
+Exhibition stands. The 100-inch format is a trade-show device. It is impressive for four days and expensive to move, so rent the transport, not the panel.
+
+Standard builds of the cylindrical and cabinet formats are listed on our holographic display cabinet page, including the size ladder and panel routes.
+
 ## What to put in the RFQ
+
 - Panel route and generation, not just the diagonal: transparent OLED, transparent LCD, or projection film.
+
 - Transmittance and peak brightness, both quoted at a stated ambient light level.
+
 - Number of views and the designed viewing distance, with the standing positions in the room.
+
 - Cabinet depth, and whether the object sits behind glass or inside a sealed chamber.
+
 - Cooling method, service access, and how the panel is replaced if it fails.
+
 - Content source, player, and who updates it after handover.
+
 - Mounting: countertop, floor plinth, wall bracket or suspended.
+
 - Power and network at the position, including whether content is local or streamed.
+
 We build these as a cabinet project rather than a panel sale: enclosure, mounting, cooling, player and the interaction layer, in sizes from 10.1 to 100 inches depending on the panel route. If the object is already in your catalogue, send the CAD file and the retail drawing, and the specification conversation gets much shorter.
-## Common questions
+
+## Questions that decide the build
+
 Is a transparent 3D cabinet a real hologram?
+No. Nothing in a commercial cabinet reconstructs a light field the way a hologram does. What ships is a transparent panel with an autostereoscopic layer, or a Pepper's ghost pyramid using coated glass and a projector. Both produce a convincing floating image. Neither is holography, and a supplier who explains which one they use is usually the one worth talking to.
+
 Why does the picture look dim in a bright shop?
+A transparent panel splits its light between the image and whatever is behind it. The open area lets ambient light through, and that light lifts the black level, so contrast falls as the room gets brighter. Under 300 lux it looks impressive. Under direct shop lighting the image competes with the object behind the glass and usually loses.
+
 Can one cabinet show both 2D video and the 3D effect?
+Yes, on an autostereoscopic panel: the 3D layer is switched off for 2D content, which then plays at full resolution. On a lenticular panel the lens stays in the optical path, so 2D content keeps a visible texture pattern. If the cabinet has to run brand video most of the day and 3D some of the time, ask for a switchable parallax barrier.
+
 ## Related reading
+
+- 32-inch terminal with a full module bay ↗
+- OEM/ODM enclosure and integration ↗
+- Touchscreen technologies compared ↗
+- Product datasheets ↗
+
 Working on a display cabinet or a retail installation? Send the size, the object and the lighting conditions, and we will tell you which panel route fits.
-## Where to go next
+
+Discuss a display project Browse terminals
+
+## More on this
+
+- Floor-standing vs wall-mounted kiosks ↗
+- Kiosk modules: what to specify ↗
+- Retail self-service hardware ↗
 
 ---
 
@@ -4718,7 +5468,20 @@ Tell us the object, the size and the lighting, and we will reply with the panel 
 
 URL: https://xinyuehongtech.com/news/choose-self-service-kiosk-manufacturer-china/
 
-Quick answer: Quick answer: A self-service kiosk manufacturer builds the enclosure, mounts the printer, scanners and card readers, loads the operating-system image and tests the assembled terminal. In China the three supplier types are sheet-metal factory, integrator and trading company, and two questions tell them apart. A 1-unit MOQ covers labour and programming, not tooling. A 15-day lead time starts after deposit and drawing approval. And payment certification belongs to the terminal vendor and the acquirer, never to the kiosk cabinet.
+← All news
+Home
+/
+News
+/
+
+Choosing a Kiosk Manufacturer
+
+NEWS / 2026-11-20
+How to Choose a Self-Service Kiosk Manufacturer in China
+
+By Mark, Project Engineer · Published November 20, 2026 · 14 min read
+
+Quick answer: A self-service kiosk manufacturer builds the enclosure, mounts the printer, scanners and card readers, loads the operating-system image and tests the assembled terminal. In China the three supplier types are sheet-metal factory, integrator and trading company, and two questions tell them apart. A 1-unit MOQ covers labour and programming, not tooling. A 15-day lead time starts after deposit and drawing approval. And payment certification belongs to the terminal vendor and the acquirer, never to the kiosk cabinet.
 
 A self-service kiosk is a mechanical product wrapped around someone else’s software. That single fact defines the job, and it defines the boundary of what a manufacturer can be held to. The scope is the part a software team cannot fix from a laptop: the cabinet that has to survive a public lobby, the module stack that has to be reachable and serviceable, the computing platform that must still boot after a 12-hour thermal soak, and the cable routing that has to pass an electrician’s inspection.
 
@@ -4738,19 +5501,19 @@ In practical terms, a full-scope kiosk manufacturer owns five things.
 
 Anything outside that list is either your job or a separate supply contract. A kiosk factory will not certify your payment flow, will not write your ordering app and, correctly, will not promise that an uncertified reader works with an acquirer.
 
-## Factory, integrator, trader: the three supplier types
+Factory, integrator, trader: the three supplier types
 
 The supplier type decides what you can change and who carries the risk when a drawing moves. It is usually visible in the second answer, not the first.
 
 Three supplier types in the Chinese kiosk market, and how each one is verified.
 
- | Supplier type | What it owns | What it can change | How to verify
+ |  | Supplier type | What it owns | What it can change | How to verify
 
-Sheet-metal kiosk factory | Laser cutting, CNC bending, welding, coating line, assembly and a test bench | Cabinet geometry, cut-outs, module layout, finish, branding | Video of the cut and bend stage, or a dated photo of your drawing on the shop floor
+ | Sheet-metal kiosk factory | Laser cutting, CNC bending, welding, coating line, assembly and a test bench | Cabinet geometry, cut-outs, module layout, finish, branding | Video of the cut and bend stage, or a dated photo of your drawing on the shop floor
 
-Integrator / assembler | Assembly and testing; buys cabinets from a fabricator | Module mix, PC platform, software image, small bracket changes | Who fabricates the enclosure, and whether they can introduce you to that workshop
+ | Integrator / assembler | Assembly and testing; buys cabinets from a fabricator | Module mix, PC platform, software image, small bracket changes | Who fabricates the enclosure, and whether they can introduce you to that workshop
 
-Trading company | Nothing physical | Supplier selection, documents, consolidation, freight | The factory’s business licence name, matched against the audit report
+ | Trading company | Nothing physical | Supplier selection, documents, consolidation, freight | The factory’s business licence name, matched against the audit report
 
 None of these is automatically wrong. A trading company can be the right answer when you need twenty different SKUs consolidated, and an integrator can be excellent at niche module stacks. What is wrong is buying factory pricing and factory accountability from a company that does not have a factory. The audit checklist further down settles the question in a single call.
 
@@ -4760,23 +5523,23 @@ Ask them in this order. The first two answers usually decide how to read the res
 
 Question set for a first supplier call, with the answers that distinguish a builder from a reseller.
 
- | # | Question | Weak answer | Strong answer
+ |  | # | Question | Weak answer | Strong answer
 
-1 | Who cuts and bends the cabinet? | “Our partner factory.” | A named workshop, a machine list, and a willingness to show the cut sheet for your drawing
+ | 1 | Who cuts and bends the cabinet? | “Our partner factory.” | A named workshop, a machine list, and a willingness to show the cut sheet for your drawing
 
-2 | Which modules are mounted and tested before shipping? | “All of them.” | A written module list with part numbers, plus which items the factory mounts and which you supply
+ | 2 | Which modules are mounted and tested before shipping? | “All of them.” | A written module list with part numbers, plus which items the factory mounts and which you supply
 
-3 | Who loads the OS image and installs the drivers? | “The software is yours.” | A named engineer, the image build process, and how driver versions are frozen for repeat orders
+ | 3 | Who loads the OS image and installs the drivers? | “The software is yours.” | A named engineer, the image build process, and how driver versions are frozen for repeat orders
 
-4 | Can I see the test record for my unit? | “We test everything.” | A burn-in log with a serial number, a start and end time, and the modules exercised
+ | 4 | Can I see the test record for my unit? | “We test everything.” | A burn-in log with a serial number, a start and end time, and the modules exercised
 
-5 | Which certifications apply to this exact model? | “CE and FCC.” | The certificate number, the issuing laboratory, the model designation on the certificate and the market it covers
+ | 5 | Which certifications apply to this exact model? | “CE and FCC.” | The certificate number, the issuing laboratory, the model designation on the certificate and the market it covers
 
-6 | What is standard and what is project-specific in this quote? | One lump price | A line-by-line split: standard parts, modified parts, new tooling
+ | 6 | What is standard and what is project-specific in this quote? | One lump price | A line-by-line split: standard parts, modified parts, new tooling
 
-7 | What happens when the PC platform reaches end of life? | Silence | A stated supply period, a last-time-buy arrangement, and a replacement platform already qualified
+ | 7 | What happens when the PC platform reaches end of life? | Silence | A stated supply period, a last-time-buy arrangement, and a replacement platform already qualified
 
-8 | Who handles the payment terminal approval? | “We can integrate any payment.” | An explicit statement that certification stays with the terminal vendor and your acquirer, plus the mounting and cabling scope
+ | 8 | Who handles the payment terminal approval? | “We can integrate any payment.” | An explicit statement that certification stays with the terminal vendor and your acquirer, plus the mounting and cabling scope
 
 Question 5 is the one buyers most often get wrong. “CE and FCC” is a claim, not evidence. The certificate has to name the model you are buying, because a kiosk with a different screen, a different PC and a different printer is a different product from a compliance point of view.
 
@@ -4796,21 +5559,21 @@ Published lead times are usually accurate and usually narrower than buyers assum
 
 The seven project stages, what starts each clock and what stops it.
 
- | Stage | Clock starts when | Clock stops when | What stretches it
+ |  | Stage | Clock starts when | Clock stops when | What stretches it
 
-Requirement review | You send the brief | Open technical questions are answered | Unclear software stack, unspecified peripherals
+ | Requirement review | You send the brief | Open technical questions are answered | Unclear software stack, unspecified peripherals
 
-Feasibility and budget | Requirements are fixed | OEM or ODM route is chosen and quoted line by line | Deciding between standard and custom late
+ | Feasibility and budget | Requirements are fixed | OEM or ODM route is chosen and quoted line by line | Deciding between standard and custom late
 
-Enclosure design | Route is agreed | Drawing is approved in writing | Logo artwork, colour matching, cut-out changes
+ | Enclosure design | Route is agreed | Drawing is approved in writing | Logo artwork, colour matching, cut-out changes
 
-Prototype | Drawing is signed | Sample is built and powered | New tooling, non-standard modules
+ | Prototype | Drawing is signed | Sample is built and powered | New tooling, non-standard modules
 
-Validation | Sample arrives | Your software runs on the unit and the change list is closed | Drivers, SDK versions, integration testing on your side
+ | Validation | Sample arrives | Your software runs on the unit and the change list is closed | Drivers, SDK versions, integration testing on your side
 
-Pilot run | Change list is closed | Process documents and inspection criteria are fixed | Certification testing
+ | Pilot run | Change list is closed | Process documents and inspection criteria are fixed | Certification testing
 
-Production and shipping | Deposit received | Units pass inspection and are packed | Component lead times, booking space, documentation
+ | Production and shipping | Deposit received | Units pass inspection and are packed | Component lead times, booking space, documentation
 
 Two rules follow. First, the production clock cannot start before the drawing is approved, so every day spent on artwork and sign-off is a day added to the end, not absorbed in the middle. Second, validation is the stage buyers underestimate, because it is the only stage that depends on someone other than the factory: your application, your SDK, your payment provider.
 
@@ -4820,15 +5583,15 @@ Ask any supplier to put dates against these seven stages in writing. A factory t
 
 Three separate approval systems sit around a kiosk, and confusing them is the most expensive mistake in this category.
 
-## Product compliance: CE, FCC, RoHS and market schemes
+Product compliance: CE, FCC, RoHS and market schemes
 
 These apply to the assembled product and to what is inside it. A kiosk built for the EU needs CE marking supported by the right directive testing; a unit shipped to Saudi Arabia needs SABER conformity documents; a US deployment needs FCC compliance for the radio and computing parts. Certification scope is per model and per destination, and it belongs in the quotation rather than in a footer logo.
 
-## Accessibility and physical ratings
+Accessibility and physical ratings
 
 ADA reach ranges, roughly 15 to 48 inches above finished floor for the operable parts, plus IP ratings for dust and water and IK classes for the cover glass, are specification items rather than marketing lines. They change the drawing: mounting height changes the cabinet, IP65 changes the sealing and the ventilation path, IK08 changes the glass.
 
-## Payment approval: PCI PTS and scheme certification
+Payment approval: PCI PTS and scheme certification
 
 This is the one manufacturers cannot own. A card reader or PIN pad is certified as a device, and the acquirer approves the merchant’s integration. The kiosk’s job is mechanical and electrical: a cut-out that fits the terminal, a mounting bracket, a power and cable route, and enough space for a customer to reach the keypad comfortably. Where a project needs an integrated reader, that decision belongs to the payment provider and the kiosk drawing follows it.
 
@@ -4840,31 +5603,31 @@ If you cannot visit Shenzhen, audit by document and by video call. Ask for each 
 
 Twelve items to request before a deposit, and what each one proves.
 
- | # | Item | Ask for | Why it matters
+ |  | # | Item | Ask for | Why it matters
 
-1 | Laser cutting | Photo or video of the cut sheet with your drawing number | Proves the drawing reached the floor
+ | 1 | Laser cutting | Photo or video of the cut sheet with your drawing number | Proves the drawing reached the floor
 
-2 | CNC bending | Press-brake tooling list | Bending accuracy drives panel fit and door alignment
+ | 2 | CNC bending | Press-brake tooling list | Bending accuracy drives panel fit and door alignment
 
-3 | Welding and finishing | Weld dressing and powder-coat line photos | Visible seams and colour variation appear here
+ | 3 | Welding and finishing | Weld dressing and powder-coat line photos | Visible seams and colour variation appear here
 
-4 | Coating batch control | Colour standard and batch record | Repeat orders must match the first batch
+ | 4 | Coating batch control | Colour standard and batch record | Repeat orders must match the first batch
 
-5 | Assembly area | Photo of your unit mid-build | Shows whether modules are mounted as one set
+ | 5 | Assembly area | Photo of your unit mid-build | Shows whether modules are mounted as one set
 
-6 | Burn-in bench | Log with serial number, duration and modules exercised | The single best predictor of field reliability
+ | 6 | Burn-in bench | Log with serial number, duration and modules exercised | The single best predictor of field reliability
 
-7 | Test equipment | List of meters, test jigs and software used | Reveals whether testing is functional or cosmetic
+ | 7 | Test equipment | List of meters, test jigs and software used | Reveals whether testing is functional or cosmetic
 
-8 | ESD and handling | Wrist straps, matting, packaging station | Protects boards and touch controllers
+ | 8 | ESD and handling | Wrist straps, matting, packaging station | Protects boards and touch controllers
 
-9 | QC records | Incoming, in-process and outgoing inspection sheets | Shows a process, not a promise
+ | 9 | QC records | Incoming, in-process and outgoing inspection sheets | Shows a process, not a promise
 
-10 | RMA process | Written procedure and response time | Tells you what happens after something fails
+ | 10 | RMA process | Written procedure and response time | Tells you what happens after something fails
 
-11 | Spare parts commitment | List of consumables and stocked spares | Printers and card readers wear out first
+ | 11 | Spare parts commitment | List of consumables and stocked spares | Printers and card readers wear out first
 
-12 | Documentation | Drawings, module list, packing list, test record | What you need when the unit is in another country
+ | 12 | Documentation | Drawings, module list, packing list, test record | What you need when the unit is in another country
 
 Twelve items, one call, about forty minutes. It is the highest-return hour in a kiosk project.
 
@@ -4874,33 +5637,33 @@ Quotes for the same kiosk are rarely comparable, because each supplier scopes th
 
 Line items to normalise across two kiosk quotations.
 
- | Line item | What to pin down
+ |  | Line item | What to pin down
 
-Cabinet | Material thickness, finish, colour, logo method, mounting, service access
+ | Cabinet | Material thickness, finish, colour, logo method, mounting, service access
 
-Display and touch | Size, resolution, brightness, touch technology, cover glass and IK rating
+ | Display and touch | Size, resolution, brightness, touch technology, cover glass and IK rating
 
-Computing | CPU, RAM, storage, OS licence, port count
+ | Computing | CPU, RAM, storage, OS licence, port count
 
-Printer | Paper width, cutter, paper-low sensor, bezel and outlet position
+ | Printer | Paper width, cutter, paper-low sensor, bezel and outlet position
 
-Scanner | 1D or 2D, scan window material, illumination
+ | Scanner | 1D or 2D, scan window material, illumination
 
-Readers | Card types, NFC/RFID, ID document reader, PIN pad
+ | Readers | Card types, NFC/RFID, ID document reader, PIN pad
 
-Payment | Terminal model, bracket, cut-out, cable route, who supplies the device
+ | Payment | Terminal model, bracket, cut-out, cable route, who supplies the device
 
-Software | Image build, driver versions, SDK, who owns updates
+ | Software | Image build, driver versions, SDK, who owns updates
 
-Certification | Which scheme, which market, who pays, which model name appears
+ | Certification | Which scheme, which market, who pays, which model name appears
 
-Testing | Burn-in duration, inspection criteria, record format
+ | Testing | Burn-in duration, inspection criteria, record format
 
-Packaging | Carton, foam, pallet, drop standard
+ | Packaging | Carton, foam, pallet, drop standard
 
-Delivery | Incoterm, port, lead time trigger, documents included
+ | Delivery | Incoterm, port, lead time trigger, documents included
 
-After-sales | Warranty term, spare parts, response time
+ | After-sales | Warranty term, spare parts, response time
 
 Two quotes that survive this table are genuinely comparable. Most do not, and the difference is usually not price but scope: a cheaper quote often omits certification testing, a spare-parts commitment or the OS licence.
 
@@ -4940,44 +5703,44 @@ A good inquiry is short and specific. It gets a useful reply in a day instead of
 
 - Commercial terms. Incoterm, destination port, who handles import clearance.
 
-Send the list even if half the answers are “not decided yet”. Naming the open questions is itself a useful signal to the supplier, and it usually shortens the requirement review.
+Send the list even if half the answers are “not decided yet”. For the formal side of the process — RFQ lines, scoring and acceptance — see the kiosk procurement guide. Naming the open questions is itself a useful signal to the supplier, and it usually shortens the requirement review.
 
 ## How Xinyuehong fits this checklist
 
 Shenzhen Xinyuehong Information Technology Co., Ltd. builds self-service kiosk terminals and the industrial computers inside them, at No. 38 Tian’an Road, Bantian Community, Longgang District, Shenzhen. The points below map to the checklist above, so they can be tested rather than taken on trust.
 
-Reference build data for the factory behind this guide.
+Standard build data for the factory behind this guide.
 
- | Item | Detail
+ |  | Item | Detail
 
-Products | Floor-standing, wall-mounted and countertop kiosks from 15.6 to 32 inches; fanless box PCs, panel PCs, Android boards and wall-mount touch panels
+ | Products | Floor-standing, wall-mounted and countertop kiosks from 15.6 to 32 inches; fanless box PCs, panel PCs, Android boards and wall-mount touch panels
 
-Modules | 80 mm thermal printers, 1D/2D scanners, cameras, IC/ID and bank card readers, national ID readers, card dispensers, PIN pads, NFC/RFID
+ | Modules | 80 mm thermal printers, 1D/2D scanners, cameras, IC/ID and bank card readers, national ID readers, card dispensers, PIN pads, NFC/RFID
 
-Platforms | Intel Celeron J6412 and Core i3/i5 on x86 with Windows or Linux; Rockchip RK3568 and RK3399 on Android, with an SDK for OS-level customisation
+ | Platforms | Intel Celeron J6412 and Core i3/i5 on x86 with Windows or Linux; Rockchip RK3568 and RK3399 on Android, with an SDK for OS-level customisation
 
-MOQ | 1 unit on the standard module set
+ | MOQ | 1 unit on the standard module set
 
-Lead time | 15 days from deposit and approved drawing or sample, within the standard module set
+ | Lead time | 15 days from deposit and approved drawing or sample, within the standard module set
 
-Testing | 12-hour burn-in per unit, with display, card readers, printer and scanner exercised in a loop
+ | Testing | 12-hour burn-in per unit, with display, card readers, printer and scanner exercised in a loop
 
-Fabrication | Laser cut, CNC bent and powder coated in-house; colour and logo approved on a sample first
+ | Fabrication | Laser cut, CNC bent and powder coated in-house; colour and logo approved on a sample first
 
-Compliance | Engineered for CE, FCC and RoHS; ADA mounting heights; IK08 tempered cover glass option; PCI-PTS and EMV terminal cut-outs
+ | Compliance | Engineered for CE, FCC and RoHS; ADA mounting heights; IK08 tempered cover glass option; PCI-PTS and EMV terminal cut-outs
 
-Documentation | Two-page PDF datasheets for 23 models, plus drawings and test records per project
+ | Documentation | Two-page PDF datasheets for 23 models, plus drawings and test records per project
 
-Contact | sales@xinyuehongtech.com · +86 139 2749 8231 on WhatsApp · reply within 24 hours
+ | Contact | sales@xinyuehongtech.com · +86 139 2749 8231 on WhatsApp · reply within 24 hours
 
 The OEM/ODM route runs through seven stages: requirement, feasibility and budget, enclosure design, prototype, validation, pilot run, production and shipping, with something approved in writing before each stage starts. That structure exists because the alternative, a single price and a single date, is what produces the disputes that fill sourcing forums.
 
 To test the process rather than read about it, send one reference photo and one sentence about the task. The reply will be the closest existing build, the questions that remain open, and the next step.
 
-## Questions buyers ask most
+## FAQ
 
 What does a self-service kiosk manufacturer actually make?
-It makes the enclosure, integrates the printer, scanners, card readers and payment bracket, installs the computing platform and operating system image, and tests the assembled terminal. It does not normally write your application software or certify your card payments.
+A self-service kiosk manufacturer makes the enclosure, integrates the printer, scanners, card readers and payment bracket, installs the computing platform and operating system image, and tests the assembled terminal. It does not normally write your application software or certify your card payments.
 
 What is a realistic MOQ for a custom kiosk?
 One unit is realistic when the configuration stays inside a standard module set and an existing cabinet design. A modified cabinet typically needs a small batch, and a new enclosure needs a volume that recovers tooling and setup costs. Ask for the three-tier split in writing.
@@ -5334,7 +6097,20 @@ Discuss an integration ↗ OEM/ODM scope ↗
 
 URL: https://xinyuehongtech.com/news/fingerprint-reader-kiosk-integration/
 
-Quick answer: A fingerprint reader in a kiosk is a mechanical problem before it is a software problem. The sensor needs a reachable, stable, cleanable surface at the right angle, and its SDK has to run on the platform you picked. Settle the sensor’s certification, its template format and its SDK platform list before the enclosure is drawn, because all three change the deck.
+← All news
+Home
+/
+News
+/
+
+Fingerprint reader integration
+
+NEWS / 2026-11-20
+Integrating a Fingerprint Reader into a Self-Service Kiosk
+
+By Mark, Project Engineer · Published November 20, 2026 · 9 min read
+
+The short version: A fingerprint reader in a kiosk is a mechanical problem before it is a software problem. The sensor needs a reachable, stable, cleanable surface at the right angle, and its SDK has to run on the platform you picked. Settle the sensor’s certification, its template format and its SDK platform list before the enclosure is drawn, because all three change the deck.
 
 ## Placement decides more than the sensor
 
@@ -5376,11 +6152,11 @@ The five decisions to settle before the enclosure is drawn.
 
  | Fallback | Retry rules, alternative credential, staff route | Application flow and staffing model
 
-## What to send with the enquiry
+## What to put in the brief
 
 The sensor model and its installation drawing, the SDK version and the operating system, the template format the back-end expects, and a photograph of where the reader will sit. With those four items the aperture and the platform can be fixed in one pass, and the integration risk moves from the build stage to the review stage.
 
-## Questions integrators ask
+## What buyers ask
 
 Can the kiosk use the fingerprint sensor we already deploy?
 Usually yes. Send the model and the SDK reference; the constraints are the operating system, the physical depth behind the faceplate and the supply. A sensor that works on your current Windows estate may have no Android SDK at all, which decides the platform rather than the reader.
@@ -5397,7 +6173,7 @@ Static discharge through the window, debris in the bezel and an unshielded cable
 How long does an integration take?
 The mechanical work is part of the standard build cycle. The variable is the software: a documented SDK with a working sample can be running in days, while a proprietary template format or an unsupported platform can add weeks.
 
-## Related reading
+## More on this
 
 - Fingerprint, iris and payment modules for kiosks ↗
 
@@ -5413,7 +6189,20 @@ The mechanical work is part of the standard build cycle. The variable is the sof
 
 URL: https://xinyuehongtech.com/news/iris-capture-kiosk-distance-lighting-privacy/
 
-Quick answer: Iris recognition needs a defined capture zone, not just a camera. An embedded module normally expects the user at 30 to 60 cm, a long-range camera expects 1 m or more, and both need controlled light and a stable head position. If the kiosk stands in a glazed lobby, the lighting problem is solved before the hardware is chosen, not after.
+← All news
+Home
+/
+News
+/
+
+Iris capture on a kiosk
+
+NEWS / 2026-11-20
+Iris Capture on a Self-Service Kiosk
+
+By Mark, Project Engineer · Published November 20, 2026 · 8 min read
+
+The short version: Iris recognition needs a defined capture zone, not just a camera. An embedded module normally expects the user at 30 to 60 cm, a long-range camera expects 1 m or more, and both need controlled light and a stable head position. If the kiosk stands in a glazed lobby, the lighting problem is solved before the hardware is chosen, not after.
 
 ## Working distance sets the whole faceplate
 
@@ -5451,11 +6240,11 @@ Capture distance and what it changes in the cabinet.
 
  | 1 m and beyond | Walk-through identification | Long-range camera, separate mounting, no touch surface
 
-## What to send with the enquiry
+## Preparing the request
 
 The module and its stated distance range, the light level where the unit will stand, the population being enrolled and the retention rule for the templates. With those four answers the faceplate geometry and the guidance flow can be designed together.
 
-## Questions integrators ask
+## What buyers ask
 
 Can an iris module be added to an existing kiosk cabinet?
 Sometimes. The limit is usually the faceplate: the camera needs a clear line at the right height and angle, and the panel behind it needs room for the module. A cabinet designed for a card reader rarely has that depth.
@@ -5464,7 +6253,7 @@ Does iris work through glasses and contact lenses?
 Usually, if the user removes tinted or strongly reflective glasses. Sunglasses, wet lenses and heavy glare are the common failures. The guidance UI should ask the user to remove sunglasses rather than let the reader retry silently.
 
 Is an iris image stored on the kiosk?
-It should not be. The standard pattern is to capture, extract a template and send that; the image is discarded. Storing images on a public terminal creates a data-protection problem with no operational benefit.
+An iris image should not be stored on the kiosk. The standard pattern is to capture, extract a template and send that; the image is discarded. Storing images on a public terminal creates a data-protection problem with no operational benefit.
 
 Can one kiosk support fingerprint and iris?
 Yes, and it is common in enrolment projects. Each modality needs its own aperture and its own guidance, so the faceplate grows and the flow has to decide which credential the user presents first.
@@ -5472,7 +6261,7 @@ Yes, and it is common in enrolment projects. Each modality needs its own apertur
 What certification applies to an iris reader?
 The vendor certifies the reader, and the template format normally follows ISO/IEC 19794-6. The assembled terminal still needs its own electrical and EMC compliance, and the data handling is governed by the operator’s privacy basis.
 
-## Related reading
+## Where this leads
 
 - Fingerprint, iris and payment modules for kiosks ↗
 
@@ -5488,11 +6277,24 @@ The vendor certifies the reader, and the template format normally follows ISO/IE
 
 URL: https://xinyuehongtech.com/news/unattended-card-payment-kiosk/
 
-Quick answer: An unattended kiosk needs a payment terminal the acquirer has approved for unattended use, mounted so the keypad is reachable and the cable cannot be pulled, plus a fallback path for the moment the network drops. The kiosk provides the aperture, bracket, power and cable route; the PCI PTS approval and the merchant approval stay with the terminal and the acquirer.
+← All news
+Home
+/
+News
+/
+
+Unattended card payment
+
+NEWS / 2026-11-20
+Unattended Card Payment on a Kiosk
+
+By Mark, Project Engineer · Published November 20, 2026 · 8 min read
+
+Short answer: An unattended kiosk needs a payment terminal the acquirer has approved for unattended use, mounted so the keypad is reachable and the cable cannot be pulled, plus a fallback path for the moment the network drops. The kiosk provides the aperture, bracket, power and cable route; the PCI PTS approval and the merchant approval stay with the terminal and the acquirer.
 
 ## Unattended is a different approval, not a different bracket
 
-A terminal approved for countertop use is not automatically approved for a lane with no member of staff present. Unattended operation changes the risk profile: there is no clerk to check the card, no one to void a transaction, and the device sits in public view for hours. The acquirer has to confirm that the specific model is supported in unattended mode, and that confirmation belongs in writing before the cabinet is drawn.
+A terminal approved for countertop use is not automatically approved for a lane with no member of staff present. Unattended operation changes the risk profile: there is no clerk to check the card, no one to void a transaction, and the device sits in public view for hours. The acquirer has to confirm that the specific model is supported in unattended mode, and that confirmation belongs in writing before the enclosure is detailed.
 
 ## The mounting decides the transaction
 
@@ -5526,11 +6328,11 @@ Where attended and unattended payment differ.
 
  | Receipts | Handed over | Printed at the unit, with a duplicate policy
 
-## What to send with the enquiry
+## Preparing the request
 
 The terminal model and the acquirer’s unattended confirmation, the payment methods to accept, the network available at the site, and who closes the batch each day. Those four answers decide the bracket, the printer position and the fallback message.
 
-## Questions integrators ask
+## The questions that come up
 
 Can we use a standard countertop terminal in a kiosk?
 Only if the acquirer confirms it for unattended use. Putting a countertop terminal inside a cabinet does not change what it is approved for, and an unsupported deployment puts the merchant agreement at risk rather than the hardware.
@@ -5547,7 +6349,13 @@ Yes, with an acceptor or recycler, but cash adds depth, a vault, a jam-clearing 
 How much space does the terminal need inside the cabinet?
 Enough for the device body, its connector, a service loop and the bracket fixing. The installation drawing from the terminal vendor is the only reliable source for that number, which is why it is requested before the sheet metal is cut.
 
-## Related reading
+## Standards and sources
+
+Primary sources for the requirements referred to above.
+
+- PCI Security Standards Council, payment terminal standards ↗
+
+## Keep reading
 
 - Fingerprint, iris and payment modules for kiosks ↗
 
@@ -5563,7 +6371,20 @@ Enough for the device body, its connector, a service loop and the bracket fixing
 
 URL: https://xinyuehongtech.com/news/hospital-self-service-terminal-buying-guide/
 
-Quick answer: A hospital self-service project is three different machines pretending to be one: registration, payment and report printing. Each has its own documents, its own service time and its own queue. Most hospitals are better served by registration and payment on one dual-screen unit in the outpatient hall, and a separate printer near the collection window, both connected to the hospital system through an interface it already supports.
+← All news
+Home
+/
+News
+/
+
+Hospital terminal buying guide
+
+NEWS / 2026-11-22
+Hospital Self-Service Terminals: Registration, Payment and Report Printing
+
+By Mark, Project Engineer · Published November 22, 2026 · 10 min read
+
+Bottom line: A hospital self-service project is three different machines pretending to be one: registration, payment and report printing. Each has its own documents, its own service time and its own queue. Most hospitals are better served by registration and payment on one dual-screen unit in the outpatient hall, and a separate printer near the collection window, both connected to the hospital system through an interface it already supports.
 
 ## Why the three jobs usually split
 
@@ -5579,11 +6400,11 @@ The three jobs, and what each one needs from the hardware.
 
  | Payment | Bank card, QR code or the registration slip | Payment terminal on a bracket, receipt printer, barcode scanner | 30–60 seconds
 
- | Report printing | Collection code from the appointment or the lab slip | A4 laser printer, ID reader, sometimes a camera | 60–90 seconds
+ | Report printing | Collection code from the appointment or the lab slip | A4 laser printer, barcode or QR scanner, ID reader where policy requires | 60–90 seconds
 
 ## Registration: the deck is decided by the documents
 
-The reader set follows the document mix, and the document mix follows the hospital’s registration policy. A hospital that accepts national ID cards, insurance cards and a booking QR needs three different readers in the deck, which changes the front panel, the cable harness and the service access.
+The reader set follows the document mix, and the document mix follows the hospital’s registration policy. The national ID card is the usual key. A hospital card or an insurance card stands in for it where the hospital issues one, and a booking QR covers appointments made online. Every accepted credential is a separate reader in the deck, which changes the front panel, the cable harness and the service access.
 
 Two design rules survive contact with real patients. Put the card slot at the same height as the screen’s lower edge, so the patient does not have to look down and then up again. And keep a manual-entry path with a staffed desk within sight, because document readers fail on worn cards and on visitors who present a passport instead of an ID card.
 
@@ -5595,7 +6416,7 @@ If insurance settlement is part of the flow, it usually happens in the hospital 
 
 ## Report printing: the queue nobody plans for
 
-Report collection peaks in the late morning and again in the afternoon, and it is the step where privacy matters most. The terminal should verify identity before releasing the document, print to A4 rather than a slip, and stand where the printed page cannot be read by the next person in the queue.
+Report collection peaks in the late morning and again in the afternoon, and it is the step where privacy matters most. The usual key is the collection code printed on the appointment slip or sent by message, with an ID card check added only where hospital policy requires it. The printer should be A4 rather than a slip, and the unit should stand where the printed page cannot be read by the next person in the queue.
 
 Paper capacity is an operational number, not a technical one: a unit printing 200 reports a day needs a tray that does not empty before lunch, and a restocking routine that belongs to a named person rather than to “the department”.
 
@@ -5621,7 +6442,7 @@ A hall taking 300 registrations between 07:00 and 10:00 averages 100 an hour; at
 
 - Cleaning and privacy requirements, because they decide the front-face finish and the screen filter.
 
-## Questions hospitals ask
+## Questions that decide the build
 
 Can one unit handle registration and payment?
 Yes, and a dual-screen cabinet is the usual answer: a guidance display above, the working touchscreen below, with readers and a receipt printer on the deck. It should not also print A4 reports, because the paper path and the service access belong to a different machine.
@@ -5633,7 +6454,7 @@ How does the kiosk connect to the hospital information system?
 The kiosk exposes its readers, printer and payment device to your application, which talks to the hospital system through an API, a local agent or a browser session. Send the interface the hospital already supports before the platform is chosen, because it decides the operating system and the network design.
 
 What about patient privacy at the terminal?
-A privacy filter or recessed screen where the queue stands within a metre, a release rule that verifies identity before printing, and no card data stored on the kiosk. Biometric capture, if it is used at all, needs a lawful basis and a retention rule owned by the hospital.
+A privacy filter or recessed screen where the queue stands within a metre, a release rule that checks the collection code, with an ID check where policy requires it, and no card data stored on the kiosk. Biometric capture, if it is used at all, needs a lawful basis and a retention rule owned by the hospital.
 
 What is the minimum order and lead time?
 One unit for standard builds, and 15 days from deposit and approved drawing inside the standard module set. A new cabinet or a new reader set adds design and prototype time before that clock starts.
@@ -5641,7 +6462,7 @@ One unit for standard builds, and 15 days from deposit and approved drawing insi
 Which certifications apply?
 Electrical safety and EMC for the assembled terminal, CE or FCC depending on the market, RoHS for materials. The payment terminal keeps its own PCI PTS approval, and a hospital kiosk is not normally a medical device, but local procurement rules can add requirements that the quotation has to cover.
 
-## Related reading
+## Next reads
 
 - Hospital self-service kiosks, by workflow ↗
 
@@ -5658,6 +6479,19 @@ Electrical safety and EMC for the assembled terminal, CE or FCC depending on the
 # How to Run a Self-Service Kiosk Procurement
 
 URL: https://xinyuehongtech.com/news/kiosk-procurement-rfq-guide/
+
+← All news
+Home
+/
+News
+/
+
+Kiosk procurement guide
+
+NEWS / 2026-11-22
+How to Run a Self-Service Kiosk Procurement
+
+By Mark, Project Engineer · Published November 22, 2026 · 9 min read
 
 Quick answer: A kiosk procurement succeeds or fails before the bids arrive. Write the requirement as a scored specification, put the same twelve items in every RFQ, and score the answers against weights you set in advance. Price is one line of the decision, not the decision itself: the two quotations that look 30% apart on unit price often differ by less than 10% once freight, certification, spares and commissioning are counted.
 
@@ -5827,7 +6661,7 @@ How many quotations should we collect?
 Three is the practical minimum: enough to reveal the spread in scope, few enough to evaluate properly. For a first project, add one quotation from a supplier you have already worked with, even if the price is higher, to calibrate the others.
 
 Should we buy a sample before the tender?
-Yes, when the specification has any uncertainty in it. A sample unit tested against the acceptance checklist turns assumptions into facts and gives every bidder the same reference build. Budget it as a project cost, not as a discount to be recovered.
+Yes, when the specification has any uncertainty in it. A sample unit tested against the acceptance checklist turns assumptions into facts and gives every bidder the same standard build. Budget it as a project cost, not as a discount to be recovered.
 
 Is the lowest unit price ever the right answer?
 Only where the specification is fixed, the after-sales risk is small and the deployment is a one-off. For a fleet, the differences in spares, response time and lead-time reliability usually outweigh the unit delta within the first year of operation.
@@ -5841,7 +6675,9 @@ The buyer should own the cabinet drawings and CAD files paid for in the project,
 How do we compare quotes in different currencies and Incoterms?
 Convert every quote to a landed cost at the destination site: goods, freight, insurance, duty, clearance, installation and the spares allowance. Comparing FOB prices with DDP prices is the most common expensive mistake in this category.
 
-## Related reading
+## Next reads
+
+- Warranty and after-sales policy: what is covered and how a claim is handled ↗
 
 - How to choose a kiosk manufacturer: factory, MOQ and lead time ↗
 
@@ -5852,6 +6688,7 @@ Convert every quote to a landed cost at the destination site: goods, freight, in
 - Which approval belongs to which part of the machine ↗
 
 - OEM/ODM scope, from requirement to shipping ↗
+- Kiosk glossary: every term in the RFQ, defined ↗
 
 ---
 
@@ -5859,7 +6696,20 @@ Convert every quote to a landed cost at the destination site: goods, freight, in
 
 URL: https://xinyuehongtech.com/news/outdoor-self-service-kiosk-guide/
 
-Quick answer: An outdoor kiosk is the same machine as an indoor one, plus four problems the indoor version never meets: the sun reads the screen better than the customer, heat soaks the enclosure all afternoon, water finds every seam, and the unit has to survive being unattended at night. Specify those four — brightness and bonding, ingress rating, the thermal path and vandal resistance — before the cabinet is drawn, and the rest is ordinary kiosk work.
+← All news
+Home
+/
+News
+/
+
+Outdoor kiosk guide
+
+NEWS / 2026-11-24
+How to Choose an Outdoor Self-Service Kiosk
+
+By Mark, Project Engineer · Published November 24, 2026 · 9 min read
+
+Short answer: An outdoor kiosk is the same machine as an indoor one, plus four problems the indoor version never meets: the sun reads the screen better than the customer, heat soaks the enclosure all afternoon, water finds every seam, and the unit has to survive being unattended at night. Specify those four — brightness and bonding, ingress rating, the thermal path and vandal resistance — before the enclosure is detailed, and the rest is ordinary kiosk work.
 
 ## The four problems, and the numbers that solve them
 
@@ -5933,7 +6783,7 @@ Consumables — paper, sometimes a receipt roll — are loaded through a sealed 
 How long does an outdoor build take?
 Production inside the standard module set runs 15 days from deposit and approved drawing. A semi-outdoor or fully sealed enclosure with wide-temperature parts and a sun shield is usually a defined cabinet variant, so it is quoted with its own drawing and prototype rather than as a simple option.
 
-## Related reading
+## Next reads
 
 - Parking payment terminal, angled deck for kerbside use ↗
 
@@ -6078,7 +6928,20 @@ EU regulation imposing vulnerability-reporting duties on connected products, inc
 
 URL: https://xinyuehongtech.com/news/windows-vs-android-kiosk-industrial-pc-guide/
 
-Quick answer: Choose the kiosk computing platform from your peripheral SDKs and site power first, not from the bill of materials. An Android embedded board (Rockchip RK3568 or RK3399) fits single-purpose ordering, ticketing and signage terminals where the software runs natively on Android and power budgets stay tight. A fanless x86 industrial box PC (Intel Celeron J6412 or Core i3/i5) is required when payment terminals, passport scanners, biometric readers or legacy banking apps depend on Windows or Linux drivers, multiple displays or wide-range DC input.
+← All news
+Home
+/
+News
+/
+
+Windows vs. Android
+
+NEWS / 2026-11-27
+Windows (x86) vs. Android (ARM) for Self-Service Kiosks
+
+By Mark, Project Engineer · Published November 27, 2026 · 7 min read
+
+The short version: Choose the kiosk computing platform from your peripheral SDKs and site power first, not from the bill of materials. An Android embedded board (Rockchip RK3568 or RK3399) fits single-purpose ordering, ticketing and signage terminals where the software runs natively on Android and power budgets stay tight. A fanless x86 industrial box PC (Intel Celeron J6412 or Core i3/i5) is required when payment terminals, passport scanners, biometric readers or legacy banking apps depend on Windows or Linux drivers, multiple displays or wide-range DC input.
 
 ## Start with the peripheral SDK list, not the CPU price
 
@@ -6158,7 +7021,7 @@ Once the operating system is decided, the physical shape of the computer follows
 
 - Industrial touch panel PC. Choose when you want the 10-point PCAP glass, IP65-option front bezel and computing unit sealed inside one die-cast aluminium module, common in semi-outdoor cut-outs, factory HMIs and compact payment walls.
 
-## What to send with the enquiry
+## What to put in the brief
 
 To specify the right computing platform and avoid redesigning brackets later, include four details in your brief:
 
@@ -6172,7 +7035,7 @@ To specify the right computing platform and avoid redesigning brackets later, in
 
 At Xinyuehong, we freeze the OS image and peripheral driver versions during sample validation and run every assembled kiosk through a 12-hour burn-in loop before shipment, so repeat production batches arrive with identical hardware revisions and working I/O.
 
-## Questions integrators ask
+## What buyers ask
 
 Can we switch from Android to Windows inside the same kiosk enclosure?
 Usually, yes, if planned before sheet-metal tooling. A fanless box PC requires more depth, a VESA or DIN-rail bracket, additional thermal clearance and a different display cable route (HDMI or DisplayPort instead of LVDS or eDP). Defining dual-platform mounting holes at the CAD stage lets one cabinet serve both OS builds.
@@ -6189,13 +7052,11 @@ Under the Cyber Resilience Act, vulnerability reporting and ongoing patching app
 Do you supply the industrial PC pre-loaded with drivers and our OS image?
 Yes. We install the agreed OS build, configure peripheral drivers for the integrated printer, scanner and readers, and freeze the image version for repeat orders. Your application software remains under your control.
 
-## Related reading
+## Next reads
 
 - Industrial PCs and computing hardware for kiosks ↗
 
 - Fanless embedded box PC specifications ↗
-
-- Android embedded board (RK3568 / RK3399) specifications ↗
 
 - Why self-service kiosks fail in 24/7 operation ↗
 
@@ -6207,7 +7068,20 @@ Yes. We install the agreed OS build, configure peripheral drivers for the integr
 
 URL: https://xinyuehongtech.com/news/kiosk-thermal-printer-guide/
 
-Quick answer: The receipt printer is the part of a kiosk that fails first, so it is specified before the cabinet is drawn. Four numbers decide the build: paper width (80 mm standard), the stock and cutter rating, whether the roll loads from the front or the rear, and whether a paper-near-end sensor is wired to the management software. Get those four right and the printer stops being the reason a terminal goes out of service.
+← All news
+Home
+/
+News
+/
+
+Thermal printer guide
+
+NEWS / 2026-11-27
+Choosing an 80 mm Thermal Printer for a Kiosk
+
+By Mark, Project Engineer · Published November 27, 2026 · 6 min read
+
+The short version: The receipt printer is the part of a kiosk that fails first, so it is specified before the enclosure is detailed. Four numbers decide the build: paper width (80 mm standard), the stock and cutter rating, whether the roll loads from the front or the rear, and whether a paper-near-end sensor is wired to the management software. Get those four right and the printer stops being the reason a terminal goes out of service.
 
 ## Why the printer decides the cabinet
 
@@ -6250,7 +7124,7 @@ The second design detail is the paper-near-end sensor. It warns the management s
 ## Printer questions
 
 Which printer is right for a kiosk: receipt, ticket or A4?
-They are different machines. An 80 mm thermal printer covers receipts and queue tickets. Event tickets with a pre-printed stock, or A4 documents such as medical reports, need a different mechanism and a different outlet, and are usually quoted as a separate cabinet variant rather than an option.
+Receipt, ticket and A4 printing use different machines with different mechanisms and outlets. An 80 mm thermal printer covers receipts and queue tickets. Event tickets with a pre-printed stock, or A4 documents such as medical reports, need a different mechanism and a different outlet, and are usually quoted as a separate cabinet variant rather than an option.
 
 Why does the printer jam after a reload?
 Almost always the stock: a heavier or pre-printed roll, a curl near the core, or the paper seated off-centre. A front-loading mechanism with a visible path reduces the cases where the operator is the cause, and a printed loading label beside the door removes most of the rest.
@@ -6262,9 +7136,9 @@ What happens when the paper runs out at night?
 The paper-near-end sensor warns before the roll empties, and the terminal shows a message when it does. On unattended units the fallback is a digital receipt on screen or by QR, agreed with the operator before deployment.
 
 Does the printer affect kiosk certification?
-It affects the electrical and EMC file of the assembled terminal, and the paper-path design affects ingress. The printer itself carries the vendor’s approval; the kiosk certificate covers the unit as built with that printer inside it.
+The printer affects the electrical and EMC file of the assembled terminal, and its paper-path design affects ingress. The printer itself carries the vendor’s approval; the kiosk certificate covers the unit as built with that printer inside it.
 
-## Related reading
+## Related guides
 
 - The eight module families a kiosk can carry ↗
 
@@ -6280,7 +7154,20 @@ It affects the electrical and EMC file of the assembled terminal, and the paper-
 
 URL: https://xinyuehongtech.com/news/qsr-self-ordering-kiosk-guide/
 
-Quick answer: A QSR self-ordering kiosk is specified by three answers: counter or floor, the menu’s size, and how payment reaches the acquirer. Start with the peak orders per hour and the menu item count, then let the screen size, the printer and the payment bracket follow. A simple order takes 40 to 60 seconds at the screen, so one terminal serves roughly one customer a minute.
+← All news
+Home
+/
+News
+/
+
+QSR self-ordering guide
+
+NEWS / 2026-11-27
+How to Choose a QSR Self-Ordering Kiosk
+
+By Mark, Project Engineer · Published November 27, 2026 · 6 min read
+
+The short version: A QSR self-ordering kiosk is specified by three answers: counter or floor, the menu’s size, and how payment reaches the acquirer. Start with the peak orders per hour and the menu item count, then let the screen size, the printer and the payment bracket follow. A simple order takes 40 to 60 seconds at the screen, so one terminal serves roughly one customer a minute.
 
 ## Counter, floor or both
 
@@ -6337,7 +7224,7 @@ Where customers pay at the kiosk, yes, unless one shared terminal is cabled acro
 What operating system should it run?
 Android suits single-purpose ordering apps and cost-sensitive fleets; Windows suits POS modules and payment SDKs that ship as Windows libraries. Choose from the SDK list your payment provider supports, not from price.
 
-## Related reading
+## Further reading
 
 - Self-ordering kiosk configuration scope ↗
 
@@ -6353,7 +7240,20 @@ Android suits single-purpose ordering apps and cost-sensitive fleets; Windows su
 
 URL: https://xinyuehongtech.com/news/saber-certification-kiosk-guide/
 
-Quick answer: A kiosk imported into Saudi Arabia goes through SABER, the Saudi conformity platform, as two certificates: a Product Certificate of Conformity for the model, and a Shipment Certificate of Conformity for each consignment. Both are issued through the importer of record, not the factory, which is why the buyer’s local partner matters as much as the hardware.
+← All news
+Home
+/
+News
+/
+
+SABER certification
+
+NEWS / 2026-11-27
+SABER Certification for Kiosk Imports into Saudi Arabia
+
+By Mark, Project Engineer · Published November 27, 2026 · 6 min read
+
+In one line: A kiosk imported into Saudi Arabia goes through SABER, the Saudi conformity platform, as two certificates: a Product Certificate of Conformity for the model, and a Shipment Certificate of Conformity for each consignment. Both are issued through the importer of record, not the factory, which is why the buyer’s local partner matters as much as the hardware.
 
 ## Two certificates, one platform
 
@@ -6402,15 +7302,22 @@ Who applies for the certificates, the factory or the buyer?
 The Saudi importer of record applies, because the certificates are registered to that entity. The factory supplies the technical file, test reports and model information. The split of cost and responsibility belongs in the quotation.
 
 How long does SABER take?
-It depends on the model, the completeness of the technical file and whether testing is already available. Budget it as a project line with its own lead time, and start it in parallel with production rather than after the unit is built.
+SABER lead time depends on the model, the completeness of the technical file and whether test reports are already available. Budget it as a project line with its own lead time, and start it in parallel with production rather than after the unit is built.
 
 Does a changed component invalidate the certificate?
-It can. A different power supply, plug, display or wireless module changes the technical file, so component changes after the PCoC is issued must be flagged to the conformity partner before production, not after.
+A component change can invalidate the certificate: a different power supply, plug, display or wireless module changes the technical file, so changes after the PCoC is issued must be flagged to the conformity partner before production, not after.
 
 What about the payment terminal?
 The terminal keeps its own certification and is usually arranged through the acquirer for mada. The kiosk provides the cut-out, bracket, power and cable route, and the SABER file covers the assembled unit with that terminal mounted.
 
-## Related reading
+## Standards and sources
+
+Primary sources for the requirements referred to above.
+
+- SABER platform, Saudi Standards, Metrology and Quality Organization ↗
+- SASO, the Saudi standards body ↗
+
+## Related guides
 
 - Self-service kiosks for Saudi Arabia ↗
 
